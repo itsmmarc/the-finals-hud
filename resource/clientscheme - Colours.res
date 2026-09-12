@@ -10,12 +10,13 @@
         // Teams
         // Blue "12 144 192 255"
         // Blue Dead "27 72 100 255"
-
         // Enemy Red "214 26 59 255"
         "Shadow"                                        "50 50 50 102"
         "HealthAmmo"                                    "241 242 244 255"
         "HealthAmmo_Alt"                                "170 170 170 178"
         "HealthHurt"                                    "210 31 60 255"
+        "Menu_Accent"                                   "243 254 255 255"
+        "MenuBlur_Accent"                               "0 21 246 255"
         // HUD COLOURS
         "owGREEN"                                       "192 254 57  255"
         "owORANGE"                                      "236 101 22  255"
@@ -57,9 +58,9 @@
         //Changed black to a NTSC safe color
         "GreenSolid"                                    "76 107 34 255"
         "Black"                                         "29 26 32 255"
-        "TransparentBlack"                              "0 0 0 178"
-        "TransparentLightBlack"                         "0 0 0 102"
-        "TransparentLightestBlack"                      "0 0 0 51"
+        "TransparentBlack"                              "29 26 32 178"
+        "TransparentLightBlack"                         "29 26 32 102"
+        "TransparentLightestBlack"                      "29 26 32 51"
         "FooterBGBlack"                                 "52 48 55 255"
         "HUDBlueTeam"                                   "12 144 192 255"
         "HUDRedTeam"                                    "214 26 59 255"

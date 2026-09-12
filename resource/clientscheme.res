@@ -160,5 +160,26 @@ Scheme
 			"font"		"resource/fonts/Saira_ExtraCondensed-SemiBoldItalic.ttf"
 			"name"		"Saira ExtraCondensed SemiBold"
 		}
+        // icon fonts
+        "101"
+        {
+            "Font"          "resource/fonts/m0rehud_icons.ttf"
+            "name"          "m0rehud_icons_v13"
+        }
+        "102"
+        {
+            "Font"          "resource/fonts/tf2_class_icons.ttf"
+            "name"          "TF2 Class Icons V3"
+        }
+        "103"
+        {
+            "Font"          "resource/fonts/hypnotize_icons.ttf"
+            "Name"          "Hypnotize Icons V8"
+        }
+        "104"
+        {
+            "Font"          "resource/fonts/jumphud_icons.otf"
+            "Name"          "JumpHUDIcons"
+        }
 	}
 }
