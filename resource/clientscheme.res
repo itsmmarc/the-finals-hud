@@ -133,14 +133,14 @@ Scheme
         // Body
 		"20"
 		{
-			"font"		"resource/fonts/Saira_Condensed-Regular.ttf"
-			"name"		"Saira Condensed Regular"
+			"font"		"resource/fonts/Saira_Condensed-Bold.ttf"
+			"name"		"Saira Condensed Bold"
 		}
         // Body Emphasis
 		"21"
 		{
-			"font"		"resource/fonts/Saira_Condensed-Bold.ttf"
-			"name"		"Saira Condensed Bold"
+			"font"		"resource/fonts/Saira_Condensed-Medium.ttf"
+			"name"		"Saira Condensed Medium"
 		}
         // Headers & Subheaders
 		"22"
