@@ -129,5 +129,36 @@ Scheme
 			"font"	"resource/fonts/DINPro-Medium.otf"
 			"name"	"DINPro-Medium"
 		}
+        // The Finals Fonts
+        // Body
+		"20"
+		{
+			"font"		"resource/fonts/Saira_Condensed-Regular.ttf"
+			"name"		"Saira Condensed Regular"
+		}
+        // Body Emphasis
+		"21"
+		{
+			"font"		"resource/fonts/Saira_Condensed-Bold.ttf"
+			"name"		"Saira Condensed Bold"
+		}
+        // Headers & Subheaders
+		"22"
+		{
+			"font"		"resource/fonts/Saira_ExtraCondensed-ExtraBoldItalic.ttf"
+			"name"		"Saira ExtraCondensed ExtraBold"
+		}
+        // Button
+		"23"
+		{
+			"font"		"resource/fonts/Saira_ExtraCondensed-Italic.ttf"
+			"name"		"Saira ExtraCondensed"
+		}
+        // Button Emphasis
+		"24"
+		{
+			"font"		"resource/fonts/Saira_ExtraCondensed-SemiBoldItalic.ttf"
+			"name"		"Saira ExtraCondensed SemiBold"
+		}
 	}
 }

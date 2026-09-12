@@ -54,11 +54,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r235"
-		"xpos_minmode"	"0"
+		"xpos"	"0"
 		"ypos"	"0"
 		"wide"	"f0"
-		"tall"	"480"
+		"tall"	"f0"
 	}
 	
 	HudObjectiveStatus
@@ -106,9 +105,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-50"	
-		"xpos_minmode"			"c56"	
+
 		"ypos"			"r140"
-		"ypos_minmode"			"r195"			
+
 		"wide"			"f0"
 		"tall"			"480"
 	}
@@ -224,9 +223,9 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"100"
-		"xpos_minmode"			"c-150"
+
 		"ypos"					"r40"
-		"ypos_minmode"			"r180"
+
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"

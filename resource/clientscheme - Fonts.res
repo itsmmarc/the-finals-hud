@@ -2,6 +2,47 @@ Scheme
 {
 	Fonts
 	{
+        //==============================================================================================================
+        // The Finals HUD Fonts
+		"HealthAmmo"
+		{
+			"1"
+			{
+				"name"										"Saira ExtraCondensed"
+				"tall"										"36"
+				"antialias"									"1"
+			}
+		}
+		"HealthAmmo_Blur"
+		{
+			"1"
+			{
+				"name"										"Saira ExtraCondensed"
+				"tall"										"36"
+				"antialias"									"1"
+                "blur"		"2"
+			}
+		}
+		"HealthAmmo_Alt"
+		{
+			"1"
+			{
+				"name"										"Saira ExtraCondensed"
+				"tall"										"28"
+				"antialias"									"1"
+			}
+		}
+		"HealthAmmo_Alt_Blur"
+		{
+			"1"
+			{
+				"name"										"Saira ExtraCondensed"
+				"tall"										"28"
+				"antialias"									"1"
+                "blur"		"2"
+			}
+		}
+        //==============================================================================================================
 		"Oblique7"
 		{
 			"1"

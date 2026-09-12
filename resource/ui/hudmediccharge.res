@@ -36,7 +36,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"oblique32"
-		"font_minmode"	"oblique48"
+
 		"fgcolor_override"	"owFULLWHITE"
 	}
 	"ChargeLabelShadow"
@@ -58,7 +58,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"obliqueblur32"
-		"font_minmode"	"obliqueblur48"
+
 		"fgcolor_override"	"owblack"
 	}
 	"IndividualChargesLabel"

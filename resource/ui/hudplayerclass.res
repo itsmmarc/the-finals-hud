@@ -1,40 +1,5 @@
 "Resource/UI/HudPlayerClass.res"
 {
-	// crosshair
-	"Crosshair"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Crosshair"
-		"xpos"			"c-25"
-		"ypos"			"215"
-		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"50"
-		"visible"		"0" // set to 1 to enable crosshair
-		"enabled"		"0" // set to 1 to enable crosshair
-		"labelText"		"h"
-		"textAlignment"	"center"	
-		"font"			"size:36,outline:off"	// size: range 10-50
-												// outline: on or off
-		"fgcolor"		"255 255 255 120"
-	}
-	"CrosshairSecond"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CrosshairSecond"
-		"xpos"			"c-25"
-		"ypos"			"215"
-		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"50"
-		"visible"		"0" // set to 1 to enable crosshair
-		"enabled"		"0" // set to 1 to enable crosshair
-		"labelText"		"l"
-		"textAlignment"	"center"	
-		"font"			"size:15,outline:off"	// size: range 10-50
-												// outline: on or off
-		"fgcolor"		"255 255 255 255"
-	}
 	// player class data
 	"HudPlayerClass"
 	{
@@ -111,77 +76,7 @@
 		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
 	}
 
-	"classmodelpanelBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"classmodelpanelBG"
-		"xpos"			"-1"		
-		"ypos"			"r60"	
-		"zpos"			"1"		
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				""	
-	}
-	"classmodelpanelBG2"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"classmodelpanelBG2"
-		"xpos"			"36"		
-		"ypos"			"r60"	
-		"zpos"			"1"		
-		"wide"			"42"
-		"tall"			"42"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				""	
-	}
-	"classmodelpanelBG3" // top
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"classmodelpanelBG3"
-		"xpos"			"25"		
-		"ypos"			"r100"	
-		"zpos"			"-0"		
-		"wide"			"65"
-		"tall"			"85"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"replay/thumbnails/ow_playerbg_N"	
-	}
-	"classmodelpanelBGblue"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"classmodelpanelBGblue"
-		"xpos"			"25"		
-		"ypos"			"r100"	
-		"zpos"			"-0"		
-		"wide"			"65"
-		"tall"			"85"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"replay/thumbnails/playerbgblue"
-		"alpha"			"180"		
-	}
-	"classmodelpanelBGoverlap" // bottom
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"classmodelpanelBGoverlap"
-		"xpos"			"25"		
-		"ypos"			"r100"	
-		"zpos"			"41"		
-		"wide"			"65"
-		"tall"			"85"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"replay/thumbnails/ow_playerbg_Npt2"	
-	}
+	
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
@@ -190,8 +85,8 @@
 		"xpos"			"30"
 		"ypos"			"r139"
 		"zpos"			"2"		
-		"wide"			"50"
-		"tall"			"112"
+		"wide"			"0" // 50
+		"tall"			"0" // 112
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -463,5 +358,20 @@
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"
 		}
+	}
+    // MARK: Dead
+    "classmodelpanelBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"classmodelpanelBG"
+		"xpos"			"99999"		
+		"ypos"			"99999"	
+		"zpos"			"1"		
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"1"
+		"image"				""	
 	}
 }

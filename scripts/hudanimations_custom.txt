@@ -11,7 +11,7 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthValueSpec        FgColor "owGREEN"        Linear 0.0 0.4
 	Animate PlayerStatusHealthValueSpec        FgColor "152 214 17  255"        Linear 0.4 0.4
 	
-	Animate PlayerStatusHealthValue        FgColor "owGREEN"        Linear 0.0 0.4
+	Animate PlayerStatusHealthValue        FgColor "HealthAmmo"        Linear 0.0 0.4
 	
     RunEvent HudHealthBonusPulseLoop    0.8
 }
@@ -33,7 +33,7 @@ event HudHealthBonusPulseStop
 	Animate SpectatorGUIHealth        FgColor "owFULLWHITE"        Linear 0.0 0.0
 	Animate SpectatorGUIHealth        FgColor "owFULLWHITE"        Linear 0.0 0.0
 	
-	Animate PlayerStatusHealthValue        FgColor "owFULLWHITE"        Linear 0.0 0.0
+	Animate PlayerStatusHealthValue        FgColor "HealthAmmo"        Linear 0.0 0.0
 	
 	Animate PlayerStatusHealthValueSpec        FgColor "owFULLWHITE"        Linear 0.0 0.0
 	Animate PlayerStatusHealthValueSpec        FgColor "owFULLWHITE"        Linear 0.0 0.0
@@ -48,7 +48,7 @@ event HudHealthDyingPulse
     Animate HealthBGLow         Alpha     "255"		       Linear 0.0 0.2
     Animate HealthBGLow         Alpha       "0"       	   Linear 0.2 0.4
 	
-	Animate PlayerStatusHealthValue        FgColor "owteamred"        Linear 0.0 0.4
+	Animate PlayerStatusHealthValue        FgColor "HealthHurt"        Linear 0.0 0.4
 	
     RunEvent HudHealthDyingPulseLoop    0.4
 }
@@ -66,7 +66,7 @@ event HudHealthDyingPulseStop
    
     Animate HealthBGLow         BgColor     "Blank"        Accel 0.0 0.0
     Animate HealthBGLow         Alpha       "0"        Accel 0.0 0.0
-	Animate PlayerStatusHealthValue        FgColor "owFULLWHITE"        Linear 0.0 0.0
+	Animate PlayerStatusHealthValue        FgColor "HealthAmmo"        Linear 0.0 0.0
     StopEvent PlayerStatusHealthValueSpec 0.0
     StopEvent PlayerStatusHealthValueSpec 0.0
 }
