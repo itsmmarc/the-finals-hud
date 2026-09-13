@@ -7,7 +7,7 @@
         "enabled"                       "1"
         "xpos"                          "cs-0.5"
         "ypos"                          "rs1-44"
-        "zpos"                          "10000"
+        "zpos"                          "-100"
         "wide"                          "f0"
         "tall"                          "50"
         "keyboardinputenabled"          "0"
@@ -393,16 +393,16 @@
                 }
             }
         }
-        "JoinPartyLobbyContainer"
+        "JoinPartyLobbyContainer"   // dead
         {
             "ControlName"                   "EditablePanel"
             "fieldName"                     "JoinPartyLobbyContainer"
             "xpos"                          "290"
             "ypos"                          "-30"
             "zpos"                          "110"
-            "wide"                          "100"
-            "tall"                          "f0"
-            "visible"                       "1"
+            "wide"                          "0"
+            "tall"                          "0"
+            "visible"                       "0"
             "proportionaltoparent"          "1"
             "BGPanel"
             {
