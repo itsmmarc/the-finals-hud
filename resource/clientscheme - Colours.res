@@ -16,6 +16,7 @@
         "HealthAmmo_Alt"                                "170 170 170 178"
         "HealthHurt"                                    "210 31 60 255"
         "Menu_Accent"                                   "243 254 255 255"
+        "FinalsYellow"                                  "249 185 36 255"
         "MenuBlur_Accent"                               "0 21 246 255"
         // HUD COLOURS
         "owGREEN"                                       "192 254 57  255"

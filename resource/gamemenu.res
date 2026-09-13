@@ -67,18 +67,12 @@
         "label"             "Contracker"
         "Command"           "questlog"
     }
-    "Quit"
-    {
-        "label"             "Quit"
-        "Command"           "quit"
-        "OnlyAtMenu"        "1"
-    }
-    "QuitFG"
-    {
-        "label"             "Quit"
-        "Command"           "quit"
-        "OnlyAtMenu"        "1"
-    }
+    // "Quit"
+    // {
+    //     "label"             "Quit"
+    //     "Command"           "quit"
+    //     "OnlyAtMenu"        "1"
+    // }
     "Friends"
     {
         "label"             "k"
@@ -111,18 +105,12 @@
         "Command"           "engine disconnect"
         "OnlyInGame"        "1"
     }
-    "QuitGame"
-    {
-        "label"             "Quit"
-        "Command"           "quit"
-        "OnlyInGame"        "1"
-    }
-    "QuitGameFG"
-    {
-        "label"             "Quit"
-        "Command"           "quit"
-        "OnlyInGame"        "1"
-    }
+    // "QuitGame"
+    // {
+    //     "label"             "Quit"
+    //     "Command"           "quit"
+    //     "OnlyInGame"        "1"
+    // }
     "Vote"
     {
         "label"             "M"

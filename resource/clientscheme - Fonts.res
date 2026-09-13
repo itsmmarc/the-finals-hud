@@ -58,6 +58,7 @@
                 "name"              "Saira ExtraCondensed ExtraBold"
                 "tall"              "48"
                 "antialias"         "1"
+                
             }
         }
         "MainMenuLarge_Blur"
@@ -68,6 +69,159 @@
                 "tall"              "48"
                 "antialias"         "1"
                 "blur"              "2"
+            }
+        }
+        "Header_XXL"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed ExtraBold"
+                "tall"              "56"
+                "antialias"         "1"
+            }
+        }
+        "Header_XL"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed ExtraBold"
+                "tall"              "48"
+                "antialias"         "1"
+            }
+        }
+        "Header_LG"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed ExtraBold"
+                "tall"              "36"
+                "antialias"         "1"
+            }
+        }
+        "Header_MD"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed ExtraBold"
+                "tall"              "28"
+                "antialias"         "1"
+            }
+        }
+        "Body_XL"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Medium"
+                "tall"              "28"
+                "antialias"         "1"
+            }
+        }
+        "Body_LG"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Medium"
+                "tall"              "24"
+                "antialias"         "1"
+            }
+        }
+        "Body_MD"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Medium"
+                "tall"              "18"
+                "antialias"         "1"
+            }
+        }
+        "Body_SM"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Medium"
+                "tall"              "16"
+                "antialias"         "1"
+            }
+        }
+        "Body_XS"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Medium"
+                "tall"              "12"
+                "antialias"         "1"
+            }
+        }
+        "Body_XXS"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Medium"
+                "tall"              "9"
+                "antialias"         "1"
+            }
+        }
+        "BodyEm_XL"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Bold"
+                "tall"              "28"
+                "antialias"         "1"
+            }
+        }
+        "BodyEm_LG"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Bold"
+                "tall"              "24"
+                "antialias"         "1"
+            }
+        }
+        "BodyEm_MD"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Bold"
+                "tall"              "18"
+                "antialias"         "1"
+            }
+        }
+        "BodyEm_SM"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Bold"
+                "tall"              "16"
+                "antialias"         "1"
+            }
+        }
+        "BodyEm_XS"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Bold"
+                "tall"              "12"
+                "antialias"         "1"
+            }
+        }
+        "BodyEm_XXS"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Bold"
+                "tall"              "9"
+                "antialias"         "1"
+            }
+        }
+        "NotificationDot"
+        {
+            "1"
+            {
+                "name"              "Verdana"
+                "tall"              "36"
+                "antialias"         "1"
             }
         }
         // Util
