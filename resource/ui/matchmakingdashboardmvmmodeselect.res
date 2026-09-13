@@ -2,15 +2,15 @@
 
 "Resource/UI/MatchMakingDashboardCasualCriteria.res"
 {
+	
 	"MVMModeSelect"
 	{
 		"fieldName"		"MVMModeSelect"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"f0"
 		"zpos"			"1002"
-		"wide"			"270"
-		"tall"			"f70"
-		"visible"		"1"
+		"wide"			"f0"
+		"tall"			"f0"
 		"proportionaltoparent"	"1"
 	}
 
@@ -18,42 +18,161 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMLogoImage"
-		"xpos"			"30"
-		"ypos"			"-5"
+		"xpos"			"cs-0.5"
+		"ypos"			"25"
 		"zpos"			"2"
 		"wide"			"o2"
-		"tall"			"100"
+		"tall"			"70"
 		"visible"		"1"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
 		"image"			"mvm/mvm_logo"
 		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
 	}
 
+	"shade"
+	{
+		"visible"	"0"
+	}
+	
+	"InnerGradient"
+	{
+		"visible"	"0"
+	}
+	
+	"OuterGradient"
+	{
+		"visible"	"0"
+	}
+	
+	"CloseButton"
+	{
+		"visible"	"0"
+	}
+	
+	"TitleGradient"
+	{
+		"visible"	"0"
+	}
+	
+	"TopBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TopBar"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-10"
+		"wide"			"f0"
+		"tall"			"50"
+		"fillcolor"		"Black"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}	
+	
+	"BottomBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BottomBar"
+		"xpos"			"0"
+		"ypos"			"r50"
+		"zpos"			"-10"
+		"wide"			"f0"
+		"tall"			"50"
+		"fillcolor"		"Black"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	"bggradient"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"bggradient"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-11"
+		"wide"			"f-20"
+		"tall"			"f-20"
+		"drawcolor"     "128 100 75 255"    
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"training/gradient_black"
+		"alpha"			"250"
+		"proportionaltoparent"	"1"
+	}
+	
+	"bgpanel"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"bgpanel"
+		"visible"		"0"
+		"enabled"		"0"
+	}	
+	
+	"bgline"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bgline"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-13"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/linebg_tandarker_bigger_overlay"
+		"scaleImage"	"1"
+		"mouseinputenabled"	"0"
+	}	
+
+	"REDTint"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"REDTint"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-15"
+		"wide"			"f0"
+		"tall"			"f0"
+		"fillcolor"		"SolarTeamRED"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+	}	
+	
 	"MannUpGroupBox"
 	{
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpGroupBox"
-		"xpos"		"6"
-		"ypos"		"55"
+		"xpos"		"cs-0.5"
+		"ypos"		"75"
 		"zpos"		"1"
 		"wide"		"250"
 		"tall"		"215"
 		"visible"	"1"
 		"enabled"	"1"
+		"proportionaltoparent"	"1"
 
 		"DropShadow"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"DropShadow"
 			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"101"
+			"ypos"			"p0.1"
+			"zpos"			"-1"
 			"wide"			"f0"
-			"tall"			"f0"
+			"tall"			"p0.9"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"InnerShadowBorder"
+			"border"		"BorderTanDarkCornersVerySmall"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 		}
@@ -70,7 +189,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
-			"image"			"mvm/mannup"
+			"image"			"illustrations/gamemode_rottenburg_medic"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 		}
@@ -102,7 +221,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-5"
 			"zpos"			"20"
-			"wide"			"120"
+			"wide"			"200"
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -110,7 +229,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_MvM_MannUp"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"SLBoldMediumSmall"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -154,8 +273,8 @@
 	{
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"PracticeGroupBox"
-		"xpos"		"6"
-		"ypos"		"275"
+		"xpos"		"cs-0.5"
+		"ypos"		"289"
 		"zpos"		"100"
 		"wide"		"250"
 		"tall"		"130"
@@ -169,12 +288,12 @@
 			"fieldName"		"DropShadow"
 			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"101"
+			"zpos"			"-1"
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"InnerShadowBorder"
+			"border"		"BorderTanDarkerCornersVerySmall"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 		}
@@ -224,14 +343,14 @@
 			"ypos"			"rs1-5"
 			"zpos"			"20"
 			"tall"			"25"
-			"wide"			"120"
+			"wide"			"200"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_MvM_BootCamp"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"SLBoldMediumSmall"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -269,5 +388,61 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 		}
+	}
+	
+	"ExitButton" //same as safemode
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ExitButton"
+		"xpos"			"30"
+		"ypos"			"445"
+		"zpos"			"101"
+		"wide"			"120"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"use_proportional_insets" "1"
+		"font"			"SLBoldSmall"
+		"textAlignment"	"west"
+		"textinsetx"	"25"
+		
+		"default"		"1"
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+
+		"labeltext"		"#TF_Close"
+		"proportionaltoparent"	"1"
+		"command"		"nav_close"
+	
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"1"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "117 107 94 255"
+		"depressedFgColor_override" "235 226 202 255"
+		
+		"defaultBgColor_override" "117 107 94 255"
+		"armedBgColor_override" "235 226 202 255"
+		"depressedBgColor_override" "117 107 94 255"
+		
+		"image_drawcolor"   "235 226 202 255"
+		"image_armedcolor"  "117 107 94 255"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"15"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_close_x"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+		}		
 	}
 }

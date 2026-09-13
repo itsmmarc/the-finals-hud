@@ -20,7 +20,7 @@
 		"tall"				"f0"
 
 		"proportionaltoparent"	"1"
-		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
 	}
 
 	"Checkbutton"
@@ -36,7 +36,7 @@
 		"labeltext"		""
 		"smallcheckimage"	"1"
 		"fgcolor"	"TanLight"	
-		"font"		"HudFontSmallBold"
+		"font"		"SLBoldSmaller"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"

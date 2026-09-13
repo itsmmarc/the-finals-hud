@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"MVMCriteria"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"1003"
-		"wide"			"420"
-		"tall"			"f70"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -18,8 +18,8 @@
 	{
 		"ControlName"	"CMVMCriteriaPanel"
 		"fieldName"		"criteria"
-		"xpos"			"5"
-		"ypos"			"15"
+		"xpos"			"cs-0.5"
+		"ypos"			"45"
 		"zpos"			"100"
 		"wide"			"410"
 		"tall"			"f50"
@@ -28,14 +28,131 @@
 
 		"pinCorner"		"2"
 	}
+	
+	"shade"
+	{
+		"visible"	"0"
+	}
+	
+	"InnerGradient"
+	{
+		"visible"	"0"
+	}
+	
+	"OuterGradient"
+	{
+		"visible"	"0"
+	}
+	
+	"CloseButton"
+	{
+		"visible"	"0"
+	}
+	
+	"TitleGradient"
+	{
+		"visible"	"0"
+	}
 
+	"TopBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TopBar"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-10"
+		"wide"			"f0"
+		"tall"			"50"
+		"fillcolor"		"Black"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}	
+	
+	"BottomBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BottomBar"
+		"xpos"			"0"
+		"ypos"			"r50"
+		"zpos"			"-10"
+		"wide"			"f0"
+		"tall"			"50"
+		"fillcolor"		"Black"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	"bggradient"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"bggradient"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-11"
+		"wide"			"f-20"
+		"tall"			"f-20"
+		"drawcolor"     "128 100 75 255"    
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"training/gradient_black"
+		"alpha"			"250"
+		"proportionaltoparent"	"1"
+	}
+	
+	"bgpanel"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"bgpanel"
+		"visible"		"0"
+		"enabled"		"0"
+	}	
+	
+	"bgline"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bgline"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-13"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/linebg_tandarker_bigger_overlay"
+		"scaleImage"	"1"
+		"mouseinputenabled"	"0"
+	}	
+
+	"REDTint"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"REDTint"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-15"
+		"wide"			"f0"
+		"tall"			"f0"
+		"fillcolor"		"SolarTeamRED"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+	}
+	
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"6"
-		"ypos"			"rs1-8"
-		"zpos"			"100"
+		"xpos"			"c-205"
+		"ypos"			"r73"
+		"zpos"			"101"
 		"wide"			"90"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -62,11 +179,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpToolTipButtonHack"
-		"xpos"			"106"
-		"ypos"			"rs1-8"
+		"xpos"			"r210"
+		"ypos"			"445"
 		"zpos"			"101"
-		"wide"			"170"
-		"tall"			"20"
+		"wide"			"180"
+		"tall"			"26"
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
@@ -79,17 +196,17 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MannUpQueueButton"
-		"xpos"			"106"
-		"ypos"			"rs1-8"
-		"zpos"			"100"
-		"wide"			"170"
-		"tall"			"20"
+		"xpos"			"r210"
+		"ypos"			"445"
+		"zpos"			"101"
+		"wide"			"180"
+		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"SLBoldSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -99,6 +216,7 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
+		"allcaps"		"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -111,11 +229,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BootCampToolTipButtonHack"
-		"xpos"			"5"
-		"ypos"			"rs1-8"
+		"xpos"			"r210"
+		"ypos"			"445"
 		"zpos"			"101"
-		"wide"			"270"
-		"tall"			"20"
+		"wide"			"180"
+		"tall"			"26"
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
@@ -128,17 +246,17 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BootCampQueueButton"
-		"xpos"			"5"
-		"ypos"			"rs1-8"
-		"zpos"			"100"
-		"wide"			"270"
-		"tall"			"20"
+		"xpos"			"r210"
+		"ypos"			"445"
+		"zpos"			"101"
+		"wide"			"180"
+		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"SLBoldSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -148,6 +266,7 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
+		"allcaps"		"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -161,9 +280,9 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
 		"xpos"			"cs-0.5"
-		"ypos"			"rs1-8"
-		"zpos"			"100"
-		"wide"			"f20"
+		"ypos"			"r73"
+		"zpos"			"101"
+		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -189,9 +308,9 @@
 	{
 		"ControlName"		"CheckButton"
 		"fieldName"		"JoinLateCheckButton"
-		"xpos"		"rs1"
-		"ypos"		"rs1-9"
-		"zpos"		"50"
+		"xpos"		"r350"
+		"ypos"		"r32"
+		"zpos"		"102"
 		"wide"		"140"
 		"tall"		"20"
 		"font"			"HudFontSmallest"
@@ -203,13 +322,69 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"JoinLateLabel"
-		"xpos"		"rs1"
-		"ypos"		"rs1-9"
-		"zpos"		"50"
+		"xpos"		"r325"
+		"ypos"		"r32"
+		"zpos"		"102"
 		"wide"		"115"
 		"tall"		"20"
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Matchmaking_JoinInProgress"
 		"proportionaltoparent"	"1"
+	}
+	
+	"ExitButton" //same as safemode
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ExitButton"
+		"xpos"			"30"
+		"ypos"			"445"
+		"zpos"			"101"
+		"wide"			"120"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"use_proportional_insets" "1"
+		"font"			"SLBoldSmall"
+		"textAlignment"	"west"
+		"textinsetx"	"25"
+		
+		"default"		"1"
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+
+		"labeltext"		"#TF_Close"
+		"proportionaltoparent"	"1"
+		"command"		"nav_close"
+	
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"1"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "117 107 94 255"
+		"depressedFgColor_override" "235 226 202 255"
+		
+		"defaultBgColor_override" "117 107 94 255"
+		"armedBgColor_override" "235 226 202 255"
+		"depressedBgColor_override" "117 107 94 255"
+		
+		"image_drawcolor"   "235 226 202 255"
+		"image_armedcolor"  "117 107 94 255"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"15"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_close_x"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+		}		
 	}
 }

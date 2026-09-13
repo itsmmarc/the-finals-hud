@@ -126,31 +126,44 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
-		"xpos"			"3"
-		"labelText"		"<"
 
 		if_left
 		{
-			"xpos"	"rs1-3"
-			"labelText"		">"
+			"xpos"	"9999"
+			"labelText"		"AAA"
 		}
 
-		"ypos"			"0"
-		"zpos"			"10000"
-		"wide"			"20"
-		"tall"			"f0"
+		"xpos"			"30"
+		"ypos"			"445"
+		"zpos"			"1000"
+		"wide"			"120"
+		"tall"			"26"
 		"visible"		"1"
+		"enabled"		"1"
+		"use_proportional_insets" "1"
+		"font"			"SLBoldSmall"
+		"textAlignment"	"west"
+		"textinsetx"	"12"
+		
+		"default"		"1"
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+
+		"labeltext"		"#SL_BUTTON_BACK"
 		"proportionaltoparent"	"1"
 		"command"		"nav_to"
-		"labelText"		"<"
-
-		"textAlignment"	"west"
-		"font"			"HudFontSmallBold"
-
-		"armedBgColor_override"	"0 0 0 0"
-		"defaultBgColor_override"	"0 0 0 0"
-
-		"armedFgColor_override"	"Orange"
+	
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"1"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "117 107 94 255"
+		"depressedFgColor_override" "235 226 202 255"
+		
+		"defaultBgColor_override" "117 107 94 255"
+		"armedBgColor_override" "235 226 202 255"
+		"depressedBgColor_override" "117 107 94 255"
 	}
 	
 	"BGPanel"

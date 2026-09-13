@@ -24,20 +24,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"OuterShadow"
-			"xpos"			"0"
-			"ypos"			"rs1"
-			"zpos"			"-2"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"border"		"OuterShadowBorder"
-			"proportionaltoparent"	"1"
-
-			"pinCorner"		"0"
-			"autoResize"	"2"
+			"visible"		"0"
 		}
-
+		
 		"BGPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -45,11 +34,11 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"-1"
-			"wide"			"f5"
+			"wide"			"160"
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"border"		"BorderTanDarkCornersVerySmall"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"2"
 
@@ -58,14 +47,34 @@
 				"ControlName"	"Label"
 				"fieldName"		"DescLabel"
 				"xpos"			"0"
-				"ypos"			"3"
+				"ypos"			"0"
+				"wide"			"f0"
+				"zpos"			"101"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"allcaps"		"1"
+				"font"			"SLBoldSmall"
+				"fgcolor_override"	"Orange"
+				"textAlignment"	"center"
+				"labelText"		"#TF_Matchmaking_RollingQueue_NextMapWinner"
+				"proportionaltoparent"	"1"
+			}
+			
+			"DescLabelStroke"
+			{
+				"ControlName"	"Label"
+				"fieldName"		"DescLabelStroke"
+				"xpos"			"0"
+				"ypos"			"0"
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"TanLight"
+				"allcaps"		"1"
+				"font"			"SLBoldSmallStroke"
+				"fgcolor_override"	"TanDarker"
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_NextMapWinner"
 				"proportionaltoparent"	"1"
@@ -97,6 +106,20 @@
 					"mouseinputenabled"	"0"
 				}
 			}
+			
+			"MapChoice1BG"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"MapChoice1BG"
+				"xpos"			"p0.5-s0.5"
+				"ypos"			"19"
+				"zpos"			"-2"
+				"wide"			"140"
+				"tall"			"480"
+				"proportionaltoparent"	"1"
+				"border"		"BorderTanDarkerCornersVerySmall"
+				"scaleimage"	"1"
+			}
 
 			"NameLabel"
 			{
@@ -105,11 +128,11 @@
 				"xpos"			"0"
 				"ypos"			"rs1-2"
 				"wide"			"f0"
-				"zpos"			"10"
+				"zpos"			"11"
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"MapVotesPercentage"
+				"font"			"SLBoldSmaller"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"south"
 				"labelText"		"%mapname%"

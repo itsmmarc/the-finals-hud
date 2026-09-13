@@ -1,4 +1,4 @@
-"Resource/UI/MatchMakingDashboardPopup_NextMapVoting.res"
+"resource/ui/matchmakingdashboardpopup_nextmapvoting.res"
 {
 	"NextMapVoting"
 	{
@@ -24,18 +24,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"OuterShadow"
-			"xpos"			"0"
-			"ypos"			"rs1"
-			"zpos"			"-2"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"border"		"OuterShadowBorder"
-			"proportionaltoparent"	"1"
-
-			"pinCorner"		"0"
-			"autoResize"	"2"
+			"visible"		"0"
 		}
 
 		"BGPanel"
@@ -44,12 +33,12 @@
 			"fieldName"		"BGPanel"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
-			"zpos"			"-1"
+			"zpos"			"-3"
 			"wide"			"f5"
 			"tall"			"f5"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"PaintBackgroundType"	"0"
+			"border"		"BorderTanDarkCornersVerySmall"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"2"
 
@@ -83,7 +72,7 @@
 
 				"image_default"		"glyph_collapse"						
 
-				"image_drawcolor"	"OWWHITE"
+				"image_drawcolor"	"235 226 202 255"
 				"image_armedcolor"	"200 80 60 255"
 
 				"SubImage"
@@ -133,7 +122,7 @@
 
 				"image_default"		"glyph_expand"						
 
-				"image_drawcolor"	"OWWHITE"
+				"image_drawcolor"	"235 226 202 255"
 				"image_armedcolor"	"200 80 60 255"
 
 				"SubImage"
@@ -159,15 +148,35 @@
 				"ControlName"	"Label"
 				"fieldName"		"DescLabel"
 				"xpos"			"0"
-				"ypos"			"3"
+				"ypos"			"0"
+				"wide"			"f0"
+				"zpos"			"101"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"font"			"SLBoldSmall"
+				"fgcolor_override"	"Orange"
+				"textAlignment"	"center"
+				"allcaps"		"1"
+				"labelText"		"#TF_Matchmaking_RollingQueue_MatchOver"
+				"proportionaltoparent"	"1"
+			}
+			
+			"DescLabelStroke"
+			{
+				"ControlName"	"Label"
+				"fieldName"		"DescLabelStroke"
+				"xpos"			"0"
+				"ypos"			"0"
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"TanLight"
+				"font"			"SLBoldSmallStroke"
+				"fgcolor_override"	"TanDarker"
 				"textAlignment"	"center"
+				"allcaps"		"1"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchOver"
 				"proportionaltoparent"	"1"
 			}
@@ -176,13 +185,28 @@
 			{
 				"ControlName"	"CircularProgressBar"
 				"fieldName"		"TimeRemainingProgressBar"
-				"xpos"			"rs1-2"
-				"ypos"			"4"
-				"wide"			"20"
+				"xpos"			"rs1-3"
+				"ypos"			"5"
+				"zpos"			"3"
+				"wide"			"19"
 				"tall"			"o1"
 				"proportionaltoparent"	"1"
 				"fg_image"	"pve/mvm_1_progress"
-				"bg_image"	"progress_bar_pointer_right"
+				"bg_image"	"replay/thumbnails/blank"
+			}
+			
+			"TimeRemainingProgressBarBG"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"TimeRemainingProgressBarBG"
+				"xpos"			"rs1"
+				"ypos"			"2"
+				"zpos"			"2"
+				"wide"			"24"
+				"tall"			"o1"
+				"proportionaltoparent"	"1"
+				"image"	"replay/thumbnails/bgshapes/octagon_tandarker"
+				"scaleimage"	"1"
 			}
 
 			"MapChoice0"
@@ -195,8 +219,24 @@
 				"wide"			"100"
 				"tall"			"60"
 				"visible"		"1"
-				"PaintBackgroundType"	"2"
+				"border"		"NoBorder"
+				"PaintBackgroundType"	"0"
+				"bgcolor_override" "0 0 0 0"
 				"proportionaltoparent"	"1"
+			}
+			
+			"MapChoice0BG"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"MapChoice0BG"
+				"xpos"			"p0.2-s0.5"
+				"ypos"			"19"
+				"zpos"			"-2"
+				"wide"			"50"
+				"tall"			"50"
+				"proportionaltoparent"	"1"
+				"border"		"BorderTanDarkerCornersVerySmall"
+				"scaleimage"	"1"
 			}
 
 			"MapChoice1"
@@ -209,8 +249,24 @@
 				"wide"			"100"
 				"tall"			"60"
 				"visible"		"1"
+				"border"		"NoBorder"
 				"PaintBackgroundType"	"2"
+				"bgcolor_override" "0 0 0 0"
 				"proportionaltoparent"	"1"
+			}
+			
+			"MapChoice1BG"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"MapChoice1BG"
+				"xpos"			"p0.5-s0.5"
+				"ypos"			"19"
+				"zpos"			"-2"
+				"wide"			"50"
+				"tall"			"50"
+				"proportionaltoparent"	"1"
+				"border"		"BorderTanDarkerCornersVerySmall"
+				"scaleimage"	"1"
 			}
 
 			"MapChoice2"
@@ -223,8 +279,24 @@
 				"wide"			"100"
 				"tall"			"60"
 				"visible"		"1"
-				"PaintBackgroundType"	"2"
+				"border"		"NoBorder"
+				"PaintBackgroundType"	"0"
+				"bgcolor_override" "0 0 0 0"
 				"proportionaltoparent"	"1"
+			}
+			
+			"MapChoice2BG"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"MapChoice2BG"
+				"xpos"			"p0.8-s0.5"
+				"ypos"			"19"
+				"zpos"			"-2"
+				"wide"			"50"
+				"tall"			"50"
+				"proportionaltoparent"	"1"
+				"border"		"BorderTanDarkerCornersVerySmall"
+				"scaleimage"	"1"
 			}
 		}
 	}
