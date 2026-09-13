@@ -7,19 +7,52 @@
             "bordertype"            "scalable_image"
             "image"                 "replay/thumbnails/borders/bg_transparentblack.vmt"
             "backgroundtype"        "2"
+            "src_corner_height"         "66"	// pixels inside the image
+            "src_corner_width"          "66"
+            "draw_corner_width"         "8"	// screen size of the corners ( and sides ), proportional
+            "draw_corner_height"        "8"
         }
         "OL_White_BG_TransparentBlack"
         {
             "bordertype"            "scalable_image"
             "image"                 "replay/thumbnails/borders/ol_white_bg_transparentblack.vmt"
             "backgroundtype"        "2"
+            "src_corner_height"         "66"	// pixels inside the image
+            "src_corner_width"          "66"
+            "draw_corner_width"         "8"	// screen size of the corners ( and sides ), proportional
+            "draw_corner_height"        "8"
         }
         "OL_White_BG_TransparentBlack_Glow_Blue"
         {
             "bordertype"            "scalable_image"
             "image"                 "replay/thumbnails/borders/ol_white_bg_transparentblack_glow_blue.vmt"
             "backgroundtype"        "2"
+            "src_corner_height"         "66"	// pixels inside the image
+            "src_corner_width"          "66"
+            "draw_corner_width"         "8"	// screen size of the corners ( and sides ), proportional
+            "draw_corner_height"        "8"
         }
+        "OL_White_BG_Yellow_Glow_Blue_Wide"
+        {
+            "bordertype"            "scalable_image"
+            "image"                 "replay/thumbnails/borders/ol_white_bg_yellow_glow_blue_wide.vmt"
+            "backgroundtype"        "2"
+            "src_corner_height"         "64"	// pixels inside the image
+            "src_corner_width"          "64"
+            "draw_corner_width"         "8"	// screen size of the corners ( and sides ), proportional
+            "draw_corner_height"        "8"
+        }
+        "BG_Yellow_Wide"
+        {
+            "bordertype"            "scalable_image"
+            "image"                 "replay/thumbnails/borders/bg_yellow_wide.vmt"
+            "backgroundtype"        "2"
+            "src_corner_height"         "64"	// pixels inside the image
+            "src_corner_width"          "64"
+            "draw_corner_width"         "8"	// screen size of the corners ( and sides ), proportional
+            "draw_corner_height"        "8"
+        }
+        /////////////////////////////////////////////////////////////
         "OWButton"
         {
             "bordertype"            "scalable_image"
