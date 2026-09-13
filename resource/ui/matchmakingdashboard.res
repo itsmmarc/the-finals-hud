@@ -547,7 +547,7 @@
             "brighttext"                        "0"
             "Command"                           "find_game"	//todo - test comp access panel with ShowCompAccess command
             "proportionaltoparent"              "1"
-            "labeltext"                         "Play"
+            "labeltext"                         "PLAY"
             "mouseinputenabled"                 "1"
             "keyboardinputenabled"              "0"
             "actionsignallevel"                 "2"
