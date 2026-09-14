@@ -54,6 +54,19 @@
         }
         /////////////////////////////////////////////////////////////
         // Credit LavenderHUD
+        CircleRound
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"ItemMeterBG"
+			
+			"image"					"replay/thumbnails/borders/tintable_round_64x"
+			
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
+		}
         ItemEffectMeterBG
 		{
 			"bordertype"			"scalable_image"

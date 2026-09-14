@@ -51,6 +51,15 @@
                 "antialias"         "1"
             }
         }
+        "CardLabel"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "22"
+                "antialias"         "1"
+            }
+        }
         "MainMenuLarge"
         {
             "1"
@@ -104,6 +113,24 @@
             {
                 "name"              "Saira ExtraCondensed ExtraBold"
                 "tall"              "28"
+                "antialias"         "1"
+            }
+        }
+        "Header_SM"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed ExtraBold"
+                "tall"              "24"
+                "antialias"         "1"
+            }
+        }
+        "Header_XS"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed ExtraBold"
+                "tall"              "18"
                 "antialias"         "1"
             }
         }

@@ -255,9 +255,9 @@
         "DepressedFGColor_Override"         "Menu_Accent"
         "paintBackground"                   "1"
         "paintbackgroundtype"               "2"
-        "DefaultBGColor_Override"           "FinalsGrey"
-        "ArmedBGColor_Override"             "FinalsGreyDark"
-        "DepressedBGColor_Override"         "FinalsGreyDark"
+        "DefaultBGColor_Override"           "FinalsKeyBG"
+        "ArmedBGColor_Override"             "FinalsKeyBGD_Armed"
+        "DepressedBGColor_Override"         "FinalsKeyBGD_Armed"
     }
     "ExitButton"	//same as safemode
     {
