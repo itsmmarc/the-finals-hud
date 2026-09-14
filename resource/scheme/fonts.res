@@ -215,6 +215,114 @@
                 "antialias"         "1"
             }
         }
+        "Button_XL"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "28"
+                "antialias"         "1"
+            }
+        }
+        "Button_LG"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "24"
+                "antialias"         "1"
+            }
+        }
+        "Button_MD"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "18"
+                "antialias"         "1"
+            }
+        }
+        "Button_SM"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "16"
+                "antialias"         "1"
+            }
+        }
+        "Button_XS"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "12"
+                "antialias"         "1"
+            }
+        }
+        "Button_XXS"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "9"
+                "antialias"         "1"
+            }
+        }
+        "ButtonEm_XL"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "28"
+                "antialias"         "1"
+            }
+        }
+        "ButtonEm_LG"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "24"
+                "antialias"         "1"
+            }
+        }
+        "ButtonEm_MD"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "18"
+                "antialias"         "1"
+            }
+        }
+        "ButtonEm_SM"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "16"
+                "antialias"         "1"
+            }
+        }
+        "ButtonEm_XS"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "12"
+                "antialias"         "1"
+            }
+        }
+        "ButtonEm_XXS"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "9"
+                "antialias"         "1"
+            }
+        }
         "NotificationDot"
         {
             "1"

@@ -152,6 +152,12 @@ Scheme
 			"font"		"resource/fonts/Saira_ExtraCondensed-SemiBoldItalic.ttf"
 			"name"		"Saira ExtraCondensed SemiBold"
 		}
+        // Mono Font
+		"25"
+		{
+			"font"		"resource/fonts/MPLUSU-Regular.ttf"
+			"name"		"M PLUS U"
+		}
         // MARK: Icon fonts
         "101"
         {
