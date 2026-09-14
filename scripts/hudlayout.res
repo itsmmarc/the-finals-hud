@@ -858,15 +858,20 @@
         "PaintBackgroundType"           "0"
     }
     "HudDemomanPipes"
-    {
-        "fieldName"         "HudDemomanPipes"
-        "visible"           "1"
-        "enabled"           "1"
-        "xpos"              "r192"
-        "ypos"              "r75"
-        "wide"              "100"
-        "tall"              "50"
-    }
+	{
+		"XPos"										"0"
+		"YPos"										"0"
+		"Wide"										"f0"
+		"Tall"										"f0"
+	}
+    "HudDemomanCharge"
+	{
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"1"
+		"Wide"										"f0"
+		"Tall"										"f0"
+	}
     "HudTeamGoal"
     {
         "fieldName"         "HudTeamGoal"
