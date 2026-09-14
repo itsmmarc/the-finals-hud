@@ -54,7 +54,7 @@
         "proportionaltoparent"          "1"
         "image"                         "replay/thumbnails/mod"
         "scaleImage"                    "1"
-        "drawcolor"                     "ItemMeterFG" // TODO #base this with an option for ItemMeterFG2
+        "drawcolor"                     "ItemMeterFG"
     }
     "ItemEffectMeterRoundedCorners"
     {

@@ -25,7 +25,7 @@
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemMeterBG" // TODO #base this with an option for ItemMeterBG2
+			"color"					"ItemMeterBG"
 			
 			"image"					"replay/thumbnails/borders/tintable_round_64x"
 			
@@ -40,7 +40,7 @@
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"paintfirst"			"1"
-			"color"					"ItemMeterBG" // TODO #base this with an option for ItemMeterBG2
+			"color"					"ItemMeterBG"
 			
 			"image"					"replay/thumbnails/borders/round_inner_32x"
 			

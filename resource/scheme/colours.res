@@ -18,10 +18,8 @@
         "Menu_Accent"                                   "243 254 255 255"
         "FinalsYellow"                                  "249 185 36 255"
         "FinalsGrey2"                                   "68 72 84 255"
-        "ItemMeterFG"                                   "249 185 36 255"
-        "ItemMeterBG"                                   "31 45 255 255"
-        "ItemMeterFG2"                                  "211 225 225 255"
-        "ItemMeterBG2"                                  "80 80 85 255"
+        "ItemMeterFG"                                  "211 225 225 255"
+        "ItemMeterBG"                                  "80 80 85 255"
         "MenuBlur_Accent"                               "0 21 246 255"
         "PureWhite"                                     "255 255 255 255"
         // HUD COLOURS
