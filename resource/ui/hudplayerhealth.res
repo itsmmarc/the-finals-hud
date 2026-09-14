@@ -30,6 +30,24 @@
         "enabled"                   "1"
         "bgcolor_override"          "blue"
     }
+    "AmmoBGReal"
+    {
+        "ControlName"                   "EditablePanel"
+        "fieldName"                     "AmmoBGReal"
+        "xpos"                          "0"
+        "ypos"                          "3"
+        "zpos"                          "0"
+        "wide"                          "120"
+        "tall"                          "26"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "bgcolor_override"              "TransparentLightestBlack"
+        "paintBackground"               "1"
+        "paintBackgroundType"           "2"
+        "pin_to_sibling"                "HealthAnchor"
+        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"         "PIN_BOTTOMRIGHT"
+    }
     "HealthBGBuff"	// - Credit to Yoshee for helping out with the overheal/low health animations :)
     {
         "ControlName"           "ScalableImagePanel"
@@ -89,7 +107,7 @@
         "xpos"                          "0"
         "ypos"                          "0"
         "zpos"                          "5"
-        "wide"                          "40"
+        "wide"                          "30"
         "tall"                          "20"
         "visible"                       "1"
         "enabled"                       "1"
@@ -109,7 +127,7 @@
         "xpos"                  "0"
         "ypos"                  "0"
         "zpos"                  "-1"
-        "wide"                  "40"
+        "wide"                  "30"
         "tall"                  "20"
         "visible"               "1"
         "enabled"               "1"

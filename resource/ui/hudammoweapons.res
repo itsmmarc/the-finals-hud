@@ -1,41 +1,5 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-    "HudWeaponAmmoBG"
-    {
-        "ControlName"           "CTFImagePanel"
-        "fieldName"             "HudWeaponAmmoBG"
-        "xpos"                  "4"
-        "ypos"                  "9999"
-        "zpos"                  "1"
-        "wide"                  "90"
-        "tall"                  "45"
-        "visible"               "1"
-        "enabled"               "1"
-        "image"                 "../hud/ammo_blue_bg"
-        "scaleImage"            "1"
-        "teambg_2"              "../hud/ammo_red_bg"
-        "teambg_2_lodef"        "../hud/ammo_red_bg_lodef"
-        "teambg_3"              "../hud/ammo_blue_bg"
-        "teambg_3_lodef"        "../hud/ammo_blue_bg_lodef"
-    }
-    "HudWeaponLowAmmoImage"
-    {
-        "ControlName"           "ImagePanel"
-        "fieldName"             "HudWeaponLowAmmoImage"
-        "xpos"                  "4"
-        "ypos"                  "9999"
-        "zpos"                  "0"
-        "wide"                  "90"
-        "tall"                  "45"
-        "visible"               "0"
-        "enabled"               "1"
-        "image"                 "../hud/ammo_red_bg"
-        "scaleImage"            "1"
-        "teambg_2"              "../hud/ammo_red_bg"
-        "teambg_2_lodef"        "../hud/ammo_red_bg_lodef"
-        "teambg_3"              "../hud/ammo_blue_bg"
-        "teambg_3_lodef"        "../hud/ammo_blue_bg_lodef"
-    }
     // MARK: Anchor
     "AmmoAnchor"
     {
@@ -49,6 +13,24 @@
         "visible"                   "0"
         "enabled"                   "1"
         "bgcolor_override"          "blue"
+    }
+    "AmmoBGReal"
+    {
+        "ControlName"                   "EditablePanel"
+        "fieldName"                     "AmmoBGReal"
+        "xpos"                          "0"
+        "ypos"                          "3"
+        "zpos"                          "0"
+        "wide"                          "120"
+        "tall"                          "26"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "bgcolor_override"              "TransparentLightestBlack"
+        "paintBackground"               "1"
+        "paintBackgroundType"           "2"
+        "pin_to_sibling"                "AmmoAnchor"
+        "pin_corner_to_sibling"         "PIN_BOTTOMRIGHT"
+        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
     }
     // MARK: Clip Ammo
     "AmmoInClipReal"
@@ -201,5 +183,41 @@
         "enabled"               "1"
         "textAlignment"         "south-east"
         "labelText"             "%Ammo%"
+    }
+    "HudWeaponAmmoBG"	// dead
+    {
+        "ControlName"           "CTFImagePanel"
+        "fieldName"             "HudWeaponAmmoBG"
+        "xpos"                  "4"
+        "ypos"                  "9999"
+        "zpos"                  "1"
+        "wide"                  "90"
+        "tall"                  "45"
+        "visible"               "1"
+        "enabled"               "1"
+        "image"                 "../hud/ammo_blue_bg"
+        "scaleImage"            "1"
+        "teambg_2"              "../hud/ammo_red_bg"
+        "teambg_2_lodef"        "../hud/ammo_red_bg_lodef"
+        "teambg_3"              "../hud/ammo_blue_bg"
+        "teambg_3_lodef"        "../hud/ammo_blue_bg_lodef"
+    }
+    "HudWeaponLowAmmoImage"	// dead
+    {
+        "ControlName"           "ImagePanel"
+        "fieldName"             "HudWeaponLowAmmoImage"
+        "xpos"                  "4"
+        "ypos"                  "9999"
+        "zpos"                  "0"
+        "wide"                  "90"
+        "tall"                  "45"
+        "visible"               "0"
+        "enabled"               "1"
+        "image"                 "../hud/ammo_red_bg"
+        "scaleImage"            "1"
+        "teambg_2"              "../hud/ammo_red_bg"
+        "teambg_2_lodef"        "../hud/ammo_red_bg_lodef"
+        "teambg_3"              "../hud/ammo_blue_bg"
+        "teambg_3_lodef"        "../hud/ammo_blue_bg_lodef"
     }
 }
