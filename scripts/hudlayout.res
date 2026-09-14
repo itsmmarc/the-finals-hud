@@ -391,8 +391,8 @@
         "tall"                          "468"
         "MaxDeathNotices"               "12"
         "IconScale"                     "0.15"
-        "LineHeight"                    "11"
-        "LineSpacing"                   "1"
+        "LineHeight"                    "12"
+        "LineSpacing"                   "0"
         "CornerRadius"                  "1"
         "RightJustify"                  "1"	// If 1, draw notices from the right
         "TextFont"                      "DeathNotice"
@@ -400,8 +400,8 @@
         "TeamRed"                       "Red"
         "IconColor"                     "White"
         "LocalPlayerColor"              "White"
-        "BaseBackgroundColor"           "blank"
-        "LocalBackgroundColor"          "blank"
+        "BaseBackgroundColor"           "Blank"
+        "LocalBackgroundColor"          "Black"
     }
     "HudVehicle"
     {
