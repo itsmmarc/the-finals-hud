@@ -1,68 +1,89 @@
 "Resource/UI/HudItemEffectMeter_Base.res"
 {
-	"HudItemEffectMeter"
-	{
-		"FieldName"									"HudItemEffectMeter"
-		"Visible"									"1"
-		"Enabled"									"1"
-		"XPos"										"cs-0.5"
-		"YPos"										"c185"
-		"YPos_Minmode"								"c66"
-		"Wide"										"140"
-		"Wide_Minmode"								"100"
-		"Tall"										"10"
-		"Tall_Minmode"								"7"
-		"MeterFG"									"White"
-		"MeterBG"									"Gray"
-	}
-	"ItemEffectMeterLabel"
-	{
-		"ControlName"								"CExLabel"
-		"FieldName"									"ItemEffectMeterLabel"
-		"XPos"										"cs-0.5"
-		"YPos"										"rs1"
-		"ZPos"										"3"
-		"Wide"										"f0"
-		"Tall"										"f0"
-		"Visible"									"1"
-		"Enabled"									"0"
-		"ProportionalToParent"						"1"
-		"LabelText"									"#TF_Ball"
-		"TextAlignment"								"south"
-		"Font"										"ScoreboardVerySmall"
-		"Font_Minmode"								"DefaultVerySmall"
-		"DisabledFGColor2_Override"					"White"
-	}
-	"ItemEffectMeter"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"FieldName"									"ItemEffectMeter"
-		"XPos"										"cs-0.5"
-		"YPos"										"0"
-		"ZPos"										"2"
-		"Wide"										"f0"
-		"Tall"										"2"
-		"Tall_Minmode"								"1"
-		"Visible"									"1"
-		"Enabled"									"1"
-		"ProportionalToParent"						"1"
-	}
-
-
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-
-	"ItemEffectMeterBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"FieldName"									"ItemEffectMeterBG"
-		"XPos"										"9999"
-		"YPos"										"9999"
-		"Wide"										"0"
-		"Tall"										"0"
-		"Visible"									"0"
-		"Enabled"									"0"
-	}
+    "HudItemEffectMeter"
+    {
+        "FieldName"         "HudItemEffectMeter"
+        "Visible"           "1"
+        "Enabled"           "1"
+        "XPos"              "cs-0.5"
+        "YPos"              "c185"
+        "Wide"              "30"
+        "Tall"              "10"
+        "MeterFG"           "White"
+        "MeterBG"           "Gray"
+    }
+    "ItemEffectMeterBG"
+    {
+        "ControlName"           "EditablePanel"
+        "fieldName"             "ItemEffectMeterBG"
+        "font"                  "Default"
+        "xpos"                  "cs-0.5"
+        "ypos"                  "0"
+        "zpos"                  "-10"
+        "wide"                  "f0"
+        "tall"                  "6"
+        "visible"               "1"
+        "proportionaltoparent"          "1"
+        "border"                "ItemEffectMeterBG"
+    }
+    "ItemEffectMeter"
+    {
+        "ControlName"                   "ContinuousProgressBar"
+        "FieldName"                     "ItemEffectMeter"
+        "XPos"                          "cs-0.5"
+        "YPos"                          "1"
+        "ZPos"                          "2"
+        "Wide"                          "p0.9"
+        "Tall"                          "4"
+        "Visible"                       "1"
+        "Enabled"                       "1"
+        "ProportionalToParent"          "1"
+        "bgcolor_override"              "blank"	//actually has influence
+    }
+    "mod"
+    {
+        "ControlName"                   "ImagePanel"
+        "fieldName"                     "mod"
+        "xpos"                          "cs-0.5"
+        "ypos"                          "0"
+        "zpos"                          "4"
+        "wide"                          "f0"
+        "tall"                          "6"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "proportionaltoparent"          "1"
+        "image"                         "replay/thumbnails/mod"
+        "scaleImage"                    "1"
+        "drawcolor"                     "ItemMeterFG" // TODO #base this with an option for ItemMeterFG2
+    }
+    "ItemEffectMeterRoundedCorners"
+    {
+        "ControlName"                   "EditablePanel"
+        "fieldName"                     "ItemEffectMeterRoundedCorners"
+        "xpos"                          "cs-0.5"
+        "ypos"                          "1"
+        "zpos"                          "3"
+        "wide"                          "p0.9"
+        "tall"                          "4"
+        "visible"                       "1"
+        "proportionaltoparent"          "1"
+        "border"                        "ItemEffectMeterRoundedCorners"
+    }
+    "ItemEffectMeterLabel"
+    {
+        "ControlName"                       "CExLabel"
+        "FieldName"                         "ItemEffectMeterLabel"
+        "XPos"                              "cs-0.5"
+        "YPos"                              "rs1"
+        "ZPos"                              "3"
+        "Wide"                              "f0"
+        "Tall"                              "f0"
+        "Visible"                           "0"
+        "Enabled"                           "0"
+        "ProportionalToParent"              "1"
+        "LabelText"                         "#TF_Ball"
+        "TextAlignment"                     "south"
+        "Font"                              "ScoreboardVerySmall"
+        "DisabledFGColor2_Override"         "PureWhite"
+    }
 }

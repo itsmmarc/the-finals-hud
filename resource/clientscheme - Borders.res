@@ -20,6 +20,36 @@
             "image"                 "replay/thumbnails/borders/ol_white_bg_transparentblack_glow_blue.vmt"
             "backgroundtype"        "2"
         }
+        // Credit LavenderHUD
+        ItemEffectMeterBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"ItemMeterBG" // TODO #base this with an option for ItemMeterBG2
+			
+			"image"					"replay/thumbnails/borders/tintable_round_64x"
+			
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"2"
+		}
+
+		ItemEffectMeterRoundedCorners
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"paintfirst"			"1"
+			"color"					"ItemMeterBG" // TODO #base this with an option for ItemMeterBG2
+			
+			"image"					"replay/thumbnails/borders/round_inner_32x"
+			
+			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_width"		"16"
+			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"2"
+		}
+        //////////////////////////////////////
         "OWButton"
         {
             "bordertype"            "scalable_image"

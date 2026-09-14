@@ -17,7 +17,13 @@
         "HealthHurt"                                    "210 31 60 255"
         "Menu_Accent"                                   "243 254 255 255"
         "FinalsYellow"                                  "249 185 36 255"
+        "FinalsGrey2"                                   "68 72 84 255"
+        "ItemMeterFG"                                   "249 185 36 255"
+        "ItemMeterBG"                                   "31 45 255 255"
+        "ItemMeterFG2"                                  "211 225 225 255"
+        "ItemMeterBG2"                                  "80 80 85 255"
         "MenuBlur_Accent"                               "0 21 246 255"
+        "PureWhite"                                     "255 255 255 255"
         // HUD COLOURS
         "owGREEN"                                       "192 254 57  255"
         "owORANGE"                                      "236 101 22  255"
@@ -99,7 +105,7 @@
         // Building HUD Specific
         "LowHealthRed"                                  "255 0 0 255"
         "ProgressOffWhite"                              "251 235 202 255"
-        "ProgressBackground"                            "250 234 201 51"
+        "ProgressBackground"                            "68 72 84 255"
         "HealthBgGrey"                                  "72 71 69 255"
         "ProgressOffWhiteTransparent"                   "251 235 202 128"
         "LabelDark"                                     "48 43 42 255"
