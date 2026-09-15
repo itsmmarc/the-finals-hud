@@ -14,20 +14,6 @@
         "enabled"               "1"
         "tabPosition"           "0"
     }
-    "SysMenu"
-    {
-        "ControlName"           "Menu"
-        "fieldName"             "SysMenu"
-        "xpos"                  "0"
-        "ypos"                  "0"
-        "wide"                  "64"
-        "tall"                  "24"
-        "autoResize"            "0"
-        "pinCorner"             "0"
-        "visible"               "0"
-        "enabled"               "0"
-        "tabPosition"           "0"
-    }
     "SelectAClassLabel"
     {
         "ControlName"               "Label"
@@ -1085,6 +1071,7 @@
         "selectonhover"                     "1"
         "keyboardinputenabled"              "0"
     }
+    // MARK: Keybind Buttons
     "EditLoadoutButton"
     {
         "ControlName"                       "CExButton"
@@ -1154,18 +1141,6 @@
         "pin_corner_to_sibling"             "pin_center_left"
         "pin_to_sibling_corner"             "pin_center_right"
     }
-    "CancelButton"	// dead
-    {
-        "ControlName"           "CExButton"
-        "fieldName"             "CancelButton"
-        "XPos"                  "999"
-        "YPos"                  "999"
-        "ZPos"                  "0"
-        "Wide"                  "0"
-        "Tall"                  "0"
-        "visible"               "0"
-        "enabled"               "0"
-    }
     "CancelButtonReal"
     {
         "ControlName"                       "CExButton"
@@ -1186,7 +1161,7 @@
         "dulltext"                          "0"
         "brighttext"                        "0"
         "default"                           "0"
-        "Command"                           "vguicancel"
+        "Command"                           "back"
         "sound_depressed"                   "UI/buttonclick.wav"
         "sound_released"                    "UI/buttonclickrelease.wav"
         "DefaultFGColor_Override"           "FinalsGreyDark"
@@ -1215,7 +1190,7 @@
         "visible"                           "1"
         "enabled"                           "1"
         "tabPosition"                       "0"
-        "labelText"                         "BACK"
+        "labelText"                         "CANCEL"
         "font"                              "BodyEm_MD"
         "textAlignment"                     "center"
         "dulltext"                          "0"
@@ -1238,7 +1213,19 @@
         "pin_corner_to_sibling"             "pin_center_left"
         "pin_to_sibling_corner"             "pin_center_right"
     }
-    "ResetButton" [$WIN32]
+    "CancelButton"	// dead
+    {
+        "ControlName"           "CExButton"
+        "fieldName"             "CancelButton"
+        "XPos"                  "99999"
+        "YPos"                  "99999"
+        "ZPos"                  "0"
+        "Wide"                  "0"
+        "Tall"                  "0"
+        "visible"               "0"
+        "enabled"               "0"
+    }
+    "ResetButton"	// dead
     {
         "ControlName"           "CExButton"
         "fieldName"             "ResetButton"
@@ -1275,7 +1262,7 @@
         "font"                  "MenuMainTitle"
         "fgcolor"               "HudOffWhite"
     }
-    "MenuBG"
+    "MenuBG"	// full screen bg
     {
         "ControlName"           "ImagePanel"
         "fieldName"             "MenuBG"
@@ -1290,7 +1277,7 @@
         "enabled"               "1"
         "fillcolor"             "TransparentBlack"
     }
-    "Hint"
+    "Hint"	// dead
     {
         "ControlName"           "CExLabel"
         "fieldName"             "Hint"
@@ -1305,17 +1292,17 @@
         "enabled"               "0"
         "tabPosition"           "0"
         "labelText"             "%hint%"
-        "textAlignment"         "left"
+        "textAlignment"         "west"
         "wrap"                  "1"
         "font"                  "HudFontMediumSmallSecondary"
         "fgcolor"               "HudTrainingHint"
     }
-    "ShadedBar"
+    "ShadedBar"	// dead
     {
         "ControlName"                   "ImagePanel"
         "fieldName"                     "ShadedBar"
-        "xpos"                          "0"
-        "ypos"                          "0"
+        "xpos"                          "99999"
+        "ypos"                          "99999"
         "zpos"                          "0"
         "wide"                          "0"
         "tall"                          "0"
@@ -1324,7 +1311,7 @@
         "PaintBackgroundType"           "0"
         "fillcolor"                     ""
     }
-    "localPlayerImage"
+    "localPlayerImage"	// dead
     {
         "ControlName"           "CTFImagePanel"
         "fieldName"             "localPlayerImage"
@@ -1338,15 +1325,15 @@
         "image"                 ""
         "scaleImage"            "0"
     }
-    "localPlayerBG"
+    "localPlayerBG"	// dead
     {
         "ControlName"               "CTFImagePanel"
         "fieldName"                 "localPlayerBG"
         "xpos"                      "9999"
         "ypos"                      "9999"
         "zpos"                      "2"
-        "wide"                      "55"
-        "tall"                      "80"
+        "wide"                      "0"
+        "tall"                      "0"
         "autoResize"                "0"
         "pinCorner"                 "0"
         "visible"                   "0"
@@ -1360,7 +1347,7 @@
         "draw_corner_width"         "5"	// screen size of the corners ( and sides ), proportional
         "draw_corner_height"        "5"
     }
-    "countImage0" [$WIN32]
+    "countImage0"	// dead
     {
         "ControlName"           "CTFImagePanel"
         "fieldName"             "countImage0"
@@ -1374,7 +1361,7 @@
         "image"                 ""
         "scaleImage"            "1"
     }
-    "countImage1" [$WIN32]
+    "countImage1"	// dead
     {
         "ControlName"           "CTFImagePanel"
         "fieldName"             "countImage1"
@@ -1388,7 +1375,7 @@
         "image"                 ""
         "scaleImage"            "1"
     }
-    "countImage2" [$WIN32]
+    "countImage2"	// dead
     {
         "ControlName"           "CTFImagePanel"
         "fieldName"             "countImage2"
@@ -1402,7 +1389,7 @@
         "image"                 ""
         "scaleImage"            "1"
     }
-    "countImage3" [$WIN32]
+    "countImage3"	// dead
     {
         "ControlName"           "CTFImagePanel"
         "fieldName"             "countImage3"
@@ -1416,7 +1403,7 @@
         "image"                 ""
         "scaleImage"            "1"
     }
-    "countImage4" [$WIN32]
+    "countImage4"	// dead
     {
         "ControlName"           "CTFImagePanel"
         "fieldName"             "countImage4"
@@ -1430,7 +1417,7 @@
         "image"                 ""
         "scaleImage"            "1"
     }
-    "countImage5" [$WIN32]
+    "countImage5"	// dead
     {
         "ControlName"           "CTFImagePanel"
         "fieldName"             "countImage5"
@@ -1444,7 +1431,7 @@
         "image"                 ""
         "scaleImage"            "1"
     }
-    "countImage6" [$WIN32]
+    "countImage6"	// dead
     {
         "ControlName"           "CTFImagePanel"
         "fieldName"             "countImage6"
@@ -1458,7 +1445,7 @@
         "image"                 ""
         "scaleImage"            "1"
     }
-    "countImage7" [$WIN32]
+    "countImage7"	// dead
     {
         "ControlName"           "CTFImagePanel"
         "fieldName"             "countImage7"
@@ -1472,7 +1459,7 @@
         "image"                 ""
         "scaleImage"            "1"
     }
-    "countImage8" [$WIN32]
+    "countImage8"	// dead
     {
         "ControlName"           "CTFImagePanel"
         "fieldName"             "countImage8"
@@ -1486,7 +1473,7 @@
         "image"                 ""
         "scaleImage"            "1"
     }
-    "countImage9" [$WIN32]
+    "countImage9"	// dead
     {
         "ControlName"           "CTFImagePanel"
         "fieldName"             "countImage9"
@@ -1500,7 +1487,7 @@
         "image"                 ""
         "scaleImage"            "1"
     }
-    "countImage10" [$WIN32]
+    "countImage10"	// dead
     {
         "ControlName"           "CTFImagePanel"
         "fieldName"             "countImage10"
@@ -1514,7 +1501,7 @@
         "image"                 ""
         "scaleImage"            "1"
     }
-    "CountLabel" [$WIN32]
+    "CountLabel"	// dead
     {
         "ControlName"           "CExLabel"
         "fieldName"             "CountLabel"
@@ -1529,10 +1516,11 @@
         "enabled"               "0"
         "tabPosition"           "0"
         "labelText"             "#TF_TeamCount"
-        "textAlignment"         "left"
+        "textAlignment"         "west"
         "font"                  "HudFontMediumSmallSecondary"
         "fgcolor"               "owFULLWHITE"
     }
+    // MARK: Player Numbers
     "numScout"
     {
         "ControlName"                   "CExLabel"
@@ -1731,6 +1719,7 @@
         "pin_corner_to_sibling"         "PIN_TOPLEFT"
         "pin_to_sibling_corner"         "PIN_TOPLEFT"
     }
+    // MARK: TODO MVM
     "MvMUpgradeImageScout"
     {
         "ControlName"           "ImagePanel"
@@ -2037,7 +2026,7 @@
             }
         }
     }
-    "ClassTipsPanel"
+    "ClassTipsPanel"	// dead
     {
         "ControlName"           "CTFClassTipsPanel"
         "fieldName"             "ClassTipsPanel"
