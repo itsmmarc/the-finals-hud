@@ -75,8 +75,8 @@
         "ypos"                      "0"
         "wide"                      "200"
         "tall"                      "160"
-        "blue_active_xpos"          "52"
-        "red_active_xpos"           "106"
+        "blue_active_xpos"          "48"
+        "red_active_xpos"           "102"
     }
     "HudItemEffectMeter"
     {

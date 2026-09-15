@@ -1,262 +1,246 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
-{	
-	"HudKothTimeStatus"
-	{
-		if_match
-		{
-			"zpos"		"5"
-		}
-	}
-
-	"BlueTimer"
-	{
-		"ControlName"		"CTFHudTimeStatus"
-		"fieldName"			"BlueTimer"
-		"xpos"				"15"
-		"ypos"				"37"
-		"zpos"				"2"
-		"wide"				"100"
-		"tall"				"50"
-		"visible"			"1"
-		"enabled"			"1"
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Oblique16"
-
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"-1"
-			"delta_item_x"			"10"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"mk14"
-		}
-		
-		"TimePanelValue"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"TimePanelValue"
-			"font"			"Oblique16"
-			"fgcolor"		"owFULLWHITE"
-			"xpos"			"7"
-			"ypos"			"1"
-			"zpos"			"3"
-			"wide"			"100"
-			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
-			"textAlignment"		"center"
-			"labelText"		"0:00"
-
-			if_match
-			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"15"
-				"ypos"			"12"
-				"tall"			"10"
-				"wide"			"35"
-				"font"			"HudFontSmall"
-			
-			}
-		}	
-	}
-	"RedTimer"
-	{
-		"ControlName"		"CTFHudTimeStatus"
-		"fieldName"			"RedTimer"
-		"xpos"				"77"
-		"ypos"				"40"
-		"zpos"				"2"
-		"wide"				"100"
-		"tall"				"50"
-		"visible"			"1"
-		"enabled"			"1"
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Oblique16"
-
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"-1"
-			"delta_item_x"			"50"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"Fgcolor_override"		"owFULLWHITE"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"mk16"
-		}
-		
-		"TimePanelValue"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"TimePanelValue"
-			"font"			"Oblique16"
-			"fgcolor"		"TanLight"
-			"xpos"			"0"
-			"ypos"			"-2"
-			"zpos"			"3"
-			"wide"			"100"
-			"tall"			"15"
-			"tall"			"31"
-			"visible"		"1"
-			"enabled"		"1"
-			"textAlignment"		"center"
-			"labelText"		"0:00"
-
-			if_match
-			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"rs1-15"
-				"ypos"			"12"
-				"wide"			"35"
-				"tall"			"10"
-				"font"			"HudFontSmall"
-			
-			}
-		}	
-	}
-	"BlueTimerBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"			"BlueTimerBG"
-		"xpos"				"51"
-		"ypos"				"36"
-		"zpos"				"-2"
-		"wide"				"45"
-		"tall"				"20"
-		"visible"			"1"
-		"enabled"			"1"
-		"scaleImage"		"1"
-		"image"				"replay\thumbnails\kothtimer\kothBlue"
-		
-		if_match
-		{
-			"visible"	"0"
-		}
-	}
-	"RedTimerBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"			"RedTimerBG"
-		"xpos"				"104"
-		"ypos"				"36"
-		"zpos"				"-2"
-		"wide"				"45"
-		"tall"				"20"
-		"visible"			"1"
-		"enabled"			"1"
-		"scaleImage"		"1"
-		"image"				"replay\thumbnails\kothtimer\kothRed"
-		if_match
-		{
-			"visible"	"0"
-		}
-	}
-	"ActiveTimerBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"ActiveTimerBG"
-		"xpos"				"0"
-		"ypos"				"37"
-		"zpos"				"-92"
-		"wide"				"42"
-		"tall"				"18"
-		"visible"			"0"
-		"enabled"			"1"
-		"scaleImage"		"1"
-		"image"				"replay\thumbnails\kothtimer\kothActive"
-		if_match
-		{
-			"visible"	"0"
-		}
-	}
-	"refractTimer" // scrapped idea because this is extremely inefficient and doesn't look great
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"refractTimer"
-		"xpos"				"92"
-		"ypos"				"36"
-		"zpos"				"-91"
-		"wide"				"5"
-		"tall"				"18"
-		"visible"			"0"
-		"enabled"			"0"
-		"scaleImage"		"1"
-		"image"				"replay\thumbnails\blurfact"
-	}
-	"refractTimer2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"refractTimer2"
-		"xpos"				"90"
-		"ypos"				"43"
-		"zpos"				"-91"
-		"wide"				"5"
-		"tall"				"5"
-		"visible"			"0"
-		"enabled"			"1"
-		"scaleImage"		"1"
-		"image"				"replay\thumbnails\blurfact"
-	}
-	"refractTimer3"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"refractTimer3"
-		"xpos"				"91"
-		"ypos"				"42"
-		"zpos"				"-91"
-		"wide"				"15"
-		"tall"				"5"
-		"visible"			"0"
-		"enabled"			"1"
-		"scaleImage"		"1"
-		"image"				"replay\thumbnails\blurfact"
-	}
-	"refractTimer4"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"refractTimer4"
-		"xpos"				"91"
-		"ypos"				"44"
-		"zpos"				"-91"
-		"wide"				"15"
-		"tall"				"5"
-		"visible"			"0"
-		"enabled"			"1"
-		"scaleImage"		"1"
-		"image"				"replay\thumbnails\blurfact"
-	}
-	"refractTimer5"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"refractTimer5"
-		"xpos"				"88"
-		"ypos"				"44"
-		"zpos"				"-91"
-		"wide"				"2"
-		"tall"				"3"
-		"visible"			"0"
-		"enabled"			"1"
-		"scaleImage"		"1"
-		"image"				"replay\thumbnails\blurfact"
-	}
+{
+    "HudKothTimeStatus"
+    {
+        "if_match"
+        {
+            "zpos"          "5"
+        }
+    }
+    "BlueTimer"
+    {
+        "ControlName"                   "CTFHudTimeStatus"
+        "fieldName"                     "BlueTimer"
+        "xpos"                          "cs-1-2"
+        "ypos"                          "37"
+        "zpos"                          "2"
+        "wide"                          "68"
+        "tall"                          "18"
+        "proportionaltoparent"          "1"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "delta_item_x"                  "22"
+        "delta_item_start_y"            "50"
+        "delta_item_end_y"              "70"
+        "PositiveColor"                 "0 255 0 255"
+        "NegativeColor"                 "255 0 0 255"
+        "delta_lifetime"                "1.5"
+        "delta_item_font"               "Oblique16"
+        "if_match"
+        {
+            "proportionaltoparent"          "1"
+            "xpos"                          "cs-0.5"
+            "ypos"                          "-1"
+            "delta_item_x"                  "10"
+            "delta_item_start_y"            "12"
+            "delta_item_end_y"              "50"
+            "PositiveColor"                 "0 255 0 255"
+            "NegativeColor"                 "255 0 0 255"
+            "delta_lifetime"                "1.5"
+            "delta_item_font"               "mk14"
+        }
+        "TimePanelValue"
+        {
+            "ControlName"                   "CExLabel"
+            "fieldName"                     "TimePanelValue"
+            "font"                          "Header_SM"
+            "fgcolor"                       "White"
+            "xpos"                          "rs1"
+            "ypos"                          "0"
+            "zpos"                          "3"
+            "wide"                          "50"
+            "tall"                          "15"
+            "proportionaltoparent"          "1"
+            "visible"                       "1"
+            "enabled"                       "1"
+            "textAlignment"                 "west"
+            "textinsetx"                    "20"
+            "labelText"                     "0:00"
+            "paintBackground"               "1"
+            "bgcolor_override"              "TransparentLightBlack"
+            "if_match"
+            {
+                "proportionaltoparent"          "1"
+                "xpos"                          "15"
+                "ypos"                          "12"
+                "tall"                          "10"
+                "wide"                          "35"
+                "font"                          "Header_SM"
+            }
+        }
+        "TimerUnderline"
+        {
+            "ControlName"                   "ImagePanel"
+            "FieldName"                     "TimerUnderline"
+            "XPos"                          "0"
+            "YPos"                          "0"
+            "ZPos"                          "1"
+            "Wide"                          "50"
+            "Tall"                          "3"
+            "proportionaltoparent"          "1"
+            "Visible"                       "1"
+            "Enabled"                       "1"
+            "fillcolor"                     "255 255 255 128"
+            "pin_to_sibling"                "TimePanelValue"
+            "pin_corner_to_sibling"         "PIN_CENTER_TOP"
+            "pin_to_sibling_corner"         "PIN_CENTER_BOTTOM"
+        }
+        "TeamLogo"
+        {
+            "ControlName"                   "EditablePanel"
+            "FieldName"                     "TeamLogo"
+            "XPos"                          "0"
+            "YPos"                          "0"
+            "ZPos"                          "1"
+            "Wide"                          "18"
+            "Tall"                          "18"
+            "proportionaltoparent"          "1"
+            "Visible"                       "1"
+            "Enabled"                       "1"
+             paintBackground 1
+            paintBackgroundType 2
+            roundedcorners 5
+            "bgcolor_override"                     "Blue"
+            "Logo"
+            {
+                "ControlName"                   "ImagePanel"
+                "FieldName"                     "Logo"
+                "XPos"                          "cs-0.5"
+                "YPos"                          "cs-0.5"
+                "ZPos"                          "1"
+                "Wide"                          "p0.9"
+                "Tall"                          "p0.9"
+                "proportionaltoparent"          "1"
+                "Visible"                       "1"
+                "Enabled"                       "1"
+                "image"                         "replay/thumbnails/team_logo_blu_white"
+                "scaleImage"                    "1"
+            }
+        }
+    }
+    "RedTimer"
+    {
+        "ControlName"                   "CTFHudTimeStatus"
+        "fieldName"                     "RedTimer"
+        "xpos"                          "cs0+2"
+        "ypos"                          "37"
+        "zpos"                          "2"
+        "wide"                          "68"
+        "tall"                          "18"
+        "proportionaltoparent"          "1"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "delta_item_x"                  "22"
+        "delta_item_start_y"            "50"
+        "delta_item_end_y"              "70"
+        "PositiveColor"                 "0 255 0 255"
+        "NegativeColor"                 "255 0 0 255"
+        "delta_lifetime"                "1.5"
+        "delta_item_font"               "Oblique16"
+        "if_match"
+        {
+            "proportionaltoparent"          "1"
+            "xpos"                          "cs-0.5"
+            "ypos"                          "-1"
+            "delta_item_x"                  "50"
+            "delta_item_start_y"            "12"
+            "delta_item_end_y"              "50"
+            "PositiveColor"                 "0 255 0 255"
+            "NegativeColor"                 "255 0 0 255"
+            "Fgcolor_override"              "owFULLWHITE"
+            "delta_lifetime"                "1.5"
+            "delta_item_font"               "mk16"
+        }
+        "TimePanelValue"
+        {
+            "ControlName"                   "CExLabel"
+            "fieldName"                     "TimePanelValue"
+            "font"                          "Header_SM"
+            "fgcolor"                       "White"
+            "xpos"                          "0"
+            "ypos"                          "0"
+            "zpos"                          "3"
+            "wide"                          "50"
+            "tall"                          "15"
+            "proportionaltoparent"          "1"
+            "visible"                       "1"
+            "enabled"                       "1"
+            "textAlignment"                 "east"
+            "textinsetx"                    "20"
+            "labelText"                     "0:00"
+            "paintBackground"               "1"
+            "bgcolor_override"              "TransparentLightBlack"
+            "if_match"
+            {
+                "proportionaltoparent"          "1"
+                "xpos"                          "15"
+                "ypos"                          "12"
+                "tall"                          "10"
+                "wide"                          "35"
+                "font"                          "Header_SM"
+            }
+        }
+        "TimerUnderline"
+        {
+            "ControlName"                   "ImagePanel"
+            "FieldName"                     "TimerUnderline"
+            "XPos"                          "0"
+            "YPos"                          "0"
+            "ZPos"                          "1"
+            "Wide"                          "50"
+            "Tall"                          "3"
+            "proportionaltoparent"          "1"
+            "Visible"                       "1"
+            "Enabled"                       "1"
+            "fillcolor"                     "255 255 255 128"
+            "pin_to_sibling"                "TimePanelValue"
+            "pin_corner_to_sibling"         "PIN_CENTER_TOP"
+            "pin_to_sibling_corner"         "PIN_CENTER_BOTTOM"
+        }
+        "TeamLogo"
+        {
+            "ControlName"                   "EditablePanel"
+            "FieldName"                     "TeamLogo"
+            "XPos"                          "rs1"
+            "YPos"                          "0"
+            "ZPos"                          "1"
+            "Wide"                          "18"
+            "Tall"                          "18"
+            "proportionaltoparent"          "1"
+            "Visible"                       "1"
+            "Enabled"                       "1"
+            paintBackground 1
+            paintBackgroundType 2
+            roundedcorners 10
+            "bgcolor_override"                     "Red"
+            "Logo"
+            {
+                "ControlName"                   "ImagePanel"
+                "FieldName"                     "Logo"
+                "XPos"                          "cs-0.5-1"
+                "YPos"                          "cs-0.5"
+                "ZPos"                          "1"
+                "Wide"                          "p0.9"
+                "Tall"                          "p0.9"
+                "proportionaltoparent"          "1"
+                "Visible"                       "1"
+                "Enabled"                       "1"
+                "image"                         "replay/thumbnails/team_logo_red_white"
+                "scaleImage"                    "1"
+            }
+        }
+    }
+    "ActiveTimerBG"
+    {
+        "ControlName"           "ImagePanel"
+        "FieldName"             "ActiveTimerBG"
+        "XPos"                  "0"	// hardcoded
+        "YPos"                  "52"
+        "ZPos"                  "3"
+        "Wide"                  "50"
+        "Tall"                  "3"
+        "Visible"               "0"
+        "Enabled"               "1"
+        "fillcolor"             "FinalsYellow"
+    }
 }

@@ -486,7 +486,7 @@
             "Wrap"                              "0"
             "ProportionalToParent"              "1"
             "Use_Proportional_Insets"           "1"
-            "Font"                              "Header_MD"
+            "Font"                              "HeaderEm_MD"
             "LabelText"                         "%notititle%"
             "TextAlignment"                     "west"
             "Textinsetx"                        "3"

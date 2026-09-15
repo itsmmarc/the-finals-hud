@@ -80,7 +80,7 @@
                 "blur"              "2"
             }
         }
-        "Header_XXL"
+        "HeaderEm_2XL"
         {
             "1"
             {
@@ -89,7 +89,7 @@
                 "antialias"         "1"
             }
         }
-        "Header_XL"
+        "HeaderEm_XL"
         {
             "1"
             {
@@ -98,7 +98,7 @@
                 "antialias"         "1"
             }
         }
-        "Header_LG"
+        "HeaderEm_LG"
         {
             "1"
             {
@@ -107,7 +107,7 @@
                 "antialias"         "1"
             }
         }
-        "Header_MD"
+        "HeaderEm_MD"
         {
             "1"
             {
@@ -116,7 +116,7 @@
                 "antialias"         "1"
             }
         }
-        "Header_SM"
+        "HeaderEm_SM"
         {
             "1"
             {
@@ -125,11 +125,65 @@
                 "antialias"         "1"
             }
         }
-        "Header_XS"
+        "HeaderEm_XS"
         {
             "1"
             {
                 "name"              "Saira ExtraCondensed ExtraBold"
+                "tall"              "18"
+                "antialias"         "1"
+            }
+        }
+        "Header_2XL"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "56"
+                "antialias"         "1"
+            }
+        }
+        "Header_XL"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "48"
+                "antialias"         "1"
+            }
+        }
+        "Header_LG"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "36"
+                "antialias"         "1"
+            }
+        }
+        "Header_MD"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "28"
+                "antialias"         "1"
+            }
+        }
+        "Header_SM"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "24"
+                "antialias"         "1"
+            }
+        }
+        "Header_XS"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
                 "tall"              "18"
                 "antialias"         "1"
             }
