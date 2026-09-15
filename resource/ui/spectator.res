@@ -65,36 +65,7 @@
 		"font"			"oblique32"
 		"fgcolor_override"	"owORANGE"
 	}
-	"specBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"specBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-21"
-		"wide"			"f0"
-		"tall"			"70"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 180"
-	}	
-	"specBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"specBG2"
-		"xpos"			"0"
-		"ypos"			"70"
-		"zpos"			"-21"
-		"wide"			"f0"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"150 150 150 220"
-	}
+	
 	"BuyBackLabel"
 	{
 		"ControlName"		"CExLabel"

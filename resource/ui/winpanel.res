@@ -240,22 +240,6 @@
 			"bgcolor_override"	"0 0 0 100"
 		}
 	}
-	"Blurfact" // broken
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Blurfact"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-999"
-		"wide"			"0"
-		"tall"			"0"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"image"			"replay/thumbnails/blurfact"
-	}
 	"blackoverlay"
 	{
 		"ControlName"	"ImagePanel"
@@ -271,7 +255,6 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"fillcolor"		"0 0 0 100"
-	//	"image"			"replay/thumbnails/blurfact"
 	}
 	"TopBarBG"
 	{
