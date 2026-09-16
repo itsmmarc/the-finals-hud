@@ -682,9 +682,9 @@
         "tall"                      "200"
         "visible"                   "1"
         "enabled"                   "1"
-        "separator_width"           "5"	// distance between the icons (including their backgrounds)
+        "separator_width"           "3"	// distance between the icons (including their backgrounds)
         "separator_height"          "7"
-        "height_offset"             "415"	// distance from the bottom of the panel
+        "height_offset"             "8"	// distance from the bottom of the panel
     }
     "HudCapturePanel"
     {

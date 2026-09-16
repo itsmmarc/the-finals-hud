@@ -236,7 +236,7 @@
             "font"                          "Header_SM"
             "fgcolor_override"              "169 186 204 255"
             "bgcolor_override"              "0 0 0 75"
-            "paintbackgroundtype"           "0"
+            "paintbackgroundtype"           "2"
             "xpos"                          "cs-0.5"
             "ypos"                          "0"
             "zpos"                          "3"
