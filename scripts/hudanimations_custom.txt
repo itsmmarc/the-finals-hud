@@ -1,74 +1,43 @@
-//Health Bonus Pulse - Credit to Yoshee for helping out with the overheal/low health animations
+//===========================================
+
+//Health Bonus Pulse
 event HudHealthBonusPulse
 {
-   
-    Animate HealthBGBuff            Alpha     "175"		       Linear 0.0 0.4
-    Animate HealthBGBuff            Alpha       "0"       	   Linear 0.4 0.4
-	
-	Animate SpectatorGUIHealth        FgColor "owGREEN"        Linear 0.0 0.4
-	Animate SpectatorGUIHealth        FgColor "152 214 17  255"        Linear 0.4 0.4
-
-	Animate PlayerStatusHealthValueSpec        FgColor "owGREEN"        Linear 0.0 0.4
-	Animate PlayerStatusHealthValueSpec        FgColor "152 214 17  255"        Linear 0.4 0.4
-	
-	Animate PlayerStatusHealthValue        FgColor "HealthAmmo"        Linear 0.0 0.4
-	
-    RunEvent HudHealthBonusPulseLoop    0.8
+	Animate	BarBG 	alpha		"0"		Linear 0.0 0.0
+	Animate	OverHealBar 	Alpha		"255"			Linear 0.0 0.0
 }
- 
+
 // call to loop HudHealthBonusPulse
 event HudHealthBonusPulseLoop
 {
-    RunEvent HudHealthBonusPulse 0.0
+	RunEvent HudHealthBonusPulse 0.0
 }
- 
+
 event HudHealthBonusPulseStop
 {
-    StopEvent HudHealthBonusPulse 0.0
-    StopEvent HudHealthBonusPulseLoop 0.0
-   
-    Animate HealthBGBuff            Alpha     "0"		       Linear 0.0 0.2
-    Animate HealthBGBuff            Alpha       "0"       	   Linear 0.2 0.4
-	
-	Animate SpectatorGUIHealth        FgColor "owFULLWHITE"        Linear 0.0 0.0
-	Animate SpectatorGUIHealth        FgColor "owFULLWHITE"        Linear 0.0 0.0
-	
-	Animate PlayerStatusHealthValue        FgColor "HealthAmmo"        Linear 0.0 0.0
-	
-	Animate PlayerStatusHealthValueSpec        FgColor "owFULLWHITE"        Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSpec        FgColor "owFULLWHITE"        Linear 0.0 0.0
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
 }
- 
+
 //===========================================
- 
-//Health Dying Pulse - Credit to Yoshee for helping out with the overheal/low health animations
+
+//Health Dying Pulse
 event HudHealthDyingPulse
 {
-   
-    Animate HealthBGLow         Alpha     "255"		       Linear 0.0 0.2
-    Animate HealthBGLow         Alpha       "0"       	   Linear 0.2 0.4
-	
-	Animate PlayerStatusHealthValue        FgColor "HealthHurt"        Linear 0.0 0.4
-	
-    RunEvent HudHealthDyingPulseLoop    0.4
+	Animate	BarBG 	alpha		"255"		Linear 0.0 0.0
+	Animate	OverHealBar 	Alpha		"0"			Linear 0.0 0.0
 }
- 
+
 // call to loop HudHealthDyingPulse
 event HudHealthDyingPulseLoop
 {
-    RunEvent HudHealthDyingPulse 0.0
+	RunEvent HudHealthDyingPulse 0.0
 }
- 
+
 event HudHealthDyingPulseStop
 {
-    StopEvent HudHealthDyingPulse 0.0
-    StopEvent HudHealthDyingPulseLoop 0.0
-   
-    Animate HealthBGLow         BgColor     "Blank"        Accel 0.0 0.0
-    Animate HealthBGLow         Alpha       "0"        Accel 0.0 0.0
-	Animate PlayerStatusHealthValue        FgColor "HealthAmmo"        Linear 0.0 0.0
-    StopEvent PlayerStatusHealthValueSpec 0.0
-    StopEvent PlayerStatusHealthValueSpec 0.0
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
 }
 
 event Hitmarker
