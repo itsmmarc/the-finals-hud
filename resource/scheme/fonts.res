@@ -67,7 +67,6 @@
                 "name"              "Saira ExtraCondensed ExtraBold"
                 "tall"              "48"
                 "antialias"         "1"
-                
             }
         }
         "MainMenuLarge_Blur"
@@ -242,6 +241,66 @@
                 "antialias"         "1"
             }
         }
+        "Body_XL_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Medium"
+                "tall"              "28"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "Body_LG_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Medium"
+                "tall"              "24"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "Body_MD_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Medium"
+                "tall"              "18"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "Body_SM_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Medium"
+                "tall"              "16"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "Body_XS_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Medium"
+                "tall"              "12"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "Body_XXS_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Medium"
+                "tall"              "9"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
         "BodyEm_XL"
         {
             "1"
@@ -294,6 +353,66 @@
                 "name"              "Saira Condensed Bold"
                 "tall"              "9"
                 "antialias"         "1"
+            }
+        }
+        "BodyEm_XL_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Bold"
+                "tall"              "28"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "BodyEm_LG_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Bold"
+                "tall"              "24"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "BodyEm_MD_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Bold"
+                "tall"              "18"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "BodyEm_SM_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Bold"
+                "tall"              "16"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "BodyEm_XS_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Bold"
+                "tall"              "12"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "BodyEm_XXS_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira Condensed Bold"
+                "tall"              "9"
+                "antialias"         "1"
+                "blur"              "2"
             }
         }
         "Button_XL"

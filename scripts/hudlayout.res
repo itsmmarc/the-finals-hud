@@ -6,7 +6,7 @@
         "visible"               "0"
         "enabled"               "1"
         "xpos"                  "c0"
-        "ypos"                  "280"
+        "ypos"                  "cs-0.5+80"
         "wide"                  "f0"
         "tall"                  "35"
         "priority"              "40"

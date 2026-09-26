@@ -1,0 +1,9 @@
+r_decal_cullsize 1
+
+exec autoexec
+
+tf_hud_target_id_alpha 255
+
+stuffcmds
+startupmenu
+sv_unlockedchapters 99
