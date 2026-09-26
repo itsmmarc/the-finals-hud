@@ -1,5 +1,90 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
+    // MARK: Bar
+    "PlayerStatusHealthBonusImage"
+    {
+        "ControlName"                   "ImagePanel"
+        "fieldName"                     "PlayerStatusHealthBonusImage"
+        "xpos"                          "r0"
+        "ypos"                          "13"
+        "zpos"                          "3"
+        "wide"                          "16"
+        "tall"                          "12"
+        "proportionaltoparent"          "1"
+        "visible"                       "0"
+        "enabled"                       "1"
+        "image"                         "../hud/health_over_bg"
+        "scaleImage"                    "1"
+        "proportionaltoparent"          "1"
+    }
+    "BarFG"	// actually background, static
+    {
+        "ControlName"                   "EditablePanel"
+        "fieldName"                     "BarFG"
+        "xpos"                          "0"
+        "ypos"                          "13"
+        "zpos"                          "0"
+        "wide"                          "128"
+        "tall"                          "12"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "bgcolor_override"              "White"
+        "paintBackground"               "1"
+        "proportionaltoparent"          "1"
+    }
+    "mod"
+    {
+        "ControlName"                   "ImagePanel"
+        "fieldName"                     "mod"
+        "xpos"                          "0"
+        "ypos"                          "13"
+        "zpos"                          "4"
+        "wide"                          "128"
+        "tall"                          "12"
+        "proportionaltoparent"          "1"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "proportionaltoparent"          "1"
+        "image"                         "replay/thumbnails/healthbar/healthbar-8-mod"
+        "scaleImage"                    "1"
+        "drawcolor"                     "ItemMeterFG"
+    }
+    "BarBG"	// actually foreground, moves from right to left as health lowers
+    {
+        "ControlName"                   "ImagePanel"
+        "fieldName"                     "BarBG"
+        "xpos"                          "0"
+        "ypos"                          "0"
+        "zpos"                          "1"
+        "wide"                          "128"
+        "tall"                          "12"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "fillcolor"                     "Black"
+        "scaleImage"                    "1"
+        "proportionaltoparent"          "1"
+        "pin_to_sibling"                "PlayerStatusHealthBonusImage"
+        "pin_to_sibling_corner"         "7"
+        "pin_corner_to_sibling"         "7"
+    }
+    "OverHealBar"
+    {
+        "ControlName"                   "ImagePanel"
+        "fieldName"                     "OverHealBar"
+        "xpos"                          "-144"	// 1080p: -112 for full overheal bar, -144 for properly disappearing overheal bar
+        "ypos"                          "0"
+        "zpos"                          "1"
+        "wide"                          "128"
+        "tall"                          "12"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "fillcolor"                     "FinalsOverhealBar"
+        "scaleImage"                    "1"
+        "proportionaltoparent"          "1"
+        "pin_to_sibling"                "PlayerStatusHealthBonusImage"
+        "pin_to_sibling_corner"         "5"
+        "pin_corner_to_sibling"         "5"
+    }
     "PlayerStatusHealthImage"	// dead
     {
         "ControlName"           "ImagePanel"
@@ -41,19 +126,21 @@
         "image"                 "../hud/health_equip_bg"
         "scaleImage"            "1"
     }
-    "PlayerStatusHealthBonusImage"	// dead
+    // MARK: Health Value
+    "HealthBG"
     {
-        "ControlName"           "ImagePanel"
-        "fieldName"             "PlayerStatusHealthBonusImage"
-        "xpos"                  "99999"
-        "ypos"                  "99999"
-        "zpos"                  "3"
-        "wide"                  "24"
-        "tall"                  "24"
-        "visible"               "0"
-        "enabled"               "1"
-        "image"                 "../hud/health_over_bg"
-        "scaleImage"            "1"
+        "ControlName"                   "EditablePanel"
+        "fieldName"                     "HealthBG"
+        "xpos"                          "0"
+        "ypos"                          "24+3"
+        "zpos"                          "-1"
+        "wide"                          "32"
+        "tall"                          "16"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "paintBackground"               "1"
+        "paintBackgroundType"           "2"
+        "bgcolor_override"              "TransparentBlack"
     }
     "PlayerStatusHealthValue"
     {
@@ -62,8 +149,8 @@
         "xpos"                  "0"
         "ypos"                  "0"
         "zpos"                  "5"
-        "wide"                  "20"
-        "tall"                  "20"
+        "wide"                  "32"
+        "tall"                  "16"
         "visible"               "1"
         "enabled"               "1"
         "labelText"             "%Health%"
@@ -88,21 +175,6 @@
         "font"                  "BodyEm_MD_Blur"
         "fgcolor"               "Shadow"
         "pin_to_sibling"        "HealthBG"
-    }
-    "HealthBG"
-    {
-        "ControlName"                   "EditablePanel"
-        "fieldName"                     "HealthBG"
-        "xpos"                          "9"
-        "ypos"                          "9"
-        "zpos"                          "-1"
-        "wide"                          "20"
-        "tall"                          "20"
-        "visible"                       "1"
-        "enabled"                       "1"
-        "paintBackground"               "1"
-        "paintBackgroundType"           "2"
-        "bgcolor_override"              "TransparentBlack"
     }
     "PlayerStatusPlayerLevel"	// idk what this is
     {

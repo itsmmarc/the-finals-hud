@@ -1,12 +1,12 @@
 "Resource/UI/TargetID.res"
 {
-    "TargetIDBG"
+    "TargetIDBG"	// team colour modulate
     {
         "ControlName"           "CTFImagePanel"
         "fieldName"             "TargetIDBG"
         "xpos"                  "0"
         "ypos"                  "0"
-        "zpos"                  "-1"
+        "zpos"                  "10"
         "wide"                  "252"	// hardcoded
         "tall"                  "15"	// hardcoded
         "autoResize"            "0"
@@ -24,14 +24,14 @@
     {
         "ControlName"                       "EditablePanel"
         "fieldName"                         "SpectatorGUIHealth"
-        "xpos"                              "-9"
-        "ypos"                              "2"
-        "wide"                              "29"
-        "tall"                              "29"
+        "xpos"                              "0"
+        "ypos"                              "-13"
+        "wide"                              "128"
+        "tall"                              "62"
         "visible"                           "1"
         "enabled"                           "1"
-        "HealthBonusPosAdj"                 "10"
-        "HealthDeathWarning"                "0.49"
+        "HealthBonusPosAdj"                 "384"
+        "HealthDeathWarning"                "1.00"
         // "TFFont"                            "DinBold12"
         "HealthDeathWarningColor"           "HUDDeathWarning"
         "TextColor"                         "White"
@@ -40,8 +40,8 @@
     {
         "ControlName"                   "CExLabel"
         "fieldName"                     "TargetNameLabelReal"
-        "xpos"                          "2"
-        "ypos"                          "0"
+        "xpos"                          "34"
+        "ypos"                          "16"
         "zpos"                          "1"
         "wide"                          "100"
         "tall"                          "14"
@@ -51,10 +51,8 @@
         "labelText"                     "%targetname%"
         "textAlignment"                 "west"
         "font"                          "Body_MD"
+        "textinsety"                    "-1"
         "fgcolor"                       "White"
-        "pin_to_sibling"                "SpectatorGUIHealth"
-        "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
-        "pin_to_sibling_corner"         "PIN_BOTTOMRIGHT"
     }
     "TargetNameLabelRealShadow"	// shadow
     {
@@ -76,24 +74,24 @@
     }
     "TargetDataLabel"
     {
-        "ControlName"                   "CExLabel"
-        "fieldName"                     "TargetDataLabel"
-        "font"                          "Body_XS"
-        "fgcolor_override"              "White"
-        "fgcolor"                       "White"
-        "xpos"                          "0"	// hardcoded
-        "ypos"                          "-2"
-        "zpos"                          "1"
-        "wide"                          "18"
-        "tall"                          "13"
-        "autoResize"                    "3"
-        "pinCorner"                     "0"
-        "visible"                       "1"
-        "enabled"                       "1"
-        "labelText"                     "%targetdata%"
-        "textAlignment"                 "center"
-        "dulltext"                      "0"
-        "brighttext"                    "0"
+        "ControlName"               "CExLabel"
+        "fieldName"                 "TargetDataLabel"
+        "font"                      "Body_SM"
+        "fgcolor_override"          "White"
+        "fgcolor"                   "White"
+        "xpos"                      "0"	// hardcoded
+        "ypos"                      "0"
+        "zpos"                      "1"
+        "wide"                      "100"
+        "tall"                      "13"
+        "autoResize"                "3"
+        "pinCorner"                 "0"
+        "visible"                   "1"
+        "enabled"                   "1"
+        "labelText"                 "" // %targetdata%
+        "textAlignment"             "west"
+        "dulltext"                  "0"
+        "brighttext"                "0"
     }
     "TargetIDBG_Spec_Blue"	// dead
     {

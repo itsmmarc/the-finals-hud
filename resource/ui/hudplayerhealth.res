@@ -233,7 +233,7 @@
         "tall"                          "16"
         "visible"                       "1"
         "enabled"                       "1"
-        "fillcolor"                     "FinalsYellow"
+        "fillcolor"                     "FinalsOverhealBar"
         "scaleImage"                    "1"
         "proportionaltoparent"          "1"
         "pin_to_sibling"                "PlayerStatusHealthBonusImage"

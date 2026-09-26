@@ -17,6 +17,7 @@
         "FinalsKeyBGD_Armed"                            "101 106 110 178"
         "FinalsGreyDark"                                "76 73 77 255"
         "FinalsGrey2"                                   "68 72 84 255"
+        "FinalsOverhealBar"                             "150 150 150 255"
         "MenuBlur_Accent"                               "0 21 246 255"
         "Shadow"                                        "50 50 50 102"
         "HealthAmmo"                                    "241 242 244 255"
