@@ -108,7 +108,7 @@
         "font"                          "HealthAmmo_Alt_Blur"
         "textinsetx"                    "5"
         "textinsety"                    "3"
-        "textAlignment"                 "west"
+        "textAlignment"                 "east"
         "fgcolor"                       "Shadow"
         "labelText"                     "%AmmoInReserve%"
         "pin_to_sibling"                "AmmoInReserve"
