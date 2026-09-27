@@ -1,4 +1,4 @@
-"Resource/UI/SpectatorGUIHealth.res"
+"Resource/UI/SpectatorGUIHealth.res" // ALWAYS USE AT 128 x 62
 {
     // MARK: Bar
     "PlayerStatusHealthBonusImage"

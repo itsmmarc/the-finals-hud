@@ -228,10 +228,10 @@
         "fieldName"         "DisguiseStatus"
         "visible"           "1"
         "enabled"           "1"
-        "xpos"              "120"
-        "ypos"              "r92"
-        "wide"              "500"
-        "tall"              "200"
+        "xpos"              "20"
+        "ypos"              "rs1-20-40"
+        "wide"              "128"
+        "tall"              "62"
     }
     "BuildingStatus_Spy"
     {
