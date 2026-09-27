@@ -133,6 +133,66 @@
                 "antialias"         "1"
             }
         }
+        "HeaderEm_2XL_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed ExtraBold"
+                "tall"              "56"
+                "antialias"         "1"
+            }
+            "blur"          "2"
+        }
+        "HeaderEm_XL_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed ExtraBold"
+                "tall"              "48"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "HeaderEm_LG_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed ExtraBold"
+                "tall"              "36"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "HeaderEm_MD_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed ExtraBold"
+                "tall"              "28"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "HeaderEm_SM_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed ExtraBold"
+                "tall"              "24"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "HeaderEm_XS_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed ExtraBold"
+                "tall"              "18"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
         "Header_2XL"
         {
             "1"
@@ -185,6 +245,66 @@
                 "name"              "Saira ExtraCondensed"
                 "tall"              "18"
                 "antialias"         "1"
+            }
+        }
+        "Header_2XL_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "56"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "Header_XL_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "48"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "Header_LG_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "36"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "Header_MD_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "28"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "Header_SM_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "24"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "Header_XS_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed"
+                "tall"              "18"
+                "antialias"         "1"
+                "blur"              "2"
             }
         }
         "Body_XL"
@@ -521,6 +641,66 @@
                 "name"              "Saira ExtraCondensed SemiBold"
                 "tall"              "9"
                 "antialias"         "1"
+            }
+        }
+        "ButtonEm_XL_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "28"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "ButtonEm_LG_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "24"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "ButtonEm_MD_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "18"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "ButtonEm_SM_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "16"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "ButtonEm_XS_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "12"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "ButtonEm_XXS_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "9"
+                "antialias"         "1"
+                "blur"              "2"
             }
         }
         "NotificationDot"

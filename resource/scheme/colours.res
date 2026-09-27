@@ -27,6 +27,7 @@
         "ItemMeterFG"                                   "211 225 225 255"
         "ItemMeterBG"                                   "80 80 85 255"
         "PureWhite"                                     "255 255 255 255"
+        "PureBlack"                                     "0 0 0 255"
         // HUD COLOURS
         "owGREEN"                                       "192 254 57  255"
         "owORANGE"                                      "236 101 22  255"
@@ -239,13 +240,13 @@
         "Button.SelectedBgColor"                                "TFOrange"
         "Button.DepressedTextColor"                             "Black"
         "Button.DepressedBgColor"                               "TFOrange"
-        "CheckButton.TextColor"                                 "Yellow"
-        "CheckButton.SelectedTextColor"                         "Yellow"
+        "CheckButton.TextColor"                                 "White"
+        "CheckButton.SelectedTextColor"                         "White"
         "CheckButton.BgColor"                                   "TransparentBlack"
-        "CheckButton.Border1"                                   "Yellow"	// the left checkbutton border
-        "CheckButton.Border2"                                   "Yellow"	// the right checkbutton border
-        "CheckButton.Check"                                     "Yellow"	// color of the check itself
-        "CheckButton.HighlightFgColor"                          "Yellow"
+        "CheckButton.Border1"                                   "White"	// the left checkbutton border
+        "CheckButton.Border2"                                   "White"	// the right checkbutton border
+        "CheckButton.Check"                                     "White"	// color of the check itself
+        "CheckButton.HighlightFgColor"                          "White"
         "ComboBoxButton.ArrowColor"                             "TanLight"
         "ComboBoxButton.ArmedArrowColor"                        "TanLight"
         "ComboBoxButton.BgColor"                                "Blank"
