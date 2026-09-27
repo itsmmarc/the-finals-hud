@@ -1,8 +1,7 @@
 r_decal_cullsize 1
 
 exec autoexec
-
-tf_hud_target_id_alpha 255
+exec fh_startup
 
 stuffcmds
 startupmenu
