@@ -8,7 +8,7 @@
         {
             "1"
             {
-                "name"              "Saira ExtraCondensed"
+                "name"              "Saira ExtraCondensed SemiBold"
                 "tall"              "36"
                 "antialias"         "1"
             }
@@ -17,7 +17,7 @@
         {
             "1"
             {
-                "name"              "Saira ExtraCondensed"
+                "name"              "Saira ExtraCondensed SemiBold"
                 "tall"              "36"
                 "antialias"         "1"
                 "blur"              "2"
@@ -40,6 +40,15 @@
                 "tall"              "28"
                 "antialias"         "1"
                 "blur"              "2"
+            }
+        }
+        "ItemMeterLabel"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "32"
+                "antialias"         "1"
             }
         }
         "DeathNotice"

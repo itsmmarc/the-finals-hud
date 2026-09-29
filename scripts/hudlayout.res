@@ -5,36 +5,36 @@
         "fieldName"             "CMainTargetID"
         "visible"               "0"
         "enabled"               "1"
-        "xpos"                  "c0"
-        "ypos"                  "cs-0.5+80"
+        "xpos"                  "0" // hardcoded
+        "ypos"                  "cs-0.5+40"
         "wide"                  "f0"
         "tall"                  "35"
         "priority"              "40"
         "priority_lodef"        "5"
-    }
-    "CSpectatorTargetID"
-    {
-        "fieldName"         "CSpectatorTargetID"
-        "visible"           "0"
-        "enabled"           "1"
-        "xpos"              "c-126"
-        "ypos"              "330"
-        "wide"              "f0"
-        "tall"              "35"
-        "priority"          "40"
-        "x_offset"          "20"
-        "y_offset"          "30"
     }
     "CSecondaryTargetID"
     {
         "fieldName"         "CSecondaryTargetID"
         "visible"           "0"
         "enabled"           "1"
-        "xpos"              "c-126"
-        "ypos"              "350"
+        "xpos"              "0" // hardcoded
+        "ypos"              "cs-0.5+40+35"
         "wide"              "f0"
         "tall"              "35"
         "priority"          "35"
+    }
+    "CSpectatorTargetID"
+    {
+        "fieldName"         "CSpectatorTargetID"
+        "visible"           "0"
+        "enabled"           "1"
+        "xpos"              "0" // hardcoded
+        "ypos"              "rs1-40"
+        "wide"              "f0"
+        "tall"              "35"
+        "priority"          "40"
+        "x_offset"          "20"
+        "y_offset"          "30"
     }
     "HudPlayerStatus"
     {

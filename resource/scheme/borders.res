@@ -95,7 +95,7 @@
 			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"6"
 		}
-        ItemEffectMeterBG
+        ItemEffectMeterBG_Stamina
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -109,7 +109,7 @@
 			"draw_corner_height" 	"2"
 		}
 
-		ItemEffectMeterRoundedCorners
+		ItemEffectMeterRoundedCorners_Stamina
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"

@@ -24,8 +24,11 @@
         "HealthAmmo_Alt"                                "170 170 170 178"
         "HealthHurt"                                    "210 31 60 255"
         "Menu_Accent"                                   "243 254 255 255"
-        "ItemMeterFG"                                   "211 225 225 255"
-        "ItemMeterBG"                                   "80 80 85 255"
+        "ItemMeterFG"                                   "249 185 36 255"
+        "ItemMeterFGInv"                                   "19 25 255 255"
+        "ItemMeterBG"                                   "190 190 190 121"
+        // "ItemMeterFG"                                   "211 225 225 255"
+        // "ItemMeterBG"                                   "80 80 85 255"
         "PureWhite"                                     "255 255 255 255"
         "PureBlack"                                     "0 0 0 255"
         // HUD COLOURS

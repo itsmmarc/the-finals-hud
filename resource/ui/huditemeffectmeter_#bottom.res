@@ -2,6 +2,6 @@
 {
 	"HudItemEffectMeter"
 	{
-		"YPos"										"cs-0.5+40+8+8"
+		"YPos"										"cs-0.5+98+26+26"
 	}
 }
