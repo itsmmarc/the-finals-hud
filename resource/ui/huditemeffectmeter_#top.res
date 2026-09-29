@@ -1,7 +1,2 @@
-"Resource/UI/HudItemEffectMeter_Top.res"
-{
-	"HudItemEffectMeter"
-	{
-		"YPos"										"cs-0.5+98"
-	}
-}
+"#base"         "huditemeffectmeter_#top_gadget.res"
+"#base"         "huditemeffectmeter_#top_mesh.res"
