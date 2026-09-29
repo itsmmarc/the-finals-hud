@@ -19,4 +19,3 @@ for i in range(3):
         color_multiplier.append(multiply_colors(int(color_base[i]), int(color_desired[i])))
 
 print(f"color multiplier: {color_multiplier}")
-

@@ -51,6 +51,15 @@
                 "antialias"         "1"
             }
         }
+        "ItemMeterLabel_Gadget"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "16"
+                "antialias"         "1"
+            }
+        }
         "DeathNotice"
         {
             "1"
@@ -149,8 +158,8 @@
                 "name"              "Saira ExtraCondensed ExtraBold"
                 "tall"              "56"
                 "antialias"         "1"
-            }
             "blur"          "2"
+            }
         }
         "HeaderEm_XL_Blur"
         {
