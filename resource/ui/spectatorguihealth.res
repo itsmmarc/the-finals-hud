@@ -1,4 +1,4 @@
-"Resource/UI/SpectatorGUIHealth.res" // ALWAYS USE AT 128 x 62
+"Resource/UI/SpectatorGUIHealth.res"	// ALWAYS USE AT 128 x 62
 {
     // MARK: Bar
     "PlayerStatusHealthBonusImage"
@@ -32,10 +32,10 @@
         "paintBackground"               "1"
         "proportionaltoparent"          "1"
     }
-    "mod"
+    "refract"
     {
         "ControlName"                   "ImagePanel"
-        "fieldName"                     "mod"
+        "fieldName"                     "refract"
         "xpos"                          "0"
         "ypos"                          "13"
         "zpos"                          "4"
@@ -45,7 +45,7 @@
         "visible"                       "1"
         "enabled"                       "1"
         "proportionaltoparent"          "1"
-        "image"                         "replay/thumbnails/healthbar/healthbar-8-mod"
+        "image"                         "replay/thumbnails/healthbar/healthbar-8-refract"
         "scaleImage"                    "1"
         "drawcolor"                     "ItemMeterFG"
     }
@@ -55,9 +55,9 @@
         "fieldName"                     "BarBG"
         "xpos"                          "0"
         "ypos"                          "0"
-        "zpos"                          "1"
+        "zpos"                          "0"
         "wide"                          "128"
-        "tall"                          "12"
+        "tall"                          "13"
         "visible"                       "1"
         "enabled"                       "1"
         "fillcolor"                     "Black"
@@ -71,11 +71,11 @@
     {
         "ControlName"                   "ImagePanel"
         "fieldName"                     "OverHealBar"
-        "xpos"                          "-144"	// 1080p: -112 for full overheal bar, -144 for properly disappearing overheal bar
+        "xpos"                          "-144"	
         "ypos"                          "0"
-        "zpos"                          "1"
+        "zpos"                          "0"
         "wide"                          "128"
-        "tall"                          "12"
+        "tall"                          "13"
         "visible"                       "1"
         "enabled"                       "1"
         "fillcolor"                     "FinalsOverhealBar"

@@ -23,8 +23,8 @@
             "enabled"                   "1"
             //	"image"						"../hud/color_panel_blu"
             "scaleImage"                "1"
-            "image"                     "replay\thumbnails\bg_blank"
-            "teambg_1"                  "replay\thumbnails\bg_blank"	// teams are swapped as this panel shows your team, not the team that killed you
+            "image"                     "replay\thumbnails\blank"
+            "teambg_1"                  "replay\thumbnails\blank"	// teams are swapped as this panel shows your team, not the team that killed you
             "teambg_2"                  "replay/thumbnails/panels/roundedcorners_blue"	// while on red team
             "teambg_3"                  "replay/thumbnails/panels/roundedcorners_red"	// while on blue team
             "src_corner_height"         "10"
@@ -63,8 +63,8 @@
             "enabled"                   "1"
             //	"image"						"../hud/color_panel_blu"
             "scaleImage"                "1"
-            "image"                     "replay\thumbnails\bg_blank"
-            "teambg_1"                  "replay\thumbnails\bg_blank"	// teams are swapped as this panel shows your team, not the team that killed you
+            "image"                     "replay\thumbnails\blank"
+            "teambg_1"                  "replay\thumbnails\blank"	// teams are swapped as this panel shows your team, not the team that killed you
             "teambg_2"                  "replay/thumbnails/mod_blue"	// while on red team
             "teambg_3"                  "replay/thumbnails/mod_red"	// while on blue team
             "src_corner_height"         "23"
@@ -83,7 +83,7 @@
             "tall"                              "62"
             "visible"                           "1"
             "enabled"                           "1"
-            "HealthBonusPosAdj"                 "384"
+            "HealthBonusPosAdj"                 "288" // TODO - add baselog options for this 1440p: 384, 1080p: 288
             "HealthDeathWarning"                "1.00"
             // "TFFont"					"HudFontSmall"
             "HealthDeathWarningColor"           "HUDDeathWarning"
@@ -234,10 +234,10 @@
             "enabled"                   "0"
             //	"image"						"../hud/color_panel_blu"
             "scaleImage"                "1"
-            "image"                     "replay\thumbnails\bg_blank"
-            "teambg_1"                  "replay\thumbnails\bg_blank"
-            "teambg_2"                  "replay\thumbnails\bg_blank"
-            "teambg_3"                  "replay\thumbnails\bg_blank"
+            "image"                     "replay\thumbnails\blank"
+            "teambg_1"                  "replay\thumbnails\blank"
+            "teambg_2"                  "replay\thumbnails\blank"
+            "teambg_3"                  "replay\thumbnails\blank"
             "src_corner_height"         "23"
             "src_corner_width"          "23"
             "draw_corner_width"         "3"

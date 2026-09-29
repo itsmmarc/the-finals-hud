@@ -14,7 +14,7 @@
         "tall"                              "60"
         "visible"                           "1"
         "enabled"                           "1"
-        "HealthBonusPosAdj"                 "288"
+        "HealthBonusPosAdj"                 "288" // TODO - add baselog options for this 1440p: 384, 1080p: 288
         "HealthDeathWarning"                "1.0"
         "HealthDeathWarningColor"           "HUDDeathWarning"
     }
@@ -187,10 +187,10 @@
         "paintBackground"               "1"
         "proportionaltoparent"          "1"
     }
-    "mod"
+    refract
     {
         "ControlName"                   "ImagePanel"
-        "fieldName"                     "mod"
+        "fieldName"                     "refract"
         "xpos"                          "0"
         "ypos"                          "rs1"
         "zpos"                          "4"
@@ -200,7 +200,7 @@
         "visible"                       "1"
         "enabled"                       "1"
         "proportionaltoparent"          "1"
-        "image"                         "replay/thumbnails/healthbar/healthbar-8-mod"
+        "image"                         "replay/thumbnails/healthbar/healthbar-8-refract"
         "scaleImage"                    "1"
         "drawcolor"                     "ItemMeterFG"
     }
@@ -210,7 +210,7 @@
         "fieldName"                     "BarBG"
         "xpos"                          "0"
         "ypos"                          "0"
-        "zpos"                          "1"
+        "zpos"                          "0"
         "wide"                          "128"
         "tall"                          "16"
         "visible"                       "1"
@@ -226,9 +226,9 @@
     {
         "ControlName"                   "ImagePanel"
         "fieldName"                     "OverHealBar"
-        "xpos"                          "-144"	// 1080p: -112 for full overheal bar, -144 for properly disappearing overheal bar
+        "xpos"                          "-144"	
         "ypos"                          "0"
-        "zpos"                          "1"
+        "zpos"                          "3"
         "wide"                          "128"
         "tall"                          "16"
         "visible"                       "1"

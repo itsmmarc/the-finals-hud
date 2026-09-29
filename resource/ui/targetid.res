@@ -30,11 +30,29 @@
         "tall"                              "62"
         "visible"                           "1"
         "enabled"                           "1"
-        "HealthBonusPosAdj"                 "384"
+        "HealthBonusPosAdj"                 "288"	// TODO - add baselog options for this 1440p: 384, 1080p: 288
         "HealthDeathWarning"                "1.00"
         // "TFFont"                            "DinBold12"
         "HealthDeathWarningColor"           "HUDDeathWarning"
         "TextColor"                         "White"
+    }
+    "mod"
+    {
+        "ControlName"                   "ImagePanel"
+        "fieldName"                     "mod"
+        "xpos"                          "0"
+        "ypos"                          "-13"
+        "zpos"                          "11"
+        "wide"                          "128"
+        "tall"                          "12"
+        "proportionaltoparent"          "1"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "proportionaltoparent"          "1"
+        "image"                         "replay/thumbnails/healthbar/healthbar-8-refract"
+        "scaleImage"                    "1"
+        "drawcolor"                     "ItemMeterFG"
+        "pin_to_sibling"                "SpectatorGUIHealth"
     }
     "TargetNameLabelReal"
     {
@@ -72,7 +90,7 @@
         "fgcolor"                       "Shadow"
         "pin_to_sibling"                "TargetNameLabelReal"
     }
-    "TargetDataLabel"   // dead because this resizes the container which resizes the modulate texture and breaks. also cant be moved horizontally
+    "TargetDataLabel"	// dead because this resizes the container which resizes the modulate texture and breaks. also cant be moved horizontally
     {
         "ControlName"               "CExLabel"
         "fieldName"                 "TargetDataLabel"
@@ -88,7 +106,7 @@
         "pinCorner"                 "0"
         "visible"                   "1"
         "enabled"                   "1"
-        "labelText"                 "" // %targetdata%
+        "labelText"                 ""	// %targetdata%
         "textAlignment"             "west"
         "dulltext"                  "0"
         "brighttext"                "0"
@@ -153,14 +171,14 @@
         "scaleImage"            "1"
     }
     "MoveableSubPanel"
-	{
-		"ControlName"								"EditablePanel"
-		"FieldName"									"MoveableSubPanel"
-		"XPos"										"9999"
-		"YPos"										"9999"
-		"Wide"										"0"
-		"Tall"										"0"
-		"Visible"									"0"
-		"Enabled"									"0"
-	}
+    {
+        "ControlName"           "EditablePanel"
+        "FieldName"             "MoveableSubPanel"
+        "XPos"                  "9999"
+        "YPos"                  "9999"
+        "Wide"                  "0"
+        "Tall"                  "0"
+        "Visible"               "0"
+        "Enabled"               "0"
+    }
 }

@@ -1,6 +1,6 @@
 "Resource/UI/FreezePanelKillerHealth.res"
 {
-	// MARK: Bar
+    // MARK: Bar
     "PlayerStatusHealthBonusImage"
     {
         "ControlName"                   "ImagePanel"
@@ -45,7 +45,7 @@
         "visible"                       "1"
         "enabled"                       "1"
         "proportionaltoparent"          "1"
-        "image"                         "replay/thumbnails/healthbar/healthbar-8-mod"
+        "image"                         "replay/thumbnails/healthbar/healthbar-8-refract"
         "scaleImage"                    "1"
         "drawcolor"                     "ItemMeterFG"
     }
@@ -71,7 +71,7 @@
     {
         "ControlName"                   "ImagePanel"
         "fieldName"                     "OverHealBar"
-        "xpos"                          "-144"	// 1080p: -112 for full overheal bar, -144 for properly disappearing overheal bar
+        "xpos"                          "-144"	
         "ypos"                          "0"
         "zpos"                          "1"
         "wide"                          "128"
@@ -97,8 +97,8 @@
         "visible"               "1"
         "enabled"               "1"
         "scaleImage"            "1"
-    }	
-	 // MARK: Health Value
+    }
+    // MARK: Health Value
     "HealthBG"
     {
         "ControlName"                   "EditablePanel"

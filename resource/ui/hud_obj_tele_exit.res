@@ -27,7 +27,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"replay/thumbnails/bg_blank"
+		"icon"			"replay/thumbnails/blank"
 		"iconColor"		"255 255 255 255"
 	}
 	"Background2"
