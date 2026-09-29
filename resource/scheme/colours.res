@@ -19,7 +19,7 @@
         "FinalsGrey2"                                   "68 72 84 255"
         "FinalsOverhealBar"                             "150 150 150 255"
         "MenuBlur_Accent"                               "0 21 246 255"
-        "Shadow"                                        "50 50 50 102"
+        "Shadow"                                        "50 50 50 178"
         "HealthAmmo"                                    "241 242 244 255"
         "HealthAmmo_Alt"                                "170 170 170 178"
         "HealthHurt"                                    "210 31 60 255"
