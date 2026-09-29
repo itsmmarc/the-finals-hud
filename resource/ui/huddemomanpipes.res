@@ -113,9 +113,9 @@
     {
         "ControlName"                   "EditablePanel"
         "FieldName"                     "PipesPresentPanel"
-        "XPos"                          "rs1-81"
+        "XPos"                          "rs1-111"
         "YPos"                          "rs1-20"
-        "xpos_minmode"                  "cs0+160"
+        "xpos_minmode"                  "cs0+190"
         "ypos_minmode"                  "c0+100"
         "ZPos"                          "1"
         "Wide"                          "45"
@@ -123,7 +123,7 @@
         "proportionaltoparent"          "1"
         "Visible"                       "1"
         "paintBackgroundType"           "2"
-        "bgcolor_override"              "TransparentLightestBlack"
+        "bgcolor_override"              "TransparentLightesterBlack"
         "PipeIcon"
         {
             "ControlName"                   "CTFImagePanel"

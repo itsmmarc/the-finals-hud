@@ -10,11 +10,11 @@
         "xpos_minmode"                  "cs0+100"
         "ypos_minmode"                  "c0+100"
         "zpos"                          "0"
-        "wide"                          "58"
+        "wide"                          "88"
         "tall"                          "26"
         "visible"                       "1"
         "enabled"                       "1"
-        "bgcolor_override"              "TransparentLightestBlack"
+        "bgcolor_override"              "TransparentLightesterBlack"
         "paintBackground"               "1"
         "paintBackgroundType"           "2"
     }

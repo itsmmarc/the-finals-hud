@@ -23,7 +23,7 @@
         "visible"                       "1"
         "enabled"                       "1"
         "paintBackgroundType"           "2"
-        "bgcolor_override"              "TransparentLightestBlack"
+        "bgcolor_override"              "TransparentLightesterBlack"
     }
     "MetalIcon"
     {

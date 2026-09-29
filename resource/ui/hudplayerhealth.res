@@ -32,7 +32,7 @@
         "proportionaltoparent"                  "1"
         "visible"                               "1"
         "enabled"                               "1"
-        "bgcolor_override"                      "TransparentLightestBlack"
+        "bgcolor_override"                      "TransparentLightesterBlack"
         "paintBackground"                       "1"
         "paintBackgroundType"                   "2"
         "pin_to_sibling"                        "BarFG"
