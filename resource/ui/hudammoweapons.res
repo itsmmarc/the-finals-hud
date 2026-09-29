@@ -1,29 +1,14 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
     // MARK: Anchor
-    "AmmoAnchor"
-    {
-        "ControlName"               "EditablePanel"
-        "fieldName"                 "AmmoAnchor"
-        "xpos"                      "rs1-20"
-        "xpos_minmode"              "cs-0.5+200"
-        "ypos"                      "rs1-20"
-        "ypos_minmode"              "cs-0.5+120"
-        "zpos"                      "7"
-        "wide"                      "1"
-        "tall"                      "1"
-        "visible"                   "0"
-        "enabled"                   "1"
-        "bgcolor_override"          "blue"
-    }
     "AmmoBGReal"
     {
         "ControlName"                   "EditablePanel"
         "fieldName"                     "AmmoBGReal"
         "xpos"                          "rs1-20"
-        "xpos_minmode"                  "cs-0.5+200"
         "ypos"                          "rs1-20"
-        "ypos_minmode"                  "cs-0.5+120"
+        "xpos_minmode"                  "cs-0.5+180"
+        "ypos_minmode"                  "c0+100"
         "zpos"                          "0"
         "wide"                          "120"
         "tall"                          "26"
