@@ -1,4 +1,4 @@
-"UnlitGeneric"
+"UnlitGeneric"  // TODO - replace texture
 {
 	"$baseTexture" "vgui\logos\build icons\metal"
 	"$vertexcolor" 1

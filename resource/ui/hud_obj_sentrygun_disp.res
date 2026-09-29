@@ -3,9 +3,9 @@
 	"BuildingStatusItem"
 	{
 		"ControlName"	"Frame"
-		"fieldName"		"BuildingStatusItem"
-		"xpos"			"0"
-		"ypos"			"0"
+		"fieldName"		"SentryGunMvm"
+		"xpos"			"0" // set in hudanimations=>EngineerBuildings
+		"ypos"			"0" // set in hudanimations=>EngineerBuildings
 		"wide"			"160"
 		"tall"			"22"
 		"autoResize"	"0"
@@ -14,36 +14,38 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
-	"Background"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"obj_status_background_disabled"
-		"iconColor"		"255 255 255 255"
-	}
-	"Background2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Background2"
-		"xpos"			"2"
-		"ypos"			"3"
-		"zpos"			"-1"
-		"wide"			"115"
-		"tall"			"26"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"fillcolor"		"0 0 0 125"
-	}	
+	"Background"	// dead
+    {
+        "ControlName"           "ImagePanel"
+        "fieldName"             "Background"
+        "xpos"                  "0"
+        "ypos"                  "0"
+        "zpos"                  "-1"
+        "wide"                  "0"
+        "tall"                  "0"
+        "visible"               "1"
+        "enabled"               "1"
+        "scaleImage"            "1"
+        //	"icon"			"obj_status_background_tall_disabled"
+        //	"iconColor"		"White"
+        "fillcolor"             "blank"
+    }
+    "BackgroundReal"
+    {
+        "ControlName"                   "EditablePanel"
+        "fieldName"                     "BackgroundReal"
+        "xpos"                          "2"
+        "ypos"                          "0"
+        "zpos"                          "-1"
+        "wide"                          "115"
+        "tall"                          "33"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "scaleImage"                    "1"
+        "paintBackgroundType"           "2"
+        "roundedcorners"                "15"
+        "bgcolor_override"              "TransparentLightesterBlack"
+    }
 	"Icon_Sentry_1"
 	{
 		"ControlName"	"CIconPanel"
@@ -56,7 +58,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NotBuiltPanel"
@@ -73,7 +75,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DinBold10"
+			"font"			"BodyEm_MD"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -83,7 +85,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_disp_sentry_not_built"
-			"textAlignment"	"Left"
+			"textAlignment"	west
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
@@ -112,7 +114,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			""
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 	
 		"AlertTray"
@@ -143,7 +145,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 		
 		"SapperIcon"
@@ -159,7 +161,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 		
 		"Health"
@@ -175,7 +177,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"	"Left"
+			"textAlignment"	west
 			"dulltext"		"0"
 			"brighttext"	"0"	
 		}
@@ -194,7 +196,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DinBold10"
+				"font"			"BodyEm_MD"
 				"xpos"			"0"
 				"ypos"			"18"
 				"wide"			"200"
@@ -204,7 +206,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
-				"textAlignment"	"Left"
+				"textAlignment"	west
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
@@ -222,9 +224,10 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	west
 				"dulltext"		"0"
 				"brighttext"	"0"
+                "bgcolor_override"          "ItemMeterBG"
 			}
 		}
 		
@@ -251,14 +254,14 @@
 				"enabled"		"0"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_kill_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"White"
 			}
 						
 			"KillsLabel"
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"DinBold10"
+				"font"			"Body_SM"
 				"xpos"			"12"
 				"ypos"			"6"
 				"wide"			"200"
@@ -286,7 +289,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"White"
 			}
 			
 			"Shells"
@@ -302,9 +305,10 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	west
 				"dulltext"		"0"
 				"brighttext"	"0"
+                "bgcolor_override"          "ItemMeterBG"
 			}
 		}
 	}

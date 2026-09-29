@@ -1,4 +1,4 @@
-"UnlitGeneric"
+"UnlitGeneric"  // TODO - replace texture
 {
 	"$translucent" "1"
 	"$baseTexture" "vgui\logos\build icons\obj_status_upgrade_3"
