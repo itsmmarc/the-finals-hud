@@ -29,7 +29,7 @@
         "visible"           "0"
         "enabled"           "1"
         "xpos"              "0"	// hardcoded
-        "ypos"              "rs1-40"
+        "ypos"              "rs1-70"
         "wide"              "f0"
         "tall"              "35"
         "priority"          "40"
@@ -402,7 +402,7 @@
         "MaxDeathNotices"               "12"
         "IconScale"                     "0.15"
         "LineHeight"                    "12"
-        "LineSpacing"                   "0"
+        "LineSpacing"                   "1"
         "CornerRadius"                  "1"
         "RightJustify"                  "1"	// If 1, draw notices from the right
         "TextFont"                      "DeathNotice"

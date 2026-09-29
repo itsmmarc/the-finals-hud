@@ -97,7 +97,7 @@
                 "blur"              "2"
             }
         }
-        "HeaderEm_2XL"
+        "HeaderEM_2XL"
         {
             "1"
             {
@@ -106,7 +106,7 @@
                 "antialias"         "1"
             }
         }
-        "HeaderEm_XL"
+        "HeaderEM_XL"
         {
             "1"
             {
@@ -115,7 +115,7 @@
                 "antialias"         "1"
             }
         }
-        "HeaderEm_LG"
+        "HeaderEM_LG"
         {
             "1"
             {
@@ -124,7 +124,7 @@
                 "antialias"         "1"
             }
         }
-        "HeaderEm_MD"
+        "HeaderEM_MD"
         {
             "1"
             {
@@ -133,7 +133,7 @@
                 "antialias"         "1"
             }
         }
-        "HeaderEm_SM"
+        "HeaderEM_SM"
         {
             "1"
             {
@@ -142,7 +142,7 @@
                 "antialias"         "1"
             }
         }
-        "HeaderEm_XS"
+        "HeaderEM_XS"
         {
             "1"
             {
@@ -151,7 +151,7 @@
                 "antialias"         "1"
             }
         }
-        "HeaderEm_2XL_Blur"
+        "HeaderEM_2XL_Blur"
         {
             "1"
             {
@@ -161,7 +161,7 @@
             "blur"          "2"
             }
         }
-        "HeaderEm_XL_Blur"
+        "HeaderEM_XL_Blur"
         {
             "1"
             {
@@ -171,7 +171,7 @@
                 "blur"              "2"
             }
         }
-        "HeaderEm_LG_Blur"
+        "HeaderEM_LG_Blur"
         {
             "1"
             {
@@ -181,7 +181,7 @@
                 "blur"              "2"
             }
         }
-        "HeaderEm_MD_Blur"
+        "HeaderEM_MD_Blur"
         {
             "1"
             {
@@ -191,7 +191,7 @@
                 "blur"              "2"
             }
         }
-        "HeaderEm_SM_Blur"
+        "HeaderEM_SM_Blur"
         {
             "1"
             {
@@ -201,11 +201,125 @@
                 "blur"              "2"
             }
         }
-        "HeaderEm_XS_Blur"
+        "HeaderEM_XS_Blur"
         {
             "1"
             {
                 "name"              "Saira ExtraCondensed ExtraBold"
+                "tall"              "18"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "HeaderSEM_2XL"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "56"
+                "antialias"         "1"
+            }
+        }
+        "HeaderSEM_XL"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "48"
+                "antialias"         "1"
+            }
+        }
+        "HeaderSEM_LG"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "36"
+                "antialias"         "1"
+            }
+        }
+        "HeaderSEM_MD"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "28"
+                "antialias"         "1"
+            }
+        }
+        "HeaderSEM_SM"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "24"
+                "antialias"         "1"
+            }
+        }
+        "HeaderSEM_XS"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "18"
+                "antialias"         "1"
+            }
+        }
+        "HeaderSEM_2XL_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "56"
+                "antialias"         "1"
+            "blur"          "2"
+            }
+        }
+        "HeaderSEM_XL_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "48"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "HeaderSEM_LG_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "36"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "HeaderSEM_MD_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "28"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "HeaderSEM_SM_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "24"
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
+        "HeaderSEM_XS_Blur"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
                 "tall"              "18"
                 "antialias"         "1"
                 "blur"              "2"
@@ -439,7 +553,7 @@
                 "blur"              "2"
             }
         }
-        "BodyEm_XL"
+        "BodyEM_XL"
         {
             "1"
             {
@@ -448,7 +562,7 @@
                 "antialias"         "1"
             }
         }
-        "BodyEm_LG"
+        "BodyEM_LG"
         {
             "1"
             {
@@ -457,7 +571,7 @@
                 "antialias"         "1"
             }
         }
-        "BodyEm_MD"
+        "BodyEM_MD"
         {
             "1"
             {
@@ -466,7 +580,7 @@
                 "antialias"         "1"
             }
         }
-        "BodyEm_SM"
+        "BodyEM_SM"
         {
             "1"
             {
@@ -475,7 +589,7 @@
                 "antialias"         "1"
             }
         }
-        "BodyEm_XS"
+        "BodyEM_XS"
         {
             "1"
             {
@@ -484,7 +598,7 @@
                 "antialias"         "1"
             }
         }
-        "BodyEm_XXS"
+        "BodyEM_XXS"
         {
             "1"
             {
@@ -493,7 +607,7 @@
                 "antialias"         "1"
             }
         }
-        "BodyEm_XL_Blur"
+        "BodyEM_XL_Blur"
         {
             "1"
             {
@@ -503,7 +617,7 @@
                 "blur"              "2"
             }
         }
-        "BodyEm_LG_Blur"
+        "BodyEM_LG_Blur"
         {
             "1"
             {
@@ -513,7 +627,7 @@
                 "blur"              "2"
             }
         }
-        "BodyEm_MD_Blur"
+        "BodyEM_MD_Blur"
         {
             "1"
             {
@@ -523,7 +637,7 @@
                 "blur"              "2"
             }
         }
-        "BodyEm_SM_Blur"
+        "BodyEM_SM_Blur"
         {
             "1"
             {
@@ -533,7 +647,7 @@
                 "blur"              "2"
             }
         }
-        "BodyEm_XS_Blur"
+        "BodyEM_XS_Blur"
         {
             "1"
             {
@@ -543,7 +657,7 @@
                 "blur"              "2"
             }
         }
-        "BodyEm_XXS_Blur"
+        "BodyEM_XXS_Blur"
         {
             "1"
             {
@@ -607,7 +721,7 @@
                 "antialias"         "1"
             }
         }
-        "ButtonEm_XL"
+        "ButtonEM_XL"
         {
             "1"
             {
@@ -616,7 +730,7 @@
                 "antialias"         "1"
             }
         }
-        "ButtonEm_LG"
+        "ButtonEM_LG"
         {
             "1"
             {
@@ -625,7 +739,7 @@
                 "antialias"         "1"
             }
         }
-        "ButtonEm_MD"
+        "ButtonEM_MD"
         {
             "1"
             {
@@ -634,7 +748,7 @@
                 "antialias"         "1"
             }
         }
-        "ButtonEm_SM"
+        "ButtonEM_SM"
         {
             "1"
             {
@@ -643,7 +757,7 @@
                 "antialias"         "1"
             }
         }
-        "ButtonEm_XS"
+        "ButtonEM_XS"
         {
             "1"
             {
@@ -652,7 +766,7 @@
                 "antialias"         "1"
             }
         }
-        "ButtonEm_XXS"
+        "ButtonEM_XXS"
         {
             "1"
             {
@@ -661,7 +775,7 @@
                 "antialias"         "1"
             }
         }
-        "ButtonEm_XL_Blur"
+        "ButtonEM_XL_Blur"
         {
             "1"
             {
@@ -671,7 +785,7 @@
                 "blur"              "2"
             }
         }
-        "ButtonEm_LG_Blur"
+        "ButtonEM_LG_Blur"
         {
             "1"
             {
@@ -681,7 +795,7 @@
                 "blur"              "2"
             }
         }
-        "ButtonEm_MD_Blur"
+        "ButtonEM_MD_Blur"
         {
             "1"
             {
@@ -691,7 +805,7 @@
                 "blur"              "2"
             }
         }
-        "ButtonEm_SM_Blur"
+        "ButtonEM_SM_Blur"
         {
             "1"
             {
@@ -701,7 +815,7 @@
                 "blur"              "2"
             }
         }
-        "ButtonEm_XS_Blur"
+        "ButtonEM_XS_Blur"
         {
             "1"
             {
@@ -711,7 +825,7 @@
                 "blur"              "2"
             }
         }
-        "ButtonEm_XXS_Blur"
+        "ButtonEM_XXS_Blur"
         {
             "1"
             {
@@ -6301,47 +6415,12 @@
                 "antialias"         "1"
             }
         }
-        "Default"
+        "Default"   // scoreboard font (and lots of other stuff)
         {
             "1"
             {
-                "name"              "DinPro-Bold"
-                "tall"              "10"
-                "antialias"         "1"
-            }
-            "2"
-            {
-                "name"          "DinPro-Medium"
-                "tall"          "13" [$WIN32]
-            }
-            "3"
-            {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14"
-                "antialias"         "1"
-            }
-            "4"
-            {
-                "name"              "DinPro-Medium"
-                "tall"              "20"
-                "antialias"         "1"
-            }
-            "5"
-            {
-                "name"              "DinPro-Medium"
-                "tall"              "24"
-                "antialias"         "1"
-            }
-            "6"
-            {
-                "name"              "DinPro-Medium"
-                "tall"              "12"
-                "antialias"         "1"
-            }
-            "7"
-            {
-                "name"              "Arial"
-                "tall"              "12"
                 "antialias"         "1"
             }
         }
@@ -6415,48 +6494,12 @@
                 "weight"        "0"
             }
         }
-        "DefaultVerySmall"
+        "DefaultVerySmall"  // scoreboard headings
         {
             "1"
             {
-                "name"          "DinPro-Medium"
-                "tall"          "12"
-                "weight"        "0"
-                "range"         "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"          "480 599"
-            }
-            "2"
-            {
-                "name"          "DinPro-Medium"
-                "tall"          "12"
-                "weight"        "0"
-                "range"         "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"          "600 767"
-            }
-            "3"
-            {
-                "name"              "DinPro-Medium"
+                "name"              "Saira ExtraCondensed SemiBold"
                 "tall"              "12"
-                "weight"            "0"
-                "range"             "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"              "768 1023"
-                "antialias"         "1"
-            }
-            "4"
-            {
-                "name"              "DinPro-Medium"
-                "tall"              "14"
-                "weight"            "0"
-                "range"             "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
-                "yres"              "1024 1199"
-                "antialias"         "1"
-            }
-            "5"
-            {
-                "name"              "DinPro-Medium"
-                "tall"              "9"
-                "weight"            "0"
-                "range"             "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "antialias"         "1"
             }
         }
