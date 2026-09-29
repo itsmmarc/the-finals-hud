@@ -36,10 +36,10 @@
         "HealthDeathWarningColor"           "HUDDeathWarning"
         "TextColor"                         "White"
     }
-    "mod"
+    "Refract"
     {
         "ControlName"                   "ImagePanel"
-        "fieldName"                     "mod"
+        "fieldName"                     "Refract"
         "xpos"                          "0"
         "ypos"                          "-13"
         "zpos"                          "11"
@@ -51,7 +51,6 @@
         "proportionaltoparent"          "1"
         "image"                         "replay/thumbnails/healthbar/healthbar-8-refract"
         "scaleImage"                    "1"
-        "drawcolor"                     "ItemMeterFG"
         "pin_to_sibling"                "SpectatorGUIHealth"
     }
     "TargetNameLabelReal"

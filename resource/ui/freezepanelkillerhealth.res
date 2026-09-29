@@ -32,10 +32,10 @@
         "paintBackground"               "1"
         "proportionaltoparent"          "1"
     }
-    "mod"
+    "Refract"
     {
         "ControlName"                   "ImagePanel"
-        "fieldName"                     "mod"
+        "fieldName"                     "Refract"
         "xpos"                          "0"
         "ypos"                          "0"
         "zpos"                          "4"
@@ -71,7 +71,7 @@
     {
         "ControlName"                   "ImagePanel"
         "fieldName"                     "OverHealBar"
-        "xpos"                          "-144"	
+        "xpos"                          "-144"
         "ypos"                          "0"
         "zpos"                          "1"
         "wide"                          "128"

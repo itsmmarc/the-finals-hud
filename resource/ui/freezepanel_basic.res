@@ -72,6 +72,23 @@
             "draw_corner_width"         "3"
             "draw_corner_height"        "3"
         }
+        "Refract"
+        {
+            "ControlName"                   "ImagePanel"
+            "fieldName"                     "Refract"
+            "xpos"                          "0"
+            "ypos"                          "0"
+            "zpos"                          "11"
+            "wide"                          "128"
+            "tall"                          "12"
+            "proportionaltoparent"          "1"
+            "visible"                       "1"
+            "enabled"                       "1"
+            "proportionaltoparent"          "1"
+            "image"                         "replay/thumbnails/healthbar/healthbar-8-refract"
+            "scaleImage"                    "1"
+            "pin_to_sibling"                "FreezePanelHealthMod"
+        }
         "FreezePanelHealth"
         {
             "ControlName"                       "CTFFreezePanelHealth"
@@ -83,7 +100,7 @@
             "tall"                              "62"
             "visible"                           "1"
             "enabled"                           "1"
-            "HealthBonusPosAdj"                 "288" // TODO - add baselog options for this 1440p: 384, 1080p: 288
+            "HealthBonusPosAdj"                 "288"	// TODO - add baselog options for this 1440p: 384, 1080p: 288
             "HealthDeathWarning"                "1.00"
             // "TFFont"					"HudFontSmall"
             "HealthDeathWarningColor"           "HUDDeathWarning"
