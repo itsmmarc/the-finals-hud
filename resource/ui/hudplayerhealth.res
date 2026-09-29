@@ -7,14 +7,14 @@
         "fieldName"                         "HudPlayerHealth"
         "xpos"                              "20"
         "ypos"                              "rs1-20"
-        "xpos_minmode"              "cs-0.5-180"
-        "ypos_minmode"              "c0+100"
+        "xpos_minmode"                      "cs-1-100"
+        "ypos_minmode"                      "c0+100"
         "zpos"                              "2"
         "wide"                              "128"
-        "tall"                              "46"
+        "tall"                              "45"
         "visible"                           "1"
         "enabled"                           "1"
-        "HealthBonusPosAdj"                 "288" // TODO - add baselog options for this 1440p: 384, 1080p: 288
+        "HealthBonusPosAdj"                 "288"	// TODO - add baselog options for this 1440p: 384, 1080p: 288
         "HealthDeathWarning"                "1.0"
         "HealthDeathWarningColor"           "HUDDeathWarning"
     }
@@ -22,19 +22,24 @@
     // MARK: Anchor
     "HealthBGReal"
     {
-        "ControlName"                   "EditablePanel"
-        "fieldName"                     "HealthBGReal"
-        "xpos"                          "0"
-        "ypos"                          "rs1-20"
-        "zpos"                          "0"
-        "wide"                          "64"
-        "tall"                          "26"
-        "proportionaltoparent"          "1"
-        "visible"                       "1"
-        "enabled"                       "1"
-        "bgcolor_override"              "TransparentLightestBlack"
-        "paintBackground"               "1"
-        "paintBackgroundType"           "2"
+        "ControlName"                           "EditablePanel"
+        "fieldName"                             "HealthBGReal"
+        "xpos"                                  "0"
+        "ypos"                                  "3"
+        "zpos"                                  "0"
+        "wide"                                  "58"
+        "tall"                                  "26"
+        "proportionaltoparent"                  "1"
+        "visible"                               "1"
+        "enabled"                               "1"
+        "bgcolor_override"                      "TransparentLightestBlack"
+        "paintBackground"                       "1"
+        "paintBackgroundType"                   "2"
+        "pin_to_sibling"                        "BarFG"
+        "pin_corner_to_sibling"                 "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"                 "PIN_TOPLEFT"
+        "pin_corner_to_sibling_minmode"         "PIN_BOTTOMRIGHT"
+        "pin_to_sibling_corner_minmode"         "PIN_TOPRIGHT"
     }
     // Health Number
     "PlayerStatusHealthValue"
@@ -172,7 +177,7 @@
         "scaleImage"                    "1"
         "proportionaltoparent"          "1"
     }
-    "BarFG"	// actually background, static
+    "BarFG"	// Anchor, actually background, static
     {
         "ControlName"                   "EditablePanel"
         "fieldName"                     "BarFG"
@@ -187,12 +192,12 @@
         "paintBackground"               "1"
         "proportionaltoparent"          "1"
     }
-    refract
+    "Refract"
     {
         "ControlName"                   "ImagePanel"
-        "fieldName"                     "refract"
+        "fieldName"                     "Refract"
         "xpos"                          "0"
-        "ypos"                          "rs1"
+        "ypos"                          "0"
         "zpos"                          "4"
         "wide"                          "128"
         "tall"                          "16"
@@ -203,7 +208,9 @@
         "image"                         "replay/thumbnails/healthbar/healthbar-8-refract"
         "scaleImage"                    "1"
         "drawcolor"                     "ItemMeterFG"
+        "pin_to_sibling"                "BarFG"
     }
+    
     "BarBG"	// actually foreground, moves from right to left as health lowers
     {
         "ControlName"                   "ImagePanel"
@@ -226,7 +233,7 @@
     {
         "ControlName"                   "ImagePanel"
         "fieldName"                     "OverHealBar"
-        "xpos"                          "-144"	
+        "xpos"                          "-144"
         "ypos"                          "0"
         "zpos"                          "3"
         "wide"                          "128"
@@ -240,40 +247,6 @@
         "pin_to_sibling_corner"         "5"
         "pin_corner_to_sibling"         "5"
     }
-    // "PlayerStatusHealthValue"
-    // {
-    //     "ControlName"                   "CExLabel"
-    //     "fieldName"                     "PlayerStatusHealthValue"
-    //     "xpos"                          "rs1"
-    //     "ypos"                          "32"
-    //     "zpos"                          "5"
-    //     "wide"                          "32"
-    //     "tall"                          "16"
-    //     "visible"                       "1"
-    //     "enabled"                       "1"
-    //     "labelText"                     "%Health%"
-    //     "textAlignment"                 "center"
-    //     "font"                          "HudClassHealth"
-    //     "fgcolor"                       "TanDark"
-    //     "proportionaltoparent"          "1"
-    // }
-    // "PlayerStatusMaxHealthValue"
-    // {
-    //     "ControlName"                   "CExLabel"
-    //     "fieldName"                     "PlayerStatusMaxHealthValue"
-    //     "xpos"                          "rs1"
-    //     "ypos"                          "0"
-    //     "zpos"                          "6"
-    //     "wide"                          "18"
-    //     "tall"                          "32"
-    //     "visible"                       "1"
-    //     "enabled"                       "1"
-    //     "labelText"                     "%MaxHealth%"
-    //     "textAlignment"                 "south"
-    //     "font"                          "DefaultSmall"
-    //     "fgcolor"                       "TanDark"
-    //     "proportionaltoparent"          "1"
-    // }
     "PlayerStatusHealthImage"
     {
         "ControlName"           "ImagePanel"
