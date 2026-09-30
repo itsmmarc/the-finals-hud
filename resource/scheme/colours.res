@@ -27,6 +27,7 @@
         "ItemMeterFG"                                   "249 185 36 255"
         "ItemMeterFGInv"                                   "19 25 255 255"
         "ItemMeterBG"                                   "37 36 36 255"
+        "ItemMeterBGForMod2x"                                   "24 24 24 255"
         "FrostyWhite"                                   "211 225 225 255"
         // "ItemMeterBG"                                   "80 80 85 255"
         "PureWhite"                                     "255 255 255 255"

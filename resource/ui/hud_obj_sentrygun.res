@@ -227,22 +227,39 @@
             "dulltext"              "0"
             "brighttext"            "0"
         }
-        "ModTest"
+        "HealthMod2xWhite"
         {
             "ControlName"                   "ImagePanel"
-            "fieldName"                     "ModTest"
-            "xpos"                          "13"
+            "fieldName"                     "HealthMod2xWhite"
+            "xpos"                          "0"
             "ypos"                          "0"
-            "zpos"                          "1"
             "wide"                          "8"
-            "tall"                          "f0"
-            "proportionaltoparent"          "1"
+            "tall"                          "51"
             "visible"                       "1"
             "enabled"                       "1"
-            "dulltext"                      "0"
-            "brighttext"                    "0"
             "scaleImage"                    "1"
-            "image"                         "replay/thumbnails/mod"
+            "image"                         "replay/thumbnails/mod2x"
+            "drawcolor"                     "White"
+            "pin_to_sibling"                "Health"
+            "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
+            "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
+        }
+        "HealthBg"
+        {
+            "ControlName"                   "EditablePanel"
+            "fieldName"                     "HealthBg"
+            "xpos"                          "0"
+            "ypos"                          "0"
+            "zpos"                          "-1"
+            "wide"                          "8"
+            "tall"                          "51"
+            "visible"                       "1"
+            "enabled"                       "1"
+            "scaleImage"                    "1"
+            "bgcolor_override"              "ItemMeterBGForMod2x"
+            "pin_to_sibling"                "Health"
+            "pin_corner_to_sibling"         "PIN_BOTTOMLEFT"
+            "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
         }
         "BuildingPanel"
         {
@@ -283,7 +300,22 @@
                 "enabled"                   "1"
                 "dulltext"                  "0"
                 "brighttext"                "0"
-                "bgcolor_override"          "ItemMeterBG"
+                "bgcolor_override"          "ItemMeterBGForMod2x"
+            }
+            "BuildingProgressMod2xWhite"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "BuildingProgressMod2xWhite"
+                "xpos"                  "0"
+                "ypos"                  "0"
+                "wide"                  "50"
+                "tall"                  "8"
+                "visible"               "1"
+                "enabled"               "1"
+                "scaleImage"            "1"
+                "image"                 "replay/thumbnails/mod2x"
+                "drawcolor"             "White"
+                "pin_to_sibling"        "BuildingProgress"
             }
         }
         "RunningPanel"
@@ -357,7 +389,22 @@
                 "enabled"                   "1"
                 "dulltext"                  "0"
                 "brighttext"                "0"
-                "bgcolor_override"          "ItemMeterBG"
+                "bgcolor_override"          "ItemMeterBGForMod2x"
+            }
+            "ShellsMod2xWhite"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "ShellsMod2xWhite"
+                "xpos"                  "0"
+                "ypos"                  "0"
+                "wide"                  "38"
+                "tall"                  "8"
+                "visible"               "1"
+                "enabled"               "1"
+                "scaleImage"            "1"
+                "image"                 "replay/thumbnails/mod2x"
+                "drawcolor"             "White"
+                "pin_to_sibling"        "Shells"
             }
             "RocketIcon"
             {
@@ -388,7 +435,7 @@
                 "enabled"                   "1"
                 "dulltext"                  "0"
                 "brighttext"                "0"
-                "bgcolor_override"          "ItemMeterBG"
+                "bgcolor_override"          "ItemMeterBGForMod2x"
             }
             "UpgradeIcon"
             {
@@ -419,7 +466,22 @@
                 "enabled"                   "1"
                 "dulltext"                  "0"
                 "brighttext"                "0"
-                "bgcolor_override"          "ItemMeterBG"
+                "bgcolor_override"          "ItemMeterBGForMod2x"
+            }
+            "RocketUpgradeMod2xWhite"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "RocketUpgradeMod2xWhite"
+                "xpos"                  "0"
+                "ypos"                  "0"
+                "wide"                  "38"
+                "tall"                  "8"
+                "visible"               "1"
+                "enabled"               "1"
+                "scaleImage"            "1"
+                "image"                 "replay/thumbnails/mod2x"
+                "drawcolor"             "White"
+                "pin_to_sibling"        "Upgrade"
             }
         }
     }
