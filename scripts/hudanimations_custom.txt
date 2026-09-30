@@ -3,6 +3,13 @@ event HintMessageHide
     Animate                HudHintDisplay                           FgColor                                                      "255 220 0 0"         Linear     0.0      0.2
     Animate                HudHintDisplay                           HintSize                                                     0                     DeAccel    0.2      0.3
     RunEvent               EngineerBuildings                        0.0
+    RunEvent               DimmerFix                        0.0
+}
+
+event DimmerFix
+{
+    Animate                DashboardDimmer                          Wide                                                         0                     Linear     0.0      0.0
+    Animate                DashboardDimmer                          Tall                                                         0                     Linear     0.0      0.0
 }
 
 event EngineerBuildings
@@ -74,9 +81,9 @@ event DamagedPlayer
 
 event HudLowAmmoPulse
 {
-    Animate                AmmoInClipReal                           FgColor                                                      HealthHurt             Linear     0.0      0.4
-//     Animate                AmmoInReserve                            FgColor                                                      HealthHurt             Linear     0.0      0.4
-//     Animate                AmmoInReserveShadow                      FgColor                                                      HealthHurt             Linear     0.0      0.4
+    Animate                AmmoInClipReal                           FgColor                                                      HealthHurt            Linear     0.0      0.4
+    //     Animate                AmmoInReserve                            FgColor                                                      HealthHurt             Linear     0.0      0.4
+    //     Animate                AmmoInReserveShadow                      FgColor                                                      HealthHurt             Linear     0.0      0.4
     RunEvent               HudLowAmmoPulseLoop                      0.4
 }
 
@@ -90,9 +97,9 @@ event HudLowAmmoPulseStop
 {
     StopEvent              HudLowAmmoPulse                          0.0
     StopEvent              HudLowAmmoPulseLoop                      0.0
-    Animate                AmmoInClipReal                           FgColor                                                      HealthAmmo           Linear     0.0      0.0
-//     Animate                AmmoInReserve                            FgColor                                                      HealthAmmo_Alt           Linear     0.0      0.0
-//     Animate                AmmoInReserveShadow                      FgColor                                                      HealthAmmo_Alt           Linear     0.0      0.0
+    Animate                AmmoInClipReal                           FgColor                                                      HealthAmmo            Linear     0.0      0.0
+    //     Animate                AmmoInReserve                            FgColor                                                      HealthAmmo_Alt           Linear     0.0      0.0
+    //     Animate                AmmoInReserveShadow                      FgColor                                                      HealthAmmo_Alt           Linear     0.0      0.0
 }
 
 // Metal Account
@@ -152,10 +159,10 @@ event HudSpyDisguiseFadeOut
 // Flash the medic charge hud when we have full charge
 event HudMedicCharged
 {
-//     Animate                ChargeLabel                              FgColor                                                      owORANGE              Linear     0.0      0.1
-//     Animate                ChargeLabel                              FgColor                                                      owGREEN               Linear     0.3      0.4
-//     Animate                ChargeMeter                              FgColor                                                      owORANGE              Linear     0.0      0.1
-//     Animate                ChargeMeter                              FgColor                                                      owGREEN               Linear     0.3      0.4
+    //     Animate                ChargeLabel                              FgColor                                                      owORANGE              Linear     0.0      0.1
+    //     Animate                ChargeLabel                              FgColor                                                      owGREEN               Linear     0.3      0.4
+    //     Animate                ChargeMeter                              FgColor                                                      owORANGE              Linear     0.0      0.1
+    //     Animate                ChargeMeter                              FgColor                                                      owGREEN               Linear     0.3      0.4
     RunEvent               HudMedicChargedLoop                      1.0
 }
 
@@ -169,8 +176,8 @@ event HudMedicChargedStop
 {
     StopEvent              HudMedicCharged                          0.0
     StopEvent              HudMedicChargedLoop                      0.0
-//     Animate                ChargeLabel                              FgColor                                                      owFULLWHITE           Linear     0.0      0.0001
-//     Animate                ChargeMeter                              FgColor                                                      owORANGE              Linear     0.0      0.0001
+    //     Animate                ChargeLabel                              FgColor                                                      owFULLWHITE           Linear     0.0      0.0001
+    //     Animate                ChargeMeter                              FgColor                                                      owORANGE              Linear     0.0      0.0001
 }
 
 //===========================================
@@ -978,6 +985,7 @@ event CompetitiveGame_RestoreChatWindow
 {
     Animate                HudChat                                  ypos                                                         275                   Accel      0        0
     RunEvent               EngineerBuildings                        0.02
+    RunEvent               DimmerFix                                0.02
 }
 
 event HudTournament_MoveChatWindow
