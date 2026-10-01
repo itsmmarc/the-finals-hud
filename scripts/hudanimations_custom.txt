@@ -81,7 +81,7 @@ event DamagedPlayer
 
 event HudLowAmmoPulse
 {
-    Animate                AmmoInClipReal                           FgColor                                                      HealthHurt            Linear     0.0      0.4
+//     Animate                AmmoInClipReal                           FgColor                                                      HealthHurt            Linear     0.0      0.4
     //     Animate                AmmoInReserve                            FgColor                                                      HealthHurt             Linear     0.0      0.4
     //     Animate                AmmoInReserveShadow                      FgColor                                                      HealthHurt             Linear     0.0      0.4
     RunEvent               HudLowAmmoPulseLoop                      0.4
@@ -97,7 +97,7 @@ event HudLowAmmoPulseStop
 {
     StopEvent              HudLowAmmoPulse                          0.0
     StopEvent              HudLowAmmoPulseLoop                      0.0
-    Animate                AmmoInClipReal                           FgColor                                                      HealthAmmo            Linear     0.0      0.0
+//     Animate                AmmoInClipReal                           FgColor                                                      HealthAmmo            Linear     0.0      0.0
     //     Animate                AmmoInReserve                            FgColor                                                      HealthAmmo_Alt           Linear     0.0      0.0
     //     Animate                AmmoInReserveShadow                      FgColor                                                      HealthAmmo_Alt           Linear     0.0      0.0
 }
