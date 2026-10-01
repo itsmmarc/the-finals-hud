@@ -7712,34 +7712,6 @@
                 "dropshadow"        "1"
                 "antialias"         "1"
             }
-            "2"
-            {
-                "name"              "DinPro-Bold"
-                "tall"              "13"
-                "dropshadow"        "1"
-                "antialias"         "1"
-            }
-            "3"
-            {
-                "name"              "DinPro-Bold"
-                "tall"              "14"
-                "dropshadow"        "1"
-                "antialias"         "1"
-            }
-            "4"
-            {
-                "name"              "DinPro-Bold"
-                "tall"              "16"
-                "dropshadow"        "1"
-                "antialias"         "1"
-            }
-            "5"
-            {
-                "name"              "DinPro-Bold"
-                "tall"              "18"
-                "dropshadow"        "1"
-                "antialias"         "1"
-            }
         }
         "ChatMiniFont"
         {

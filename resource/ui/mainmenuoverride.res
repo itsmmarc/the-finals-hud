@@ -9,11 +9,14 @@
     "ChatPin"
     {
         "ControlName"           "Panel"
-        "ypos"                  "s-1+3"
-        "xpos"                  "s-1"
+        "xpos"                  "-10"
+        "ypos"                  "-125"
     }
     "partychat"
     {
+        pinCorner 0
+        xpos 0
+        ypos 0
         "pin_to_sibling"                "ChatPin"
         "pin_to_sibling_corner"         "3"
     }
@@ -539,7 +542,7 @@
         "FieldName"                 "ServersFG"
         "XPos"                      "0"
         "YPos"                      "0"
-        "ZPos"                      "15"
+        "ZPos"                      "11"
         "Wide"                      "200"
         "Tall"                      "32"
         "mouseinputenabled"         "0"
@@ -651,7 +654,7 @@
         "FieldName"                 "ItemsFG"
         "XPos"                      "0"
         "YPos"                      "0"
-        "ZPos"                      "15"
+        "ZPos"                      "11"
         "Wide"                      "200"
         "Tall"                      "32"
         "mouseinputenabled"         "0"
@@ -764,7 +767,7 @@
         "FieldName"                 "StoreFG"
         "XPos"                      "0"
         "YPos"                      "0"
-        "ZPos"                      "15"
+        "ZPos"                      "11"
         "Wide"                      "200"
         "Tall"                      "32"
         "mouseinputenabled"         "0"
@@ -935,7 +938,7 @@
         "FieldName"                 "DisconnectFG"
         "XPos"                      "0"
         "YPos"                      "0"
-        "ZPos"                      "15"
+        "ZPos"                      "11"
         "Wide"                      "120"
         "Tall"                      "32"
         "mouseinputenabled"         "0"

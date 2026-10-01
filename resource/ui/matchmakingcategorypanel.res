@@ -51,7 +51,7 @@
             "scaleImage"                    "1"
             "proportionaltoparent"          "1"
             "paintBorder"                   "1"
-            "border"                        "RoundedCorners_FinalsBlack_LeftOnly"
+            "border"                        "RoundedCorners_PureBlack_LeftOnly"
         }
         "BGImageGradient"
         {
@@ -244,10 +244,10 @@
         "visible"                       "1"
         "enabled"                       "1"
         "proportionaltoparent"          "1"
-        "border"                        "BorderBlackCornersVerySmall"
+        "border"                        "NoBorder"
         "pinCorner"                     "2"
         "autoResize"                    "1"
         "skip_autoresize"               "1"
-        "bgcolor_override"              "0 0 0 0"
+        "bgcolor_override"              "Blank"
     }
 }
