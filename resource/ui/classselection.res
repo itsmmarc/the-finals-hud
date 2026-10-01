@@ -14,7 +14,7 @@
         "enabled"               "1"
         "tabPosition"           "0"
     }
-    "SelectAClassLabel"
+    "SelectAClassLabel" // @SCREENTITLE
     {
         "ControlName"               "Label"
         "fieldName"                 "SelectAClassLabel"

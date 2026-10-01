@@ -43,7 +43,7 @@
         "enabled"               "0"
         "tabPosition"           "0"
     }
-    "SelectATeamLabel"
+    "SelectATeamLabel" // @SCREENTITLE
     {
         "ControlName"               "Label"
         "fieldName"                 "SelectATeamLabel"

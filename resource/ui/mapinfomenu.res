@@ -14,7 +14,7 @@
         "visible"               "1"
         "enabled"               "1"
     }
-    "MapInfoTitle"
+    "MapInfoTitle" // @SCREENTITLE
     {
         "ControlName"           "CExLabel"
         "fieldName"             "MapInfoTitle"
