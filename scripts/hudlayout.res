@@ -1,5 +1,5 @@
 // customization options
-#base "layouts/layout_targetid_gadget.res"
+#base ../../../cfg/fh/itemmeter_layout.txt
 // #base "layouts/layout_targetid_mesh.res"
 
 // default layout

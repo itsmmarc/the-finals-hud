@@ -1,2 +1,2 @@
+"#base"         "../../../../cfg/fh/itemmeter_top.txt"
 "#base"         "huditemeffectmeter_#top_gadget.res"
-"#base"         "huditemeffectmeter_#top_mesh.res"
