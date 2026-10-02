@@ -5,7 +5,7 @@
         "ControlName"                   "EditablePanel"
         "fieldName"                     "HudObjectiveStatusBG"
         "xpos"                          "0"
-        "ypos"                          "rs1-16"
+        "ypos"                          "28"
         "zpos"                          "-1"
         "wide"                          "f0"
         "tall"                          "27"

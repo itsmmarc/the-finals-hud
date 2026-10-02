@@ -75,7 +75,7 @@
         "ypos"                      "0"
         "wide"                      "200"
         "tall"                      "160"
-        "blue_active_xpos"          "48"
+        "blue_active_xpos"          "41"
         "red_active_xpos"           "102"
     }
     "HudItemEffectMeter"
@@ -694,7 +694,7 @@
         "enabled"                   "1"
         "separator_width"           "3"	// distance between the icons (including their backgrounds)
         "separator_height"          "7"
-        "height_offset"             "8"	// distance from the bottom of the panel
+        "height_offset"             "417"	// distance from the bottom of the panel
     }
     "HudCapturePanel"
     {
