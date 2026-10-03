@@ -1,6 +1,6 @@
 "Hudlayout"
 {
-    "HudObjectiveStatusBG"
+    "HudObjectiveStatusBG"  // dead
     {
         "ControlName"                   "EditablePanel"
         "fieldName"                     "HudObjectiveStatusBG"
@@ -10,7 +10,7 @@
         "wide"                          "f0"
         "tall"                          "27"
         "proportionaltoparent"          "1"
-        "visible"                       "1"
+        "visible"                       "0"
         "enabled"                       "1"
         "TransparentBG"
         {

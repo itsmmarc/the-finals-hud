@@ -1,11 +1,25 @@
 "Resource/UI/HudObjectiveTimePanel.res"
 {
+    "StatusAnchor"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "StatusAnchor"
+        "xpos"                      "cs-0.5"
+        "ypos"                      "48"
+        "zpos"                      "7"
+        "wide"                      "1"
+        "tall"                      "1"
+        proportionaltoparent 1
+        "visible"                   "0"
+        "enabled"                   "1"
+        "bgcolor_override"          "blue"
+    }
     "WaitingForPlayersLabel"
     {
         "ControlName"                   "CExLabel"
         "fieldName"                     "WaitingForPlayersLabel"
-        "xpos"                          "cs-0.5"
-        "ypos"                          "18"
+        "xpos"                          "0"
+        "ypos"                          "0"
         "zpos"                          "5"
         "wide"                          "45"
         "tall"                          "15"
@@ -20,6 +34,9 @@
         "font"                          "BodyEm_MD"
         "fgcolor_override"              "FinalsYellow"
         "bgcolor_override"              "Blank"
+        pin_to_sibling StatusAnchor
+        pin_corner_to_sibling PIN_CENTER_TOP
+        pin_to_sibling_corner PIN_CENTER_BOTTOM
         "if_match"
         {
             "xpos"          "c-82"
@@ -31,8 +48,8 @@
     {
         "ControlName"                   "CExLabel"
         "fieldName"                     "OvertimeLabel"
-        "xpos"                          "cs-0.5"
-        "ypos"                          "18"
+        "xpos"                          "0"
+        "ypos"                          "0"
         "zpos"                          "5"
         "wide"                          "45"
         "tall"                          "15"
@@ -47,6 +64,9 @@
         "font"                          "BodyEm_MD"
         "fgcolor_override"              "FinalsYellow"
         "bgcolor_override"              "Blank"
+        pin_to_sibling StatusAnchor
+        pin_corner_to_sibling PIN_CENTER_TOP
+        pin_to_sibling_corner PIN_CENTER_BOTTOM
         "if_match"
         {
             "xpos"          "c-82"
@@ -58,8 +78,8 @@
     {
         "ControlName"                   "CExLabel"
         "fieldName"                     "SuddenDeathLabel"
-        "xpos"                          "cs-0.5"
-        "ypos"                          "18"
+        "xpos"                          "0"
+        "ypos"                          "0"
         "zpos"                          "5"
         "wide"                          "45"
         "tall"                          "15"
@@ -74,6 +94,9 @@
         "font"                          "BodyEm_MD"
         "fgcolor_override"              "FinalsYellow"
         "bgcolor_override"              "Blank"
+        pin_to_sibling StatusAnchor
+        pin_corner_to_sibling PIN_CENTER_TOP
+        pin_to_sibling_corner PIN_CENTER_BOTTOM
         "if_match"
         {
             "xpos"          "c-82"
@@ -85,8 +108,8 @@
     {
         "ControlName"                   "CExLabel"
         "fieldName"                     "SetupLabel"
-        "xpos"                          "cs-0.5"
-        "ypos"                          "18"
+        "xpos"                          "0"
+        "ypos"                          "0"
         "zpos"                          "5"
         "wide"                          "45"
         "tall"                          "15"
@@ -101,6 +124,9 @@
         "font"                          "BodyEm_MD"
         "fgcolor_override"              "FinalsYellow"
         "bgcolor_override"              "Blank"
+        pin_to_sibling StatusAnchor
+        pin_corner_to_sibling PIN_CENTER_TOP
+        pin_to_sibling_corner PIN_CENTER_BOTTOM
         "if_match"
         {
             "xpos"          "c-82"
