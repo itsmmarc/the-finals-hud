@@ -1058,17 +1058,34 @@
     "TrainingComplete"
     {
     }
+    "InspectAnchor"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "InspectAnchor"
+        "xpos"                      "rs1-20"
+        "ypos"                      "rs1-50"
+        "zpos"                      "7"
+        "wide"                      "1"
+        "tall"                      "1"
+        "visible"                   "0"
+        "enabled"                   "1"
+        "bgcolor_override"          "blue"
+    }
     "HudInspectPanel"
     {
-        "fieldName"         "HudInspectPanel"
-        "visible"           "0"
-        "enabled"           "1"
-        "xpos"              "r200"
-        "ypos"              "rs1"
-        "zpos"              "10"
-        "wide"              "190"
-        "tall"              "f0"
+        "fieldName"             "HudInspectPanel"
+        "visible"               "0"
+        "enabled"               "1"
+        "xpos"                  "0"
+        "ypos"                  "0"	// doesnt work?
+        "zpos"                  "10"
+        "wide"                  "190"
+        "tall"                  "480"	// doesnt work?
+        "pin_to_sibling"        "InspectAnchor"
+        pin_corner_to_sibling PIN_BOTTOMRIGHT
+        pin_to_sibling_corner PIN_BOTTOMRIGHT
     }
+    
     "HudTFCrosshair"
     {
         "fieldName"         "HudTFCrosshair"
