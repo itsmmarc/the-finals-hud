@@ -15,6 +15,7 @@
     "specgui"
     {
     }
+    // moves hudinspectpanel while spectating
     "InspectAnchor"
     {
         "ControlName"               "EditablePanel"
