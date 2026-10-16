@@ -21,6 +21,7 @@
         "BGGreyLight"                                   "124 136 152 255"
         "BGGreyMedium"                                  "50 48 52 255"
         "BGGreyDark"                                    "28 26 31 255"
+        "BGGreyDarkest"                                 "18 15 14 255"
         //
         "FinalsOverhealBar"                             "150 150 150 255"
         "MenuBlur_Accent"                               "0 21 246 255"
@@ -45,7 +46,6 @@
         // MARK: m0rehud
         //BACKGROUNDS
         "Background_Main"                               "46 43 42 255"
-        "BGGreyDarkest"                                 "18 15 14 255"
         "Background_Bright"                             "66 63 61 255"
         //BUTTONS
         "Button_Bright"                                 "66 63 61 255"
