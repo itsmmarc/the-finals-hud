@@ -3,20 +3,30 @@
     "Borders"
     {
         // Finals HUD
-        "Button"
+        "ButtonTransparent"
         {
             "bordertype"                "scalable_image"
-            "image"                     "replay/thumbnails/borders/bg_transparentblack.vmt"
+            "image"                     "replay/thumbnails/borders/buttontransparent.vmt"
             "backgroundtype"            "2"
             "src_corner_height"         "66"	// pixels inside the image
             "src_corner_width"          "66"
             "draw_corner_width"         "8"	// screen size of the corners ( and sides ), proportional
             "draw_corner_height"        "8"
         }
-        "OL_White_BG_TransparentBlack"
+        "ButtonTransparent_Armed"
         {
             "bordertype"                "scalable_image"
-            "image"                     "replay/thumbnails/borders/ol_white_bg_transparentblack.vmt"
+            "image"                     "replay/thumbnails/borders/buttontransparent_armed.vmt"
+            "backgroundtype"            "2"
+            "src_corner_height"         "66"	// pixels inside the image
+            "src_corner_width"          "66"
+            "draw_corner_width"         "8"	// screen size of the corners ( and sides ), proportional
+            "draw_corner_height"        "8"
+        }
+        "Button"
+        {
+            "bordertype"                "scalable_image"
+            "image"                     "replay/thumbnails/borders/button.vmt"
             "backgroundtype"            "2"
             "src_corner_height"         "66"	// pixels inside the image
             "src_corner_width"          "66"
@@ -26,7 +36,7 @@
         "Button_Armed"
         {
             "bordertype"                "scalable_image"
-            "image"                     "replay/thumbnails/borders/ol_white_bg_transparentblack_glow_blue.vmt"
+            "image"                     "replay/thumbnails/borders/button_armed.vmt"
             "backgroundtype"            "2"
             "src_corner_height"         "66"	// pixels inside the image
             "src_corner_width"          "66"
@@ -36,7 +46,7 @@
         "Queue_Logo"
         {
             "bordertype"                "scalable_image"
-            "image"                     "replay/thumbnails/borders/queue_logo.vmt"
+            "image"                     "replay/thumbnails/borders/button_queue_logo.vmt"
             "backgroundtype"            "2"
             "src_corner_height"         "66"	// pixels inside the image
             "src_corner_width"          "66"
@@ -46,27 +56,27 @@
         "Queue_Logo_OL_Glow"
         {
             "bordertype"                "scalable_image"
-            "image"                     "replay/thumbnails/borders/queue_logo_ol_glow.vmt"
+            "image"                     "replay/thumbnails/borders/button_queue_logo_armed.vmt"
             "backgroundtype"            "2"
             "src_corner_height"         "66"	// pixels inside the image
             "src_corner_width"          "66"
             "draw_corner_width"         "8"	// screen size of the corners ( and sides ), proportional
             "draw_corner_height"        "8"
         }
-        "Queue_Close"
+        "Button_Queue_Close"
         {
             "bordertype"                "scalable_image"
-            "image"                     "replay/thumbnails/borders/queue_close.vmt"
+            "image"                     "replay/thumbnails/borders/button_queue_close.vmt"
             "backgroundtype"            "2"
             "src_corner_height"         "66"	// pixels inside the image
             "src_corner_width"          "66"
             "draw_corner_width"         "8"	// screen size of the corners ( and sides ), proportional
             "draw_corner_height"        "8"
         }
-        "Queue_Close_OL_Glow"
+        "Button_Queue_Close_Armed"
         {
             "bordertype"                "scalable_image"
-            "image"                     "replay/thumbnails/borders/queue_close_ol_glow.vmt"
+            "image"                     "replay/thumbnails/borders/button_queue_close_armed.vmt"
             "backgroundtype"            "2"
             "src_corner_height"         "66"	// pixels inside the image
             "src_corner_width"          "66"
@@ -76,7 +86,7 @@
         "ButtonYellow"
         {
             "bordertype"                "scalable_image"
-            "image"                     "replay/thumbnails/borders/play_yellow.vmt"
+            "image"                     "replay/thumbnails/borders/buttonyellow.vmt"
             "backgroundtype"            "2"
             "src_corner_height"         "64"	// pixels inside the image
             "src_corner_width"          "64"
@@ -86,17 +96,7 @@
         "ButtonYellow_Armed"
         {
             "bordertype"                "scalable_image"
-            "image"                     "replay/thumbnails/borders/play_yellow_ol_glow.vmt"
-            "backgroundtype"            "2"
-            "src_corner_height"         "64"	// pixels inside the image
-            "src_corner_width"          "64"
-            "draw_corner_width"         "8"	// screen size of the corners ( and sides ), proportional
-            "draw_corner_height"        "8"
-        }
-        "Play_Black"
-        {
-            "bordertype"                "scalable_image"
-            "image"                     "replay/thumbnails/borders/play_black.vmt"
+            "image"                     "replay/thumbnails/borders/buttonyellow_armed.vmt"
             "backgroundtype"            "2"
             "src_corner_height"         "64"	// pixels inside the image
             "src_corner_width"          "64"

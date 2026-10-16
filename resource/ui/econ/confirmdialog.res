@@ -7,7 +7,7 @@
         "XPos"                      "cs-0.5"
         "YPos"                      "180"
         "Wide"                      "f0"
-        "Tall"                      "200"   // hardcoded?
+        "Tall"                      "200"	// hardcoded?
         "Visible"                   "1"
         "Enabled"                   "1"
         "settitlebarvisible"        "0"
@@ -46,8 +46,8 @@
         "AllCaps"               "0"
         "Font"                  "Body_SM"
         "LabelText"             "%text%"
-        "TextAlignment"         "west"  // hardcoded?
-        "Wrap"            "1"
+        "TextAlignment"         "west"	// hardcoded?
+        "Wrap"                  "1"
         "FGColor"               "White"
     }
     "BottomBarBG"
@@ -115,29 +115,27 @@
     }
     "ConfirmButton"
     {
-        "ControlName"                       "CExButton"
-        "FieldName"                         "ConfirmButton"
-        "XPos"                              "cs-0.5+3+60"
-        "YPos"                              "rs1"	// hardcoded
-        "ZPos"                              "2"
-        "Wide"                              "140"
-        "Tall"                              "28"
-        "Visible"                           "1"
-        "Enabled"                           "1"
-        "ProportionalToParent"              "1"
-        "LabelText"                         "#ConfirmButtonText"
-        "Font"                              "BodyEM_SM"
-        "TextAlignment"                     "center"
-        "AllCaps"                           "1"
-        "Command"                           "confirm"
-        "Sound_Depressed"                   "UI/buttonclick.wav"
-        "DefaultFGColor_Override"           "Black"
-        "ArmedFGColor_Override"             "Black"
-        "DepressedFGColor_Override"         "Black"
-        "paintBackground"                   "0"
-        "paintborder"                       "1"
-        "border_default"                    "ButtonYellow"
-        "border_depressed"                  "ButtonYellow_Armed"
-        "border_armed"                      "ButtonYellow_Armed"
+        "ControlName"                   "CExButton"
+        "FieldName"                     "ConfirmButton"
+        "XPos"                          "cs-0.5+3+60"
+        "YPos"                          "rs1"	// hardcoded
+        "ZPos"                          "2"
+        "Wide"                          "140"
+        "Tall"                          "28"
+        "Visible"                       "1"
+        "Enabled"                       "1"
+        "ProportionalToParent"          "1"
+        "LabelText"                     "#ConfirmButtonText"	// hardcoded
+        "Font"                          "BodyEM_SM"
+        "TextAlignment"                 "center"
+        "AllCaps"                       "1"
+        "Command"                       "confirm"
+        "Sound_Depressed"               "UI/buttonclick.wav"
+        "fgcolor"                       "Black"
+        "paintBackground"               "0"
+        "paintborder"                   "1"
+        "border_default"                "ButtonYellow"
+        "border_depressed"              "ButtonYellow_Armed"
+        "border_armed"                  "ButtonYellow_Armed"
     }
 }

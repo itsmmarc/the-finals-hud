@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-        "$basetexture"                  "vgui/replay/thumbnails/borders/bg_transparentblack"
+        "$basetexture"                  "vgui/replay/thumbnails/borders/buttonyellow_armed"
         "$vertexcolor"                  "1"
         "$no_fullbright"                "1"
         "$ignorez"                      "1"

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-        "$basetexture"                  "vgui/replay/thumbnails/borders/queue_close_ol_glow"
+        "$basetexture"                  "vgui/replay/thumbnails/borders/button_queue_logo"
         "$vertexcolor"                  "1"
         "$no_fullbright"                "1"
         "$ignorez"                      "1"
