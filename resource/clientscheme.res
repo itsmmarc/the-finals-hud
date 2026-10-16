@@ -1,23 +1,8 @@
-//=========================================================
-// COLORS SCHEME
-//=========================================================
-
-#base "scheme/colors_scheme.res"
-
-//=========================================================
-// FONTS SCHEME
-//=========================================================
-
-#base "scheme/fonts_scheme.res"
-
-//=========================================================
-// BORDERS SCHEME
-//=========================================================
-
-#base "scheme/borders_scheme.res"
-
-//=========================================================
-// CROSSHAIRS SCHEME
-//=========================================================
-
-#base "../scripts/crosshairs/font/crosshairs.res"
+// Customization Options
+// #base ui/custom/itemmeter_alt_colour.res
+// Default
+"#base"         "scheme/borders.res"
+"#base"         "scheme/colours.res"
+"#base"         "scheme/basesettings.res"
+"#base"         "scheme/fonts.res"
+"#base"         "scheme/font_paths.res"

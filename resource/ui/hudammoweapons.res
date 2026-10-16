@@ -1,175 +1,210 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-	//==================================================================================================================================================
-	// AMMO ANCHOR
-	// This element can be used to move all the ammo elements at the same time
-	// By increasing the wide, the gap between clip and reserver will also increase
-	//==================================================================================================================================================
-	"AmmoAnchor"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"AmmoAnchor"
-		"xpos"										"c175"
-		"ypos"										"c95"
-		"zpos"										"0"
-		"wide"										"5"
-		"tall"										"80"
-		"visible"									"0"
-		"enabled"									"1"
-	}
-
-	//==================================================================================================================================================
-	// AMMO IN CLIP
-	//==================================================================================================================================================
-	"AmmoInClip"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"AmmoInClip"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"5"
-		"wide"										"150"
-		"tall"										"80"
-		"visible"									"0"
-		"enabled"									"1"
-		"font"										"m0refont72"
-		"textAlignment"								"east"
-		"labelText"									"%Ammo%"
-		"fgcolor"									"Ammo In Clip"
-
-		"pin_to_sibling"							"AmmoAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-	}
-	"AmmoInClipShadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"AmmoInClipShadow"
-		"xpos"										"-2"
-		"ypos"										"-2"
-		"zpos"										"5"
-		"wide"										"150"
-		"tall"										"80"
-		"visible"									"0"
-		"enabled"									"1"
-		"font"										"m0refont72"
-		"textAlignment"								"east"
-		"labelText"									"%Ammo%"
-		"fgcolor"									"Black"
-
-		"pin_to_sibling"							"AmmoInClip"
-	}
-
-	//==================================================================================================================================================
-	// AMMO IN RESERVE
-	//==================================================================================================================================================
-	"AmmoInReserve"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"AmmoInReserve"
-		"xpos"										"0"
-		"ypos"										"-4"
-		"zpos"										"7"
-		"wide"										"150"
-		"tall"										"80"
-		"visible"									"0"
-		"enabled"									"1"
-		"font"										"m0refont24"
-		"textAlignment"								"west"
-		"labelText"									"%AmmoInReserve%"
-		"fgcolor"									"Ammo In Reserve"
-
-		"pin_to_sibling"							"AmmoAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-	}
-	"AmmoInReserveShadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"AmmoInReserveshadow"
-		"xpos"										"-1"
-		"ypos"										"-1"
-		"zpos"										"7"
-		"wide"										"150"
-		"tall"										"80"
-		"visible"									"0"
-		"enabled"									"1"
-		"font"										"m0refont24"
-		"textAlignment"								"west"
-		"labelText"									"%AmmoInReserve%"
-		"fgcolor"									"Black"
-
-		"pin_to_sibling"							"AmmoInReserve"
-	}
-
-	//==================================================================================================================================================
-	// AMMO NO CLIP
-	//==================================================================================================================================================
-	"AmmoNoClip"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"AmmonoClip"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"5"
-		"wide"										"150"
-		"tall"										"80"
-		"visible"									"0"
-		"enabled"									"1"
-		"font"										"m0refont72"
-		"textAlignment"								"center"
-		"labelText"									"%Ammo%"
-		"fgcolor"									"Ammo No Clip"
-
-		"pin_to_sibling"							"AmmoAnchor"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
-	}
-	"AmmoNoClipShadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"AmmonoClipshadow"
-		"xpos"										"-2"
-		"ypos"										"-2"
-		"zpos"										"5"
-		"wide"										"150"
-		"tall"										"80"
-		"visible"									"0"
-		"enabled"									"1"
-		"font"										"m0refont72"
-		"textAlignment"								"center"
-		"labelText"									"%Ammo%"
-		"fgcolor"									"Black"
-
-		"pin_to_sibling"							"AmmoNoClip"
-	}
-
-
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-
-	"HudWeaponAmmoBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"HudWeaponAmmoBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"HudWeaponLowAmmoImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"HudWeaponLowAmmoImage"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+    // MARK: Anchor
+    "AmmoBGReal"
+    {
+        "ControlName"                   "EditablePanel"
+        "fieldName"                     "AmmoBGReal"
+        "xpos"                          "rs1-20"
+        "ypos"                          "rs1-20"
+        "xpos_minmode"                  "cs0+100"
+        "ypos_minmode"                  "c0+100"
+        "zpos"                          "0"
+        "wide"                          "88"
+        "tall"                          "26"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "bgcolor_override"              "TransparentLightesterBlack"
+        "paintBackground"               "1"
+        "paintBackgroundType"           "2"
+    }
+    // MARK: Reserve Ammo
+    "AmmoInReserve"	// normal number
+    {
+        "ControlName"                   "CExLabel"
+        "fieldName"                     "AmmoInReserve"
+        "xpos"                          "-3"
+        "ypos"                          "-3"
+        "zpos"                          "0"
+        "auto_wide_tocontents"          "1"
+        "wide"                          "0"
+        "tall"                          "20"
+        "visible"                       "0"
+        "enabled"                       "1"
+        "font"                          "HealthAmmo_Alt"
+        "textinsetx"                    "5"
+        "textinsety"                    "3"
+        "textAlignment"                 "east"
+        "fgcolor"                       "HealthAmmo_Alt"
+        "labelText"                     "%AmmoInReserve%"
+        "pin_to_sibling"                "AmmoBGReal"
+        "pin_corner_to_sibling"         "PIN_BOTTOMRIGHT"
+        "pin_to_sibling_corner"         "PIN_BOTTOMRIGHT"
+    }
+    "AmmoInClip"	// number shadow
+    {
+        "ControlName"                   "CExLabel"
+        "fieldName"                     "AmmoInClip"
+        "xpos"                          "0"
+        "ypos"                          "0"
+        "zpos"                          "-1"
+        "auto_wide_tocontents"          "1"
+        "tall"                          "20"
+        "visible"                       "0"
+        "enabled"                       "1"
+        "font"                          "HealthAmmo_Alt_Blur"
+        "textinsetx"                    "5"
+        "textinsety"                    "3"
+        "textAlignment"                 "east"
+        "fgcolor"                       "Shadow"
+        "labelText"                     "%AmmoInReserve%"
+        "pin_to_sibling"                "AmmoInReserve"
+    }
+    // MARK: Slash
+    "AmmoInReserveShadow"	// normal slash
+    {
+        "ControlName"                   "CExLabel"
+        "fieldName"                     "AmmoInReserveShadow"
+        "font"                          "HealthAmmo_Alt"
+        "textinsety"                    "3"
+        "textAlignment"                 "center"
+        "fgcolor"                       "HealthAmmo_Alt"
+        "xpos"                          "-3"
+        "ypos"                          "0"
+        "labelText"                     "/"
+        "zpos"                          "0"
+        "wide"                          "10"
+        "tall"                          "20"
+        "visible"                       "0"
+        "enabled"                       "1"
+        "pin_to_sibling"                "AmmoInReserve"
+        "pin_corner_to_sibling"         "PIN_BOTTOMRIGHT"
+        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
+    }
+    "AmmoInClipShadow"	//slash shadow
+    {
+        "ControlName"           "CExLabel"
+        "fieldName"             "AmmoInClipShadow"
+        "font"                  "HealthAmmo_Alt_Blur"
+        "textinsety"            "3"
+        "textAlignment"         "center"
+        "fgcolor"               "Shadow"
+        "xpos"                  "0"
+        "ypos"                  "0"
+        "labelText"             "/"
+        "zpos"                  "-1"
+        "wide"                  "10"
+        "tall"                  "20"
+        "visible"               "0"
+        "enabled"               "1"
+        "pin_to_sibling"        "AmmoInReserveShadow"
+    }
+    // MARK: Clip Ammo
+    "AmmoInClipReal"
+    {
+        "ControlName"                   "CExLabel"
+        "fieldName"                     "AmmoInClipReal"
+        "xpos"                          "-3"
+        "ypos"                          "0"
+        "fgcolor"                       "HealthAmmo"
+        "zpos"                          "0"
+        "auto_wide_tocontents"          "1"
+        "tall"                          "20"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "font"                          "HealthAmmo"
+        "textinsetx"                    "5"
+        "textAlignment"                 "east"
+        "labelText"                     "%Ammo%"
+        "pin_to_sibling"                "AmmoInReserveShadow"
+        "pin_corner_to_sibling"         "PIN_BOTTOMRIGHT"
+        "pin_to_sibling_corner"         "PIN_BOTTOMLEFT"
+    }
+    "AmmoInClipShadowReal"
+    {
+        "ControlName"                   "CExLabel"
+        "fieldName"                     "AmmoInClipShadowReal"
+        "xpos"                          "0"
+        "ypos"                          "0"
+        "zpos"                          "-1"
+        "auto_wide_tocontents"          "1"
+        "tall"                          "20"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "font"                          "HealthAmmo_Blur"
+        "textinsetx"                    "5"
+        "textAlignment"                 "east"
+        "fgcolor"                       "Shadow"
+        "labelText"                     "%Ammo%"
+        "pin_to_sibling"                "AmmoInClipReal"
+    }
+    //////////////////////////////////////////////////
+    "AmmoNoClip"	// invisible
+    {
+        "ControlName"           "CExLabel"
+        "fieldName"             "AmmoNoClip"
+        "font"                  "HudFontGiantBold"
+        "fgcolor"               "TanLight"
+        "xpos"                  "0"
+        "ypos"                  "9999"
+        "zpos"                  "5"
+        "wide"                  "84"
+        "tall"                  "40"
+        "visible"               "0"
+        "enabled"               "1"
+        "textAlignment"         "south-east"
+        "labelText"             "%Ammo%"
+    }
+    "AmmoNoClipShadow"	// invisible
+    {
+        "ControlName"           "CExLabel"
+        "fieldName"             "AmmoNoClipShadow"
+        "font"                  "HudFontGiantBold"
+        "fgcolor"               "Black"
+        "xpos"                  "1"
+        "ypos"                  "9999"
+        "zpos"                  "5"
+        "wide"                  "84"
+        "tall"                  "40"
+        "visible"               "0"
+        "enabled"               "1"
+        "textAlignment"         "south-east"
+        "labelText"             "%Ammo%"
+    }
+    "HudWeaponAmmoBG"	// dead
+    {
+        "ControlName"           "CTFImagePanel"
+        "fieldName"             "HudWeaponAmmoBG"
+        "xpos"                  "4"
+        "ypos"                  "9999"
+        "zpos"                  "1"
+        "wide"                  "90"
+        "tall"                  "45"
+        "visible"               "1"
+        "enabled"               "1"
+        "image"                 "../hud/ammo_blue_bg"
+        "scaleImage"            "1"
+        "teambg_2"              "../hud/ammo_red_bg"
+        "teambg_2_lodef"        "../hud/ammo_red_bg_lodef"
+        "teambg_3"              "../hud/ammo_blue_bg"
+        "teambg_3_lodef"        "../hud/ammo_blue_bg_lodef"
+    }
+    "HudWeaponLowAmmoImage"	// dead
+    {
+        "ControlName"           "ImagePanel"
+        "fieldName"             "HudWeaponLowAmmoImage"
+        "xpos"                  "4"
+        "ypos"                  "9999"
+        "zpos"                  "0"
+        "wide"                  "90"
+        "tall"                  "45"
+        "visible"               "0"
+        "enabled"               "1"
+        "image"                 "../hud/ammo_red_bg"
+        "scaleImage"            "1"
+        "teambg_2"              "../hud/ammo_red_bg"
+        "teambg_2_lodef"        "../hud/ammo_red_bg_lodef"
+        "teambg_3"              "../hud/ammo_blue_bg"
+        "teambg_3_lodef"        "../hud/ammo_blue_bg_lodef"
+    }
 }

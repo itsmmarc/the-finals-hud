@@ -1,0 +1,39 @@
+"UnlitGeneric"
+{
+        "$basetexture"                          "vgui/replay/thumbnails/portraits/tflogo"
+        "$rate"                                 "-20"
+        "$vertexalpha"                          "1"
+        "$alpha"                                "1"
+        "$translucent"                          "1"
+        "$vertexcolor"                          "1"
+        "$no_fullbright"                        "1"
+        "$basetexturetransform"                 "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+        "$centerVar"                            ".5 .5"
+        "$scaleVar"                             "1 1"
+        "$rotate"                               "0"
+        "$translateVar"                         "0 0"
+        "Proxies"
+        {
+                "LinearRamp"
+                {
+                        "rate"                          "$rate"
+                        "initialValue"                  "0"
+                        "resultVar"                     "$rotate"
+                }
+                "WrapMinMax"
+                {
+                        "srcVar1"                       "$rotate"
+                        "minVal"                        "0"
+                        "maxVal"                        "360"
+                        "resultVar"                     "$rotate"
+                }
+                "TextureTransform"
+                {
+                        "centerVar"                     "$centerVar"
+                        "scaleVar"                      "$scaleVar"
+                        "rotateVar"                     "$rotate"
+                        "translateVar"                  "$translateVar"
+                        "resultVar"                     "$basetexturetransform"
+                }
+        }
+}

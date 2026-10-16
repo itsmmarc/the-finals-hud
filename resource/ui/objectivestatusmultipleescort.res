@@ -1,52 +1,54 @@
 "Resource/UI/ObjectiveStatusMultipleEscort.res"
-{
+{	
 	"ObjectiveStatusMultipleEscort"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"ObjectiveStatusMultipleEscort"
-		"xpos"										"1"
-		"ypos"										"5"
-		"wide"										"f0"
-		"tall"										"480"
-		"visible"									"1"
-		"enabled"									"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"ObjectiveStatusMultipleEscort"
+		"xpos"				"cs-0.5"
+		"ypos"				"29"
+		"wide"				"155"
+		"tall"				"60"
+		"visible"			"1"
+		"enabled"			"1"
 	}
+	
 	"BlueEscortPanel"
 	{
-		"ControlName"								"CTFHudEscort"
-		"fieldName"									"BlueEscortPanel"
-		"xpos"										"c-170"
-		"ypos"										"r150"
-		"zpos"										"1"
-		"wide"										"400"
-		"tall"										"200"
-		"visible"									"1"
-		"enabled"									"1"
-		"progress_xpos"								"79"
-		"progress_wide"								"200"
-
+		"ControlName"		"CTFHudEscort"
+		"fieldName"			"BlueEscortPanel"
+		"xpos"				"0"
+		"ypos"				"14" // does nothing?
+		"zpos"				"1"
+		"wide"				"155"
+		"tall"				"30"
+		"visible"			"1"
+		"enabled"			"1"
+		"progress_xpos"		""
+		"progress_wide"		""
+		
 		"if_blue_is_top"
 		{
-			"ypos"									"r165"
+			"ypos"				"0"
 		}
 	}
+
 	"RedEscortPanel"
 	{
-		"ControlName"								"CTFHudEscort"
-		"fieldName"									"RedEscortPanel"
-		"xpos"										"c-170"
-		"ypos"										"r150"
-		"zpos"										"1"
-		"wide"										"400"
-		"tall"										"200"
-		"visible"									"1"
-		"enabled"									"1"
-		"progress_xpos"								"79"
-		"progress_wide"								"200"
-
+		"ControlName"		"CTFHudEscort"
+		"fieldName"			"RedEscortPanel"
+		"xpos"				"0"
+		"ypos"				"14" // does nothing?
+		"zpos"				"1"
+		"wide"				"155"
+		"tall"				"30"
+		"visible"			"1"
+		"enabled"			"1"
+		"progress_xpos"		""
+		"progress_wide"		""
+		
 		"if_red_is_top"
 		{
-			"ypos"									"r165"
+			"ypos"				"0"
 		}
 	}
 }

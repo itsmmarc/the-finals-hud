@@ -1,0 +1,8 @@
+// credit lavenderhud
+"UnlitGeneric"
+{
+        "$baseTexture"                  "vgui\replay\thumbnails\borders\round_inner_32x"
+        "$translucent"                  "1"
+        "$ignorez"                      "1"
+        "$vertexcolor"                  "1"
+}

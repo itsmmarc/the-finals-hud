@@ -1,105 +1,194 @@
-"Resource/UI/SpectatorGUIHealth.res"
+"Resource/UI/SpectatorGUIHealth.res"	// ALWAYS USE AT 128 x 62
 {
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthBonusImage"
-		"xpos"										"13"
-		"ypos"										"14"
-		"zpos"										"-1"
-		"wide"										"15"
-		"tall"										"15"
-		"visible"									"0"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"image"										"../hud/health_over_bg"
-		"scaleImage"								"1"
-	}
-	"HealthValue_Target"							// Proportional positioning doesn't work :(
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValue_Target"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"20"
-		"wide"										"40"
-		"tall"										"40"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"textAlignment"								"center"
-		"labeltext"									"%Health%"
-		"font"										"m0refont24"
-		"fgcolor"									"Health Numbers"
-	}
-	"HealthValue_Target_Shadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValue_Target_Shadow"
-		"xpos"										"-1"
-		"ypos"										"-1"
-		"zpos"										"20"
-		"wide"										"40"
-		"tall"										"40"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"textAlignment"								"center"
-		"labeltext"									"%Health%"
-		"font"										"m0refont24"
-		"fgcolor"									"Black"
-
-		"pin_to_sibling"							"HealthValue_Target"
-	}
-
-
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-
-	"PlayerStatusHealthImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthImage"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthImageBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"BuildingStatusHealthImageBG"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"BuildingStatusHealthImageBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"PlayerStatusPlayerLevel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusPlayerLevel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+    // MARK: Bar
+    "PlayerStatusHealthBonusImage"
+    {
+        "ControlName"                   "ImagePanel"
+        "fieldName"                     "PlayerStatusHealthBonusImage"
+        "xpos"                          "r0"
+        "ypos"                          "13"
+        "zpos"                          "3"
+        "wide"                          "16"
+        "tall"                          "12"
+        "proportionaltoparent"          "1"
+        "visible"                       "0"
+        "enabled"                       "1"
+        "image"                         "../hud/health_over_bg"
+        "scaleImage"                    "1"
+        "proportionaltoparent"          "1"
+    }
+    "BarFG"	// actually background, static
+    {
+        "ControlName"                   "EditablePanel"
+        "fieldName"                     "BarFG"
+        "xpos"                          "0"
+        "ypos"                          "13"
+        "zpos"                          "0"
+        "wide"                          "128"
+        "tall"                          "12"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "bgcolor_override"              "White"
+        "paintBackground"               "1"
+        "proportionaltoparent"          "1"
+    }
+    "refract"
+    {
+        "ControlName"                   "ImagePanel"
+        "fieldName"                     "refract"
+        "xpos"                          "0"
+        "ypos"                          "13"
+        "zpos"                          "4"
+        "wide"                          "128"
+        "tall"                          "12"
+        "proportionaltoparent"          "1"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "proportionaltoparent"          "1"
+        "image"                         "replay/thumbnails/healthbar/healthbar-8-refract"
+        "scaleImage"                    "1"
+        "drawcolor"                     "ItemMeterFG"
+    }
+    "BarBG"	// actually foreground, moves from right to left as health lowers
+    {
+        "ControlName"                   "ImagePanel"
+        "fieldName"                     "BarBG"
+        "xpos"                          "0"
+        "ypos"                          "0"
+        "zpos"                          "0"
+        "wide"                          "128"
+        "tall"                          "13"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "fillcolor"                     "Black"
+        "scaleImage"                    "1"
+        "proportionaltoparent"          "1"
+        "pin_to_sibling"                "PlayerStatusHealthBonusImage"
+        "pin_to_sibling_corner"         "7"
+        "pin_corner_to_sibling"         "7"
+    }
+    "OverHealBar"
+    {
+        "ControlName"                   "ImagePanel"
+        "fieldName"                     "OverHealBar"
+        "xpos"                          "-144"	
+        "ypos"                          "0"
+        "zpos"                          "0"
+        "wide"                          "128"
+        "tall"                          "13"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "fillcolor"                     "FinalsOverhealBar"
+        "scaleImage"                    "1"
+        "proportionaltoparent"          "1"
+        "pin_to_sibling"                "PlayerStatusHealthBonusImage"
+        "pin_to_sibling_corner"         "5"
+        "pin_corner_to_sibling"         "5"
+    }
+    "PlayerStatusHealthImage"	// dead
+    {
+        "ControlName"           "ImagePanel"
+        "fieldName"             "PlayerStatusHealthImage"
+        "xpos"                  "99999"
+        "ypos"                  "99999"
+        "zpos"                  "4"
+        "wide"                  "20"
+        "tall"                  "20"
+        "visible"               "1"
+        "enabled"               "1"
+        "scaleImage"            "1"
+    }
+    "PlayerStatusHealthImageBG"	// dead
+    {
+        "ControlName"           "ImagePanel"
+        "fieldName"             "PlayerStatusHealthImageBG"
+        "xpos"                  "99999"
+        "ypos"                  "99999"
+        "zpos"                  "3"
+        "wide"                  "24"
+        "tall"                  "24"
+        "visible"               "0"
+        "enabled"               "0"
+        "image"                 "../hud/health_bg"
+        "scaleImage"            "1"
+    }
+    "BuildingStatusHealthImageBG"	// dead
+    {
+        "ControlName"           "ImagePanel"
+        "fieldName"             "BuildingStatusHealthImageBG"
+        "xpos"                  "99999"
+        "ypos"                  "99999"
+        "zpos"                  "2"
+        "wide"                  "28"
+        "tall"                  "28"
+        "visible"               "0"
+        "enabled"               "0"
+        "image"                 "../hud/health_equip_bg"
+        "scaleImage"            "1"
+    }
+    // MARK: Health Value
+    "HealthBG"
+    {
+        "ControlName"                   "EditablePanel"
+        "fieldName"                     "HealthBG"
+        "xpos"                          "0"
+        "ypos"                          "24+3"
+        "zpos"                          "-1"
+        "wide"                          "32"
+        "tall"                          "16"
+        "visible"                       "1"
+        "enabled"                       "1"
+        "paintBackground"               "1"
+        "paintBackgroundType"           "2"
+        "bgcolor_override"              "TransparentBlack"
+    }
+    "PlayerStatusHealthValue"
+    {
+        "ControlName"           "CExLabel"
+        "fieldName"             "PlayerStatusHealthValue"
+        "xpos"                  "0"
+        "ypos"                  "0"
+        "zpos"                  "5"
+        "wide"                  "32"
+        "tall"                  "16"
+        "visible"               "1"
+        "enabled"               "1"
+        "labelText"             "%Health%"
+        "textAlignment"         "center"
+        "font"                  "BodyEm_MD"
+        "fgcolor"               "White"
+        "pin_to_sibling"        "HealthBG"
+    }
+    "PlayerStatusHealthValueShadow"
+    {
+        "ControlName"           "CExLabel"
+        "fieldName"             "PlayerStatusHealthValueShadow"
+        "xpos"                  "0"
+        "ypos"                  "0"
+        "zpos"                  "5"
+        "wide"                  "20"
+        "tall"                  "20"
+        "visible"               "1"
+        "enabled"               "1"
+        "labelText"             "%Health%"
+        "textAlignment"         "center"
+        "font"                  "BodyEm_MD_Blur"
+        "fgcolor"               "Shadow"
+        "pin_to_sibling"        "HealthBG"
+    }
+    "PlayerStatusPlayerLevel"	// idk what this is
+    {
+        "ControlName"           "CExLabel"
+        "fieldName"             "PlayerStatusPlayerLevel"
+        "xpos"                  "8"
+        "ypos"                  "9"
+        "zpos"                  "5"
+        "wide"                  "16"
+        "tall"                  "12"
+        "visible"               "0"
+        "enabled"               "1"
+        "textAlignment"         "center"
+        "font"                  "ScoreboardVerySmall"
+        "fgcolor"               "TFOrange"
+    }
 }

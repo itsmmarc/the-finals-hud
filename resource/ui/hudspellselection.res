@@ -1,112 +1,117 @@
 "Resource/UI/HudSpellSelection.res"
 {
-	"HudSpellMenu"
-	{
-		"xpos"										"c-190"
-		"ypos"										"rs1-4"
-		"wide"										"35"
-		"tall"										"30"
-	}
-	"SpellIcon"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"SpellIcon"
-		"xpos"										"0"
-		"ypos"										"4"
-		"zpos"										"7"
-		"wide"										"16"
-		"tall"										"16"
-		"visible"									"1"
-		"enabled"									"1"
-		"scaleImage"								"1"
-		"proportionaltoparent"						"1"
-		"image"										"../signs/death_wheel_whammy"
-		"fgcolor"									"White"
-	}
-	"CountText"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CountText"
-		"font"										"m0refont24"
-		"labelText"									"%counttext%"
-		"textAlignment"								"center"
-		"xpos"										"rs1"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"20"
-		"tall"										"20"
-		"proportionaltoparent"						"1"
-		"fgcolor"									"White"
-	}
-	"CountTextShadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CountTextShadow"
-		"font"										"m0refont24"
-		"labelText"									"%counttext%"
-		"textAlignment"								"center"
-		"xpos"										"-1"
-		"ypos"										"-1"
-		"wide"										"20"
-		"tall"										"20"
-		"proportionaltoparent"						"1"
-		"fgcolor"									"Black"
-
-		"pin_to_sibling"							"CountText"
-	}
-	"ActionText"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ActionText"
-		"xpos"										"cs-0.5"
-		"ypos"										"rs1"
-		"wide"										"f0"
-		"tall"										"8"
-		"proportionaltoparent"						"1"
-		"visible"									"1"
-		"font"										"DefaultVerySmall"
-		"labelText"									"%actiontext%"
-		"textAlignment"								"center"
-		"fgcolor"									"White"
-	}
-
-
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-
-	"ItemEffectMeterBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectMeterBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"Spellbook"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"Spellbook"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"SpellText"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"SpellText"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+    "HudSpellMenu"
+    {
+        "XPos"                          "rs1-20"
+        "YPos"                          "rs1-79"
+         "xpos_minmode"                  "cs0+100+32"
+        "ypos_minmode"                  "c0+100-28"
+        "Wide"                          "55"
+        "Tall"                          "26"
+        "paintBackground"               "1"
+        "paintbackgroundtype"           "2"
+        "bgcolor_override"              "TransparentLightesterBlack"
+    }
+    "SpellIcon"
+    {
+        "ControlName"                   "ImagePanel"
+        "FieldName"                     "SpellIcon"
+        "XPos"                          "4"
+        "YPos"                          "cs-0.5"
+        "ZPos"                          "7"
+        "Wide"                          "20"
+        "Tall"                          "20"
+        "Visible"                       "1"
+        "Enabled"                       "1"
+        "ScaleImage"                    "1"
+        "ProportionalToParent"          "1"
+        "Image"                         "../signs/death_wheel_whammy"
+        "FGColor"                       "White"
+    }
+    "CountText"
+    {
+        "ControlName"                   "CExLabel"
+        "FieldName"                     "CountText"
+        "XPos"                          "rs1-4"
+        "YPos"                          "cs-0.5"
+        "ZPos"                          "1"
+        "Wide"                          "55"
+        "Tall"                          "26"
+        "ProportionalToParent"          "1"
+        "Font"                          "HealthAmmo"
+        "LabelText"                     "%counttext%"
+        "TextAlignment"                 "east"
+        "textinsetx"                    "5"
+        "FGColor"                       "HealthAmmo"
+    }
+    "CountTextShadow"
+    {
+        "ControlName"                   "CExLabel"
+        "FieldName"                     "CountTextShadow"
+        "XPos"                          "0"
+        "YPos"                          "0"
+        "Wide"                          "55"
+        "Tall"                          "26"
+        "ProportionalToParent"          "1"
+        "Font"                          "HealthAmmo_Blur"
+        "LabelText"                     "%counttext%"
+        "TextAlignment"                 "east"
+        "textinsetx"                    "5"
+        "FGColor"                       "Shadow"
+        "Pin_To_Sibling"                "CountText"
+    }
+    "ActionText"    // dead
+    {
+        "ControlName"                   "CExLabel"
+        "FieldName"                     "ActionText"
+        "XPos"                          "0"
+        "YPos"                          "0"
+        "Wide"                          "0"
+        "Tall"                          "0"
+        "ProportionalToParent"          "1"
+        "Visible"                       "0"
+        "Font"                          "BodyEm_XS"
+        "LabelText"                     "%actiontext%"
+        "TextAlignment"                 "east"
+        "FGColor"                       "TransparentBlack"
+        "paintBackground"               "1"
+        "paintbackgroundtype"           "2"
+        "bgcolor_override"              "FinalsKeyBG"
+    }
+    //==================================================================================================================================================
+    // REMOVED ELEMENTS
+    //==================================================================================================================================================
+    "ItemEffectMeterBG"
+    {
+        "ControlName"           "CTFImagePanel"
+        "FieldName"             "ItemEffectMeterBG"
+        "XPos"                  "9999"
+        "YPos"                  "9999"
+        "Wide"                  "0"
+        "Tall"                  "0"
+        "Visible"               "0"
+        "Enabled"               "0"
+    }
+    "Spellbook"
+    {
+        "ControlName"           "CTFImagePanel"
+        "FieldName"             "Spellbook"
+        "XPos"                  "9999"
+        "YPos"                  "9999"
+        "Wide"                  "0"
+        "Tall"                  "0"
+        "Visible"               "0"
+        "Enabled"               "0"
+    }
+    "SpellText"
+    {
+        "ControlName"           "CExLabel"
+        "FieldName"             "SpellText"
+        "XPos"                  "9999"
+        "YPos"                  "9999"
+        "Wide"                  "0"
+        "Tall"                  "0"
+        "Visible"               "0"
+        "Enabled"               "0"
+    }
 }
