@@ -422,6 +422,7 @@
         "font"                          "HeaderEm_SM"
         "labelText"                     "#ClassBeingEquipped"
         "textAlignment"                 "west"
+        "textinsetx"                    "5"
         "AllCaps"                       "1"
         "xpos"                          "3"
         "ypos"                          "-3"
