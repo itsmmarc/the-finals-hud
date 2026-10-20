@@ -15,13 +15,13 @@ event DimmerFix
 event EngineerBuildings
 {
     Animate                SentryGun                                xpos                                                         20                    Linear     0.0      0.0
-    Animate                SentryGun                                ypos                                                         340                   Linear     0.0      0.0
+    Animate                SentryGun                                ypos                                                         327                   Linear     0.0      0.0
     Animate                Dispenser                                xpos                                                         20                    Linear     0.0      0.0
-    Animate                Dispenser                                ypos                                                         307                   Linear     0.0      0.0
+    Animate                Dispenser                                ypos                                                         294                   Linear     0.0      0.0
     Animate                TeleEntrance                             xpos                                                         20                    Linear     0.0      0.0
-    Animate                TeleEntrance                             ypos                                                         272                   Linear     0.0      0.0
+    Animate                TeleEntrance                             ypos                                                         259                   Linear     0.0      0.0
     Animate                TeleExit                                 xpos                                                         20                    Linear     0.0      0.0
-    Animate                TeleExit                                 ypos                                                         237                   Linear     0.0      0.0
+    Animate                TeleExit                                 ypos                                                         224                   Linear     0.0      0.0
     Animate                SentryGun                                Tall                                                         480                   Spline     0.0      0.0
     Animate                Dispenser                                Tall                                                         480                   Spline     0.0      0.0
     Animate                TeleEntrance                             Tall                                                         480                   Spline     0.0      0.0

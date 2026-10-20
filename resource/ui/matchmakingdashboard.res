@@ -7,7 +7,7 @@
         "enabled"                       "1"
         "xpos"                          "rs1"
         "ypos"                          "rs1-40"
-        "zpos"                          "14"
+        "zpos"                          "-100"
         "wide"                          "200"
         "tall"                          "82"
         "keyboardinputenabled"          "0"

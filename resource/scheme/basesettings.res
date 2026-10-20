@@ -17,29 +17,32 @@
         "ReplayBrowser.Search.FgColor"                          "White"
         "Replay.RenderDialog.BgColor"                           "LighterDarkBrown"
         "Econ.Dialog.BgColor"                                   "Blank"
-        "Econ.Button.BgColor"                                   "TanDarkOld"
-        "Econ.Button.FgColor"                                   "TanLight"
-        "Econ.Button.ArmedBgColor"                              "TFOrange"
-        "Econ.Button.ArmedFgColor"                              "TanLight"
-        "Econ.Button.DepressedBgColor"                          "TFOrange"
-        "Econ.Button.DepressedFgColor"                          "Black"
-        "Econ.Button.PresetDefaultColorFg"                      "TanLight"
-        "Econ.Button.PresetArmedColorFg"                        "TanLight"
-        "Econ.Button.PresetDepressedColorFg"                    "TanLight"
-        "Econ.Button.PresetDefaultColorBg"                      "LighterRed"
-        "Econ.Button.PresetArmedColorBg"                        "LightRed"
-        "Econ.Button.PresetDepressedColorBg"                    "TFOrange"
+        //
+        "Econ.Button.BgColor"                                   "TransparentBlack"
+        "Econ.Button.FgColor"                                   "White"
+        "Econ.Button.ArmedBgColor"                              "TransparentBlack"
+        "Econ.Button.ArmedFgColor"                              "White"
+        "Econ.Button.DepressedBgColor"                          "TransparentBlack"
+        "Econ.Button.DepressedFgColor"                          "White"
+        // selected loadout preset fg
+        "Econ.Button.PresetDefaultColorFg"                      "Black"	// default
+        "Econ.Button.PresetArmedColorFg"                        "Black"	// hovered
+        "Econ.Button.PresetDepressedColorFg"                    "Black"	// pressed
+        // selected loadout preset bg
+        "Econ.Button.PresetDefaultColorBg"                      "White"	// default
+        "Econ.Button.PresetArmedColorBg"                        "White"	// hovered
+        "Econ.Button.PresetDepressedColorBg"                    "White"	// pressed
         "Border.Bright"                                         "Blank"	// the lit side of a control
         "Border.Dark"                                           "Black"	// the dark/unlit side of a control
         "Border.Selection"                                      "Gray"	// the additional border color for displaying the default/selected button
-        "Button.TextColor"                                      "TanLight"
-        "Button.BgColor"                                        "TanDarkOld"
-        "Button.ArmedTextColor"                                 "TanLight"
-        "Button.ArmedBgColor"                                   "TFOrange"
-        "Button.SelectedTextColor"                              "TanLight"
-        "Button.SelectedBgColor"                                "TFOrange"
+        "Button.TextColor"                                      "White"
+        "Button.BgColor"                                        "TransparentBlack"
+        "Button.ArmedTextColor"                                 "Black"
+        "Button.ArmedBgColor"                                   "White"
+        "Button.SelectedTextColor"                              "Black"
+        "Button.SelectedBgColor"                                "White"
         "Button.DepressedTextColor"                             "Black"
-        "Button.DepressedBgColor"                               "TFOrange"
+        "Button.DepressedBgColor"                               "White"
         "CheckButton.TextColor"                                 "White"
         "CheckButton.SelectedTextColor"                         "White"
         "CheckButton.BgColor"                                   "TransparentBlack"

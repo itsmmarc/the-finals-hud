@@ -1,12 +1,18 @@
 TF2 Hud inspired by The Finals
 
-Credits:
+# Notable Issues
 
-- m0rehud
-- SolarLightHUD REDUX
-- overwatch hud
-- VGP's healthbar
+- Queue text is broken on launch until queue begins
 
-Components using the same style are marked with a comment such as // COMPONENT@TOPBARBUTTON to make them easier to keep track of
-TOPBARBUTTON
-SCREENTITLE
+- Target data is not displayed in TargetID
+
+- Style options are broken in loadout screen
+
+# Credits
+
+|                     |                                                 |
+| ------------------- | ----------------------------------------------- |
+| m0rehud             | base                                            |
+| SolarLightHUD REDUX | fullscreen matchmaking menus                    |
+| overwatch hud       | health and ammo dividers and max health display |
+| VGP                 | healthbar                                       |

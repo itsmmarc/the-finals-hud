@@ -1,5 +1,17 @@
 "Resource/HudLayout.res"
 {
+    "CurrencyStatusPanel"   // mvm money ingame
+    {
+        "ControlName"                   "CCurrencyStatusPanel"
+        "fieldName"                     "CurrencyStatusPanel"
+        "xpos"                          "15"
+        "ypos"                          "15"
+        "wide"                          "100"
+        "tall"                          "100"
+        "visible"                       "0"
+        "enabled"                       "1"
+        "PaintBackgroundType"           "2"
+    }
     "CMainTargetID"
     {
         "fieldName"             "CMainTargetID"
@@ -239,7 +251,7 @@
         "visible"           "1"
         "enabled"           "1"
         "xpos"              "20"
-        "ypos"              "rs1-20-40"
+        "ypos"              "rs1-20-50"
         "wide"              "128"
         "tall"              "62"
     }
@@ -336,12 +348,12 @@
         "fieldName"             "HudDamageIndicator"
         "visible"               "1"
         "enabled"               "1"
-        "MinimumWidth"          "12"
-        "MaximumWidth"          "20"
-        "StartRadius"           "100"
+        "MinimumWidth"          "40"
+        "MaximumWidth"          "40"
+        "StartRadius"           "80"
         "EndRadius"             "80"
         "MinimumHeight"         "30"
-        "MaximumHeight"         "60"
+        "MaximumHeight"         "80"
         "MinimumTime"           "1"
     }
     "HudCommentary"

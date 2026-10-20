@@ -3,9 +3,14 @@
 {
     "DashboardDimmer"
     {
-        "wide"          "0"
-        "tall"          "0"
+        // none of these edits stay permanently :(
+        "wide"                      "0"
+        "tall"                      "0"
+        "xpos"                      "99999"
+        "ypos"                      "99999"
+        "mouseinputenabled"         "0"
     }
+    
     "ChatPin"
     {
         "ControlName"           "Panel"

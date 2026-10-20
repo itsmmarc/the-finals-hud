@@ -13,8 +13,9 @@
         "FinalsYellow"                                  "249 185 36 255"
         "FinalsRed"                                     "210 31 60 255"
         "FinalsCardWhite"                               "211 225 225 255"
+        "FinalsGreyMedium"                              "165 164 168 255"
         "FinalsKeyBG"                                   "156 162 169 178"	// from keybind buttons on main menu
-        "FinalsKeyBGD_Armed"                            "101 106 110 178"
+        "FinalsKeyBG_Armed"                            "101 106 110 178"
         "FinalsGreyDark"                                "76 73 77 255"
         "FinalsGrey2"                                   "68 72 84 255"
         // bg colors
@@ -80,11 +81,11 @@
         "m0reMagenta"                                   "255 0 127 255"
         //==================================================================================
         // MARK: base colors
-        "Orange"                                        "254 197 50  255"	// finals yellow
+        "Orange"                                        "249 185 36 255"	// finals yellow
         "OrangeDim"                                     "192 254 57  120"
         "LightOrange"                                   "188 112 0 128"
         "GoalOrange"                                    "255 133 0"
-        "TFOrange"                                      "254 197 50  255"
+        "TFOrange"                                      "249 185 36 255"
         "Purple"                                        "137 69 99 255"
         "QuestGold"                                     "208 147 75 255"
         "HalloweenThemeColor2015_Light"                 "238 126 17 255"
@@ -200,7 +201,7 @@
         "QualityColorCompleted"                         "134 80 172 255"
         "QualityColorHaunted"                           "56 243 171 255"
         "QualityColorCollectors"                        "170 0 0 255"
-        "QualityColorPaintkitWeapon"                    "250 250 250 255"
+        "QualityColorPaintkitWeapon"                    "241 242 244 255"
         "ItemRarityDefault"                             "131 126 119 255"
         "ItemRarityCommon"                              "176 195 217 255"
         "ItemRarityUncommon"                            "94 152 217 255"

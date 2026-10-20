@@ -20,9 +20,10 @@
         "ypos"                      "20"
         "zpos"                      "1"
         "wide"                      "300"
-        "tall"                      "25"
+        "tall"                      "30"
         "labelText"                 "#TF_Matchmaking_HeaderModeSelect"
         "textAlignment"             "west"
+        "textinsetx"                "5"
         "font"                      "HeaderEm_XL"
         "allcaps"                   "1"
         "visible"                   "1"
@@ -112,8 +113,8 @@
         "paintBackground"                   "1"
         "paintbackgroundtype"               "2"
         "DefaultBGColor_Override"           "FinalsKeyBG"
-        "ArmedBGColor_Override"             "FinalsKeyBGD_Armed"
-        "DepressedBGColor_Override"         "FinalsKeyBGD_Armed"
+        "ArmedBGColor_Override"             "FinalsKeyBG_Armed"
+        "DepressedBGColor_Override"         "FinalsKeyBG_Armed"
     }
     "ExitButton"	//same as safemode
     {

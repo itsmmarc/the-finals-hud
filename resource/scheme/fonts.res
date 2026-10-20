@@ -69,6 +69,15 @@
                 "antialias"         "1"
             }
         }
+        "DamageAccount"
+        {
+            "1"
+            {
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "36"
+                "antialias"         "1"
+            }
+        }
         "CardLabel"
         {
             "1"
@@ -158,7 +167,7 @@
                 "name"              "Saira ExtraCondensed ExtraBold"
                 "tall"              "56"
                 "antialias"         "1"
-            "blur"          "2"
+                "blur"              "2"
             }
         }
         "HeaderEM_XL_Blur"
@@ -272,7 +281,7 @@
                 "name"              "Saira ExtraCondensed SemiBold"
                 "tall"              "56"
                 "antialias"         "1"
-            "blur"          "2"
+                "blur"              "2"
             }
         }
         "HeaderSEM_XL_Blur"
@@ -936,6 +945,17 @@
                 "antialias"         "1"
             }
         }
+        "Symbols26_Blur"
+        {
+            "1"
+            {
+                "name"              "m0rehud_icons_v13"
+                "tall"              "26" [$WINDOWS]
+                "tall"              "21" [$LINUX]
+                "antialias"         "1"
+                "blur"              "2"
+            }
+        }
         "Symbols28"
         {
             "1"
@@ -1083,286 +1103,286 @@
         }
         //==============================================================================================================
         //=================================================================================================
-		// M0REHUD FONTS
-		//=================================================================================================
-		"m0refont9"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"9"
-				"antialias"									"1"
-			}
-		}
-		"m0refont10"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"10"
-				"antialias"									"1"
-			}
-		}
-		"m0refont10Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"10"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"m0refont11"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"11"
-				"antialias"									"1"
-			}
-		}
-		"m0refont11Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"11"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"m0refont12"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"12"
-				"antialias"									"1"
-			}
-		}
-		"m0refont12Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"12"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"m0refont14"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"14"
-				"antialias"									"1"
-			}
-		}
-		"m0refont14Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"14"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"m0refont16"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"16"
-				"antialias"									"1"
-			}
-		}
-		"m0refont16Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"16"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"m0refont18"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"18"
-				"antialias"									"1"
-			}
-		}
-		"m0refont18Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"18"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"m0refont18Outline"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"18"
-				"antialias"									"1"
-				"outline"									"1"
-			}
-		}
-		"m0refont18Numbers"
-		{
-			"1"
-			{
-				"name"										"Surface-Numbers"
-				"Tall"										"18"
-				"antialias"									"1"
-				"outline"									"1"
-			}
-		}
-		"m0refont20"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"20"
-				"antialias"									"1"
-			}
-		}
-		"m0refont24"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"24"
-				"antialias"									"1"
-			}
-		}
-		"m0refont24Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"24"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"m0refont24Outline"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"24"
-				"antialias"									"1"
-				"outline"									"1"
-			}
-		}
-		"m0refont24Numbers"
-		{
-			"1"
-			{
-				"name"										"Surface-Numbers"
-				"Tall"										"24"
-				"antialias"									"1"
-				"outline"									"1"
-			}
-		}
-		"m0refont26"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"26"
-				"antialias"									"1"
-			}
-		}
-		"m0refont30"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"30"
-				"antialias"									"1"
-			}
-		}
-		"m0refont30Outline"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"30"
-				"antialias"									"1"
-				"outline"									"1"
-			}
-		}
-		"m0refont30Numbers"
-		{
-			"1"
-			{
-				"name"										"Surface-Numbers"
-				"Tall"										"30"
-				"antialias"									"1"
-				"outline"									"1"
-			}
-		}
-		"m0refont32"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"32"
-				"antialias"									"1"
-			}
-		}
-		"m0refont32Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"32"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"m0refont36"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"36"
-				"antialias"									"1"
-			}
-		}
-		"m0refont48"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"48"
-				"antialias"									"1"
-			}
-		}
-		"m0refont58"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"Tall"										"58"
-				"antialias"									"1"
-			}
-		}
+        // M0REHUD FONTS
+        //=================================================================================================
+        "m0refont9"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "9"
+                "antialias"         "1"
+            }
+        }
+        "m0refont10"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "10"
+                "antialias"         "1"
+            }
+        }
+        "m0refont10Shadow"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "10"
+                "antialias"         "1"
+                "dropshadow"        "1"
+            }
+        }
+        "m0refont11"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "11"
+                "antialias"         "1"
+            }
+        }
+        "m0refont11Shadow"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "11"
+                "antialias"         "1"
+                "dropshadow"        "1"
+            }
+        }
+        "m0refont12"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "12"
+                "antialias"         "1"
+            }
+        }
+        "m0refont12Shadow"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "12"
+                "antialias"         "1"
+                "dropshadow"        "1"
+            }
+        }
+        "m0refont14"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "14"
+                "antialias"         "1"
+            }
+        }
+        "m0refont14Shadow"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "14"
+                "antialias"         "1"
+                "dropshadow"        "1"
+            }
+        }
+        "m0refont16"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "16"
+                "antialias"         "1"
+            }
+        }
+        "m0refont16Shadow"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "16"
+                "antialias"         "1"
+                "dropshadow"        "1"
+            }
+        }
+        "m0refont18"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "18"
+                "antialias"         "1"
+            }
+        }
+        "m0refont18Shadow"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "18"
+                "antialias"         "1"
+                "dropshadow"        "1"
+            }
+        }
+        "m0refont18Outline"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "18"
+                "antialias"         "1"
+                "outline"           "1"
+            }
+        }
+        "m0refont18Numbers"
+        {
+            "1"
+            {
+                "name"              "Surface-Numbers"
+                "Tall"              "18"
+                "antialias"         "1"
+                "outline"           "1"
+            }
+        }
+        "m0refont20"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "20"
+                "antialias"         "1"
+            }
+        }
+        "m0refont24"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "24"
+                "antialias"         "1"
+            }
+        }
+        "m0refont24Shadow"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "24"
+                "antialias"         "1"
+                "dropshadow"        "1"
+            }
+        }
+        "m0refont24Outline"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "24"
+                "antialias"         "1"
+                "outline"           "1"
+            }
+        }
+        "m0refont24Numbers"
+        {
+            "1"
+            {
+                "name"              "Surface-Numbers"
+                "Tall"              "24"
+                "antialias"         "1"
+                "outline"           "1"
+            }
+        }
+        "m0refont26"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "26"
+                "antialias"         "1"
+            }
+        }
+        "m0refont30"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "30"
+                "antialias"         "1"
+            }
+        }
+        "m0refont30Outline"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "30"
+                "antialias"         "1"
+                "outline"           "1"
+            }
+        }
+        "m0refont30Numbers"
+        {
+            "1"
+            {
+                "name"              "Surface-Numbers"
+                "Tall"              "30"
+                "antialias"         "1"
+                "outline"           "1"
+            }
+        }
+        "m0refont32"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "32"
+                "antialias"         "1"
+            }
+        }
+        "m0refont32Shadow"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "32"
+                "antialias"         "1"
+                "dropshadow"        "1"
+            }
+        }
+        "m0refont36"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "36"
+                "antialias"         "1"
+            }
+        }
+        "m0refont48"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "48"
+                "antialias"         "1"
+            }
+        }
+        "m0refont58"
+        {
+            "1"
+            {
+                "name"              "Surface-Medium"
+                "Tall"              "58"
+                "antialias"         "1"
+            }
+        }
         ////////////////
         // Default fonts
-        "Default"   // scoreboard font (and lots of other stuff)
+        "Default"	// scoreboard font (and lots of other stuff)
         {
             "1"
             {
@@ -1393,7 +1413,7 @@
         {
             "1"
             {
-                "name"          "DinPro-Medium"
+                "name"          "Saira Condensed Medium"
                 "tall"          "12"
                 "weight"        "0"
                 "range"         "0x0000 0x017F"
@@ -1401,7 +1421,7 @@
             }
             "2"
             {
-                "name"          "DinPro-Medium"
+                "name"          "Saira Condensed Medium"
                 "tall"          "13"
                 "weight"        "0"
                 "range"         "0x0000 0x017F"
@@ -1409,7 +1429,7 @@
             }
             "3"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "14"
                 "weight"            "0"
                 "range"             "0x0000 0x017F"
@@ -1418,7 +1438,7 @@
             }
             "4"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "20"
                 "weight"            "0"
                 "range"             "0x0000 0x017F"
@@ -1427,7 +1447,7 @@
             }
             "5"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "9"
                 "weight"            "0"
                 "range"             "0x0000 0x017F"
@@ -1441,7 +1461,7 @@
                 "weight"        "0"
             }
         }
-        "DefaultVerySmall"  // scoreboard headings
+        "DefaultVerySmall"	// scoreboard headings
         {
             "1"
             {
@@ -1454,7 +1474,7 @@
         {
             "1"
             {
-                "name"          "DinPro-Medium"
+                "name"          "Saira Condensed Medium"
                 "tall"          "18"
                 "weight"        "900"
                 "range"         "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1462,7 +1482,7 @@
             }
             "2"
             {
-                "name"          "DinPro-Medium"
+                "name"          "Saira Condensed Medium"
                 "tall"          "21"
                 "weight"        "900"
                 "range"         "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1470,7 +1490,7 @@
             }
             "3"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "22"
                 "weight"            "900"
                 "range"             "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1479,7 +1499,7 @@
             }
             "4"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "28"
                 "weight"            "900"
                 "range"             "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1488,7 +1508,7 @@
             }
             "5"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "18"
                 "weight"            "900"
                 "range"             "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1496,7 +1516,7 @@
             }
             "6"
             {
-                "name"          "DinPro-Medium"
+                "name"          "Saira Condensed Medium"
                 "tall"          "20"
                 "range"         "0x0000 0x00FF"
                 "weight"        "900"
@@ -1514,8 +1534,8 @@
             // note that this scales with the screen resolution
             "1"
             {
-                "name"              "DinPro-Bold" [!$OSX]
-                "name"              "DinPro-Bold" [$OSX]
+                "name"              "Saira Condensed Bold" [!$OSX]
+                "name"              "Saira Condensed Bold" [$OSX]
                 "tall"              "18"
                 "weight"            "900"
                 "antialias"         "1"
@@ -1526,7 +1546,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "6"
                 "weight"            "500"
                 "additive"          "0"
@@ -1537,14 +1557,14 @@
         {
             "1"
             {
-                "name"          "DinPro-Medium"
+                "name"          "Saira Condensed Medium"
                 "tall"          "12"
                 "weight"        "700"
                 "yres"          "480 599"
             }
             "2"
             {
-                "name"          "DinPro-Medium"
+                "name"          "Saira Condensed Medium"
                 "tall"          "13" [$WIN32]
                 "tall"          "23" [$X360]
                 "weight"        "700"
@@ -1552,21 +1572,21 @@
             }
             "3"
             {
-                "name"          "DinPro-Medium"
+                "name"          "Saira Condensed Medium"
                 "tall"          "14"
                 "weight"        "700"
                 "yres"          "768 1023"
             }
             "4"
             {
-                "name"          "DinPro-Medium"
+                "name"          "Saira Condensed Medium"
                 "tall"          "20"
                 "weight"        "700"
                 "yres"          "1024 1199"
             }
             "5"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "12"
                 "weight"            "700"
                 "antialias"         "1"
@@ -1576,7 +1596,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "24"
                 "tall_lodef"        "80"
                 "weight"            "500"
@@ -1586,7 +1606,7 @@
             }
             "2"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "32"
                 "tall_hidef"        "120"
                 "weight"            "500"
@@ -1596,7 +1616,7 @@
             }
             "3"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "44"
                 "weight"            "500"
                 "additive"          "0"
@@ -1605,7 +1625,7 @@
             }
             "4"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "48"
                 "weight"            "500"
                 "additive"          "0"
@@ -1614,7 +1634,7 @@
             }
             "5"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "24"
                 "weight"            "500"
                 "additive"          "0"
@@ -1625,7 +1645,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "44"
                 "tall_lodef"        "52"
                 "weight"            "500"
@@ -1637,7 +1657,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "35"
                 "tall_lodef"        "40"
                 "weight"            "500"
@@ -1649,7 +1669,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "36"
                 "tall_hidef"        "48"
                 "weight"            "500"
@@ -1661,7 +1681,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "30"
                 "weight"            "500"
                 "additive"          "0"
@@ -1672,7 +1692,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "30"
                 "weight"            "500"
                 "additive"          "0"
@@ -1683,7 +1703,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "24"
                 "tall_lodef"        "28"
                 "weight"            "500"
@@ -1695,7 +1715,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "24"
                 "yres"              "1 1199"
                 "additive"          "0"
@@ -1703,7 +1723,7 @@
             }
             "2"
             {
-                "name"          "DinPro-Bold"
+                "name"          "Saira Condensed Bold"
                 "tall"          "10"
                 "weight"        "500"
             }
@@ -1712,7 +1732,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "24"
                 "weight"            "500"
                 "additive"          "0"
@@ -1723,7 +1743,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "18"
                 "weight"            "500"
                 "additive"          "0"
@@ -1734,7 +1754,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "18"
                 "tall_hidef"        "24"
                 "tall_lodef"        "18"
@@ -1747,7 +1767,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "18"
                 "tall_hidef"        "24"
                 "tall_lodef"        "20"
@@ -1760,7 +1780,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14"
                 "tall_lodef"        "16"
                 "weight"            "500"
@@ -1772,7 +1792,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "16"
                 "weight"            "500"
                 "additive"          "0"
@@ -1783,7 +1803,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14"
                 "weight"            "500"
                 "additive"          "0"
@@ -1794,7 +1814,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14"
                 "weight"            "500"
                 "additive"          "0"
@@ -1806,7 +1826,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "11"
                 "weight"            "500"
                 "additive"          "0"
@@ -1817,7 +1837,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "11"
                 "weight"            "500"
                 "additive"          "0"
@@ -1829,9 +1849,8 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
-                "tall"              "11"
-                "weight"            "500"
+                "name"              "Saira Condensed Bold"
+                "tall"              "13"
                 "additive"          "0"
                 "antialias"         "1"
             }
@@ -1840,7 +1859,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "4"
                 "weight"            "500"
                 "additive"          "0"
@@ -1851,7 +1870,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "10"
                 "weight"            "500"
                 "additive"          "0"
@@ -1862,7 +1881,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "16"
                 "weight"            "500"
                 "additive"          "0"
@@ -1873,7 +1892,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "9"
                 "weight"            "0"
                 "additive"          "0"
@@ -1884,7 +1903,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "9"
                 "weight"            "0"
                 "additive"          "0"
@@ -1895,7 +1914,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "6"
                 "weight"            "0"
                 "additive"          "0"
@@ -1906,7 +1925,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "12"
                 "tall_hidef"        "14"
                 "tall_lodef"        "16"
@@ -1919,7 +1938,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "11"
                 "weight"            "500"
                 "additive"          "0"
@@ -1994,7 +2013,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "18"
                 "tall_hidef"        "24"
                 "tall_lodef"        "18"
@@ -2007,7 +2026,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "16"
                 "tall_hidef"        "22"
                 "tall_lodef"        "22"
@@ -2020,7 +2039,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "8"
                 "weight"            "500"
                 "additive"          "0"
@@ -2031,7 +2050,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "9"
                 "weight"            "500"
                 "additive"          "0"
@@ -2042,7 +2061,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "8"
                 "tall_hidef"        "9"
                 "tall_lodef"        "10"
@@ -2055,7 +2074,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "8"
                 "tall_hidef"        "7"
                 "weight"            "500"
@@ -2067,7 +2086,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "15"
                 "weight"            "700"
                 "antialias"         "1"
@@ -2077,7 +2096,7 @@
             }
             "2"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "15" [$WIN32]
                 "tall"              "21" [$X360]
                 "weight"            "700"
@@ -2088,7 +2107,7 @@
             }
             "3"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "18"
                 "weight"            "900"
                 "antialias"         "1"
@@ -2097,7 +2116,7 @@
             }
             "4"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "21"
                 "weight"            "900"
                 "antialias"         "1"
@@ -2106,7 +2125,7 @@
             }
             "5"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "24"
                 "weight"            "1000"
                 "antialias"         "1"
@@ -2178,7 +2197,7 @@
             }
             "2"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "28"
                 "weight"            "0"
                 "additive"          "1"
@@ -2269,7 +2288,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "24"
                 "antialias"         "1"
                 "weight"            "500"
@@ -2279,7 +2298,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "11"
                 "tall_lodef"        "14"
                 "antialias"         "1"
@@ -2290,7 +2309,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "12"
                 "antialias"         "1"
                 "weight"            "500"
@@ -2300,7 +2319,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "13"
                 "tall_hidef"        "14"
                 "tall_lodef"        "17"
@@ -2313,7 +2332,7 @@
         {
             "1"
             {
-                "name"                  "DinPro-Bold"
+                "name"                  "Saira Condensed Bold"
                 "tall"                  "28"
                 "tall_lodef"            "48"
                 "tall_hidef"            "48"
@@ -2328,7 +2347,7 @@
         {
             "1"
             {
-                "name"                  "DinPro-Bold"
+                "name"                  "Saira Condensed Bold"
                 "tall"                  "40"
                 "tall_lodef"            "48"
                 "tall_hidef"            "48"
@@ -2343,7 +2362,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "24"
                 "tall_lodef"        "36"
                 "tall_hidef"        "36"
@@ -2356,7 +2375,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14" [!$OSX]
                 "tall"              "15" [$OSX]
                 "tall_lodef"        "32"
@@ -2370,7 +2389,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "9"
                 "additive"          "0"
                 "antialias"         "1"
@@ -2380,7 +2399,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "10"
                 "tall_hidef"        "12"
                 "tall_lodef"        "14"
@@ -2393,7 +2412,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14"
                 "weight"            "500"
                 "range"             "0x0000 0x007F"	//	Basic Latin
@@ -2405,7 +2424,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "20"
                 "weight"            "500"
                 "range"             "0x0000 0x007F"	//	Basic Latin
@@ -2417,7 +2436,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "20"
                 "tall_hidef"        "24"
                 "tall_lodef"        "24"
@@ -2431,7 +2450,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14"
                 "weight"            "500"
                 "range"             "0x0000 0x007F"	//	Basic Latin
@@ -2443,7 +2462,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "20"
                 "weight"            "500"
                 "range"             "0x0000 0x007F"	//	Basic Latin
@@ -2455,7 +2474,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "34"
                 "tall_hidef"        "38"
                 "tall_lodef"        "38"
@@ -2469,7 +2488,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "36"
                 "tall_hidef"        "48"
                 "weight"            "500"
@@ -2481,7 +2500,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "52"
                 "tall_lodef"        "80"
                 "range"             "0x0000 0x00FF"
@@ -2491,7 +2510,7 @@
             }
             "2"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "72"
                 "tall_hidef"        "120"
                 "range"             "0x0000 0x00FF"
@@ -2501,7 +2520,7 @@
             }
             "3"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "100"
                 "range"             "0x0000 0x00FF"
                 "weight"            "400"
@@ -2510,7 +2529,7 @@
             }
             "4"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "140"
                 "range"             "0x0000 0x00FF"
                 "weight"            "400"
@@ -2519,7 +2538,7 @@
             }
             "5"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "180"
                 "range"             "0x0000 0x00FF"
                 "weight"            "400"
@@ -2531,7 +2550,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "36"
                 "weight"            "500"
                 "range"             "0x0000 0x007F"	//	Basic Latin
@@ -2543,7 +2562,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14"
                 "weight"            "400"
                 "additive"          "0"
@@ -2554,7 +2573,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "20"
                 "weight"            "400"
                 "additive"          "0"
@@ -2565,7 +2584,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14"
                 "weight"            "400"
                 "additive"          "0"
@@ -2576,7 +2595,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "10"
                 "weight"            "400"
                 "additive"          "0"
@@ -2587,7 +2606,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "7"
                 "weight"            "400"
                 "additive"          "0"
@@ -2598,7 +2617,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "10"
                 "tall_hidef"        "12"
                 "tall_lodef"        "14"
@@ -2611,7 +2630,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "12"
                 "weight"            "700"
                 "yres"              "480 599"
@@ -2619,7 +2638,7 @@
             }
             "2"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "13"
                 "weight"            "700"
                 "yres"              "600 767"
@@ -2627,7 +2646,7 @@
             }
             "3"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "14"
                 "weight"            "700"
                 "yres"              "768 1023"
@@ -2635,7 +2654,7 @@
             }
             "4"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "20"
                 "weight"            "700"
                 "yres"              "1024 1199"
@@ -2643,7 +2662,7 @@
             }
             "5"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "24"
                 "weight"            "700"
                 "yres"              "1200 10000"
@@ -2654,7 +2673,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "13"
                 "dropshadow"        "1"
                 "antialias"         "1"
@@ -2664,35 +2683,35 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "13"
                 "dropshadow"        "1"
                 "antialias"         "1"
             }
             "2"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "13"
                 "dropshadow"        "1"
                 "antialias"         "1"
             }
             "3"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14"
                 "dropshadow"        "1"
                 "antialias"         "1"
             }
             "4"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "16"
                 "dropshadow"        "1"
                 "antialias"         "1"
             }
             "5"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "18"
                 "dropshadow"        "1"
                 "antialias"         "1"
@@ -2714,7 +2733,7 @@
         {
             "1"
             {
-                "name"                  "DinPro-Bold"
+                "name"                  "Saira Condensed Bold"
                 "tall"                  "14"
                 "tall_lodef"            "18"
                 "range"                 "0x0000 0x00FF"
@@ -2727,7 +2746,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "12"
                 "weight"            "500"
                 "range"             "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2739,7 +2758,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "8"
                 "weight"            "500"
                 "range"             "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2751,7 +2770,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "8"
                 "tall_hidef"        "10"
                 "tall_lodef"        "12"
@@ -2764,7 +2783,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "9"
                 "tall_hidef"        "10"
                 "tall_lodef"        "16"
@@ -2777,7 +2796,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "11" [!$OSX]
                 "tall"              "9" [$OSX]
                 "weight"            "800"
@@ -2789,7 +2808,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "36"
                 "tall_lodef"        "28"
                 "weight"            "500"
@@ -2799,7 +2818,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "30"
                 "tall_lodef"        "22"
                 "weight"            "500"
@@ -2809,7 +2828,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "28"
                 "tall_lodef"        "24"
                 "weight"            "500"
@@ -2819,7 +2838,7 @@
         {
             "1"	// brower item hostname
             {
-                "name"          "DinPro-Bold"
+                "name"          "Saira Condensed Bold"
                 "tall"          "22"
                 "weight"        "900"
             }
@@ -2828,7 +2847,7 @@
         {
             "1"	// browser item players and map name
             {
-                "name"          "DinPro-Bold"
+                "name"          "Saira Condensed Bold"
                 "tall"          "18"
                 "weight"        "900"
             }
@@ -2837,7 +2856,7 @@
         {
             "1"
             {
-                "name"          "DinPro-Bold"
+                "name"          "Saira Condensed Bold"
                 "tall"          "22"
                 "weight"        "500"
             }
@@ -2846,7 +2865,7 @@
         {
             "1"
             {
-                "name"          "DinPro-Bold"
+                "name"          "Saira Condensed Bold"
                 "tall"          "18"
                 "weight"        "500"
             }
@@ -2855,7 +2874,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "22"
                 "tall_lodef"        "18"
                 "weight"            "900"
@@ -2865,7 +2884,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "18"
                 "tall_lodef"        "18"
                 "weight"            "900"
@@ -2875,7 +2894,7 @@
         {
             "1"
             {
-                "name"          "DinPro-Medium"
+                "name"          "Saira Condensed Medium"
                 "tall"          "15"
                 "weight"        "900"
             }
@@ -2884,7 +2903,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "36"
                 "weight"            "500"
                 "additive"          "0"
@@ -2895,7 +2914,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "11"
                 "weight"            "600"
                 "additive"          "0"
@@ -2906,7 +2925,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "18"
                 "weight"            "400"
                 "additive"          "0"
@@ -2917,7 +2936,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14"
                 "weight"            "900"
                 "antialias"         "1"
@@ -2927,7 +2946,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "10"
                 "weight"            "600"
                 "additive"          "0"
@@ -2938,7 +2957,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "10"
                 "weight"            "500"
                 "additive"          "0"
@@ -2960,7 +2979,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "10"
                 "weight"            "0"
                 "range"             "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2969,7 +2988,7 @@
             }
             "2"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "12"
                 "weight"            "0"
                 "range"             "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2978,7 +2997,7 @@
             }
             "3"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "15"
                 "weight"            "0"
                 "range"             "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2990,9 +3009,8 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
-                "tall"              "8"
-                "weight"            "500"
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "9"
                 "additive"          "0"
                 "antialias"         "1"
             }
@@ -3001,20 +3019,18 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
-                "tall"              "9"
-                "weight"            "500"
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "12"
                 "additive"          "0"
                 "antialias"         "1"
             }
         }
-        "ItemFontNameLarge"
+        "ItemFontNameLarge" // mouseoveritempanel
         {
             "1"
             {
-                "name"              "DinPro-Bold"
-                "tall"              "11"
-                "weight"            "500"
+                "name"              "Saira ExtraCondensed SemiBold"
+                "tall"              "16"
                 "additive"          "0"
                 "antialias"         "1"
             }
@@ -3023,9 +3039,8 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
-                "tall"              "12"
-                "weight"            "500"
+                "name"              "Saira Condensed Bold"
+                "tall"              "20"
                 "additive"          "0"
                 "antialias"         "1"
             }
@@ -3034,9 +3049,8 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
-                "tall"              "7"
-                "weight"            "500"
+                "name"              "Saira Condensed Medium"
+                "tall"              "8"
                 "additive"          "0"
                 "antialias"         "1"
             }
@@ -3045,19 +3059,17 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
-                "tall"              "8"
+                "name"              "Saira Condensed Medium"
+                "tall"              "9"
                 "antialias"         "1"
-                "weight"            "500"
             }
         }
         "ItemFontAttribSmall"
         {
             "1"
             {
-                "name"              "DinPro-Medium"
-                "tall"              "8"
-                "weight"            "500"
+                "name"              "Saira Condensed Medium"
+                "tall"              "10"
                 "additive"          "0"
                 "antialias"         "1"
             }
@@ -3066,9 +3078,8 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
-                "tall"              "9"
-                "weight"            "500"
+                "name"              "Saira Condensed Medium"
+                "tall"              "13"
                 "additive"          "0"
                 "antialias"         "1"
             }
@@ -3077,9 +3088,8 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
-                "tall"              "11"
-                "weight"            "500"
+                "name"              "Saira Condensed Medium"
+                "tall"              "15"
                 "additive"          "0"
                 "antialias"         "1"
             }
@@ -3088,7 +3098,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "9"
                 "weight"            "500"
                 "additive"          "0"
@@ -3099,7 +3109,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "9"
                 "weight"            "500"
                 "blur"              "3"
@@ -3112,7 +3122,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "7"
                 "weight"            "0"
                 "additive"          "1"
@@ -3123,7 +3133,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "7"
                 "weight"            "0"
                 "additive"          "1"
@@ -3134,7 +3144,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "7"
                 "weight"            "0"
                 "antialias"         "1"
@@ -3144,7 +3154,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "7"
                 "weight"            "0"
                 "blur"              "3"
@@ -3157,7 +3167,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "7"
                 "weight"            "0"
                 "antialias"         "1"
@@ -3238,7 +3248,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "20"
                 "antialias"         "1"
                 "custom"            "1" [$OSX]
@@ -3249,7 +3259,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "10"
                 "weight"            "400"
                 "yres"              "480 599"
@@ -3258,7 +3268,7 @@
             }
             "2"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14"
                 "weight"            "400"
                 "additive"          "0"
@@ -3267,7 +3277,7 @@
             }
             "3"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "22"
                 "weight"            "400"
                 "additive"          "0"
@@ -3279,7 +3289,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "10"
                 "weight"            "400"
                 "yres"              "480 599"
@@ -3289,7 +3299,7 @@
             }
             "2"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14"
                 "weight"            "400"
                 "additive"          "0"
@@ -3299,7 +3309,7 @@
             }
             "3"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "22"
                 "weight"            "400"
                 "additive"          "0"
@@ -3312,7 +3322,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "10"
                 "weight"            "800"
                 "yres"              "480 599"
@@ -3321,7 +3331,7 @@
             }
             "2"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14"
                 "weight"            "800"
                 "additive"          "0"
@@ -3330,7 +3340,7 @@
             }
             "3"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "18"
                 "weight"            "800"
                 "additive"          "0"
@@ -3342,7 +3352,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "13"
                 "weight"            "400"
                 "additive"          "0"
@@ -3353,7 +3363,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "16"
                 "weight"            "400"
                 "additive"          "0"
@@ -3364,7 +3374,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "12"
                 "weight"            "400"
                 "additive"          "0"
@@ -3375,7 +3385,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "8"
                 "weight"            "400"
                 "additive"          "0"
@@ -3386,7 +3396,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "8"
                 "weight"            "0"
                 "antialias"         "1"
@@ -3396,7 +3406,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "8"
                 "weight"            "400"
                 "antialias"         "1"
@@ -3407,7 +3417,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "9"
                 "weight"            "400"
                 "antialias"         "1"
@@ -3422,7 +3432,7 @@
         {
             "1"
             {
-                "name"          "DinPro-Medium"
+                "name"          "Saira Condensed Medium"
                 "tall"          "12"
                 "weight"        "0"
                 "range"         "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3430,7 +3440,7 @@
             }
             "2"
             {
-                "name"          "DinPro-Medium"
+                "name"          "Saira Condensed Medium"
                 "tall"          "12"
                 "weight"        "0"
                 "range"         "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3438,7 +3448,7 @@
             }
             "3"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "12"
                 "weight"            "0"
                 "range"             "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3447,7 +3457,7 @@
             }
             "4"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "14"
                 "weight"            "0"
                 "range"             "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3456,7 +3466,7 @@
             }
             "5"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "16"
                 "weight"            "0"
                 "range"             "0x0000 0x017F"	//	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3468,7 +3478,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "11"
                 "weight"            "500"
                 "additive"          "0"
@@ -3479,7 +3489,7 @@
         {
             "1"
             {
-                "name"          "DinPro-Medium"
+                "name"          "Saira Condensed Medium"
                 "tall"          "12"
                 "weight"        "0"
                 "range"         "0x0000 0x017F"
@@ -3487,7 +3497,7 @@
             }
             "2"
             {
-                "name"          "DinPro-Medium"
+                "name"          "Saira Condensed Medium"
                 "tall"          "13"
                 "weight"        "0"
                 "range"         "0x0000 0x017F"
@@ -3495,7 +3505,7 @@
             }
             "3"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "14"
                 "weight"            "0"
                 "range"             "0x0000 0x017F"
@@ -3504,7 +3514,7 @@
             }
             "4"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "20"
                 "weight"            "0"
                 "range"             "0x0000 0x017F"
@@ -3513,7 +3523,7 @@
             }
             "5"
             {
-                "name"              "DinPro-Medium"
+                "name"              "Saira Condensed Medium"
                 "tall"              "22"
                 "weight"            "0"
                 "range"             "0x0000 0x017F"
@@ -3532,7 +3542,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "11"
                 "weight"            "500"
                 "additive"          "0"
@@ -3543,7 +3553,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14"
                 "weight"            "500"
                 "additive"          "0"
@@ -3554,7 +3564,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "18"
                 "tall_hidef"        "24"
                 "tall_lodef"        "18"
@@ -3567,7 +3577,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "24"
                 "weight"            "500"
                 "additive"          "0"
@@ -3578,7 +3588,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "18"
                 "tall_hidef"        "24"
                 "tall_lodef"        "20"
@@ -3594,7 +3604,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "14"
                 "weight"            "500"
                 "additive"          "0"
@@ -3605,7 +3615,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "24"
                 "weight"            "500"
                 "additive"          "0"
@@ -3616,7 +3626,7 @@
         {
             "1"
             {
-                "name"              "DinPro-Bold"
+                "name"              "Saira Condensed Bold"
                 "tall"              "15"
                 "weight"            "500"
                 "range"             "0x0000 0x007F"	//	Basic Latin

@@ -59,7 +59,7 @@
 		{
 			"Use_Item_RenderTarget"					"0"
 			"Allow_Rot"								"0"
-			"inventory_image_type"					"0"
+			"inventory_image_type"					"1"
 			"continued_velocity"					"1"
 		}
 		"consume_mode"
